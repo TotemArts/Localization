@@ -13,7 +13,7 @@ EndOfMatchRulesTemplateStr_Time=L'équipe au meilleur score en `t min. gagne
 //=====================================
 
 [Rx_Weapon]
-ItemName="Arme 5848946"
+ItemName="Arme sans-nom"
 PickupMessage="Arme sans-nom"
 
 [Rx_Weapon_Reloadable]
@@ -246,7 +246,7 @@ PickupMessage="Grenade Fumigène"
 
 [Rx_WeaponAbility_TacRifleGrenade]
 ItemName="Fusil Tactique [Grenade]"
-PickupMessage="Lance-grenades en sous-vêtements"
+PickupMessage="Lance-grenades Patch"
 
 
 
