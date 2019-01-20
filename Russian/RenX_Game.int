@@ -113,16 +113,16 @@ ItemName="Усоверш. ремонтный модуль"
 PickupMessage="Усоверш. ремонтный модуль"
 
 [Rx_Weapon_TimedC4]
-ItemName="С4 замедленного действия"
-PickupMessage="С4 замедленного действия"
+ItemName="C4 с часовым механизмом"
+PickupMessage="C4 с часовым механизмом"
 
 [Rx_Weapon_RemoteC4]
-ItemName="Дистанц. С4"
-PickupMessage="Дистанц. С4"
+ItemName="Дистанц. C4"
+PickupMessage="Дистанц. C4"
 
 [Rx_Weapon_ProxyC4]
-ItemName="Мина С4"
-PickupMessage="Мина С4"
+ItemName="Противопехотная мина"
+PickupMessage="Противопехотная мина"
 
 [Rx_Weapon_NukeBeacon]
 ItemName="Маяк ядерного удара"
@@ -225,7 +225,7 @@ PickupMessage="Снайперская винтовка"
 //=====================================
 
 [Rx_WeaponAbility]
-ItemName="Безымяння способность"
+ItemName="Безымянная способность"
 PickupMessage="Безымянная способность"
 
 [Rx_WeaponAbility_TiberiumGrenade]
@@ -307,7 +307,7 @@ PT_Description="Броня: Противоосколоч.\nСкорость: 95\
 [Rx_FamilyInfo_GDI_Deadeye]
 CharacterName="Дэдай"
 PT_Title="ДЭДАЙ"
-PT_Description="Броня: None\nСкорость: 90\nДоп: Тяжёлый пистолет\nДымовые гранаты\n+Противопехотный"
+PT_Description="Броня: Нет\nСкорость: 90\nДоп: Тяжёлый пистолет\nДымовые гранаты\n+Противопехотный"
 
 [Rx_FamilyInfo_GDI_Patch]
 CharacterName="Патч"
@@ -317,7 +317,7 @@ PT_Description="Броня: Кевлар\nСкорость: 112.5\nДоп: Тя�
 [Rx_FamilyInfo_GDI_Havoc]
 CharacterName="Хавок"
 PT_Title="ХАВОК"
-PT_Description="Броня: None\nСкорость: 90\nДоп: Карабин\nДымовые гранаты\n+Противопехотный"
+PT_Description="Броня: Нет\nСкорость: 90\nДоп: Карабин\nДымовые гранаты\n+Противопехотный"
 
 [Rx_FamilyInfo_GDI_Sydney]
 CharacterName="Сидни"
@@ -383,24 +383,24 @@ PT_Title="ХИМ. СОЛДАТ"
 PT_Description="Броня: Противоосколоч.\nСкорость: 100\nДоп: Пистолет\nТибериумные гранаты\n+Против всего"
 
 [Rx_FamilyInfo_Nod_StealthBlackHand]
-CharacterName="Боец-невидимка"
-PT_Title="БОЕЦ ЧЁРНОЙ РУКИ"
-PT_Description="Броня: Lazarus\nСкорость: 110\nДоп: Пистолет-пулемёт с глушителем\nАктивный камуфляж\n+Против всего"
+CharacterName="Боец «Чёрной Руки»"
+PT_Title="БОЕЦ «ЧЁРНОЙ РУКИ»"
+PT_Description="Броня: Лазерная\nСкорость: 110\nДоп: Пистолет-пулемёт с глушителем\nАктивный камуфляж\n+Против всего"
 
 [Rx_FamilyInfo_Nod_BlackHandSniper]
-CharacterName="Снайпер Чёрной Руки"
-PT_Title="СНАЙПЕР ЧЁРНОЙ РУКИ"
-PT_Description="Броня: None\nСкорость: 90\nДоп: Тяжёлый пистолет\nДымовые гранаты\n+Противопехотный"
+CharacterName="Снайпер «Чёрной Руки»"
+PT_Title="СНАЙПЕР «ЧЁРНОЙ РУКИ»"
+PT_Description="Броня: Нет\nСкорость: 90\nДоп: Тяжёлый пистолет\nДымовые гранаты\n+Противопехотный"
 
 [Rx_FamilyInfo_Nod_LaserChainGunner]
-CharacterName="Лазерный пулемётчик"
-PT_Title="ЛАЗЕРНЫЙ ПУЛЕМЁТЧИК"
-PT_Description="Броня: Противоосколоч.\nСкорость: 80\nЭМИ гранаты\nПротивотанковые мины\n+Против всего\n+Heavy Infantry"
+CharacterName="Пулемётчик «Чёрной Руки»"
+PT_Title="ПУЛЕМЁТЧИК «ЧЁРНОЙ РУКИ»"
+PT_Description="Броня: Противоосколоч.\nСкорость: 80\nЭМИ гранаты\nПротивотанковые мины\n+Против всего\n+Тяжёлая пехота"
 
 [Rx_FamilyInfo_Nod_Sakura]
 CharacterName="Сакура"
 PT_Title="САКУРА"
-PT_Description="Броня: None\nСкорость: 90\nДоп: Карабин с глушителем\nДымовые гранаты\n+Противопехотный"
+PT_Description="Броня: Нет\nСкорость: 90\nДоп: Карабин с глушителем\nДымовые гранаты\n+Противопехотный"
 
 [Rx_FamilyInfo_Nod_Raveshaw]
 CharacterName="Рэйвшоу"
@@ -414,13 +414,13 @@ PT_Description="Броня: Кевлар\nСкорость: 110\nДоп: Тяж�
 
 [Rx_FamilyInfo_Nod_Technician]
 CharacterName="Техник"
-PT_Title="TECHNICIAN"
+PT_Title="ТЕХНИК"
 PT_Description="Броня: Противоосколоч.\nСкорость: 100\nДоп: Пистолет с глушителем\nДист. C4\nПротивопехотные мины\n+Против построек\n+Ремонт/Поддержка"
 
 //Nod Hero Units 
 [Rx_FamilyInfo_Nod_Raveshaw_Mutant]
 CharacterName="Мутант Рэйвшоу"
-PT_Title="Mutant Raveshaw"
+PT_Title="Мутант Рэйвшоу"
 PT_Description="Броня: Противоосколоч.\nСкорость: 95\nДоп: Тибериумная авт. винтовка\n+Против всего"
 
 
@@ -437,8 +437,8 @@ VehicleNameString="Танк"
 
 [Rx_Vehicle_MammothTank]
 VehiclePositionString="в танке Мамонт"
-VehicleNameString="Танк Мамонт"
-PT_Title="ТАНК МАМОНТ"
+VehicleNameString="Танк «Мамонт»"
+PT_Title="ТАНК «МАМОНТ»"
 PT_Description="<font size='10'>-Два 120мм орудия\n-Четыре ракеты Tusk\n-Тяжелая броня\n-Тяжёлый танк\n-Водитель + Пассажир</font>"
 
 [Rx_Vehicle_MediumTank]
@@ -448,8 +448,8 @@ PT_Title="СРЕДНИЙ ТАНК"
 PT_Description="<font size='10'>-105мм орудие\n-Тяжёлая броня\n-Основной боевой танк\n-Водитель + Пассажир</font>"
 
 [Rx_Vehicle_Chinook]
-VehiclePositionString="в Чинуке"
-VehicleNameString="Чинук"
+VehiclePositionString="в «Чинуке»"
+VehicleNameString="«Чинук»"
 PT_Title="ТРАНСПОРТНЫЙ ВЕРТОЛЁТ"
 PT_Description="<font size='10'>\n-Два пулемёта Гаттлинга\n-Лёгкая броня\n-Десантный транспорт\n-Пилот + 4 пассажира</font>"
 
@@ -472,13 +472,13 @@ PT_Title="БАГГИ"
 PT_Description="<font size='10'>-Пулемёт .50 калибра\n-Лёгкая броня\n-Развед. транспорт\n-Водитель + Пассажир</font>"
 
 [Rx_Vehicle_HoverCraft]
-VehiclePositionString="в судне на воздушной подушке"
-VehicleNameString="Судно на воздушной подушке"
+VehiclePositionString="в СВП"
+VehicleNameString="СВП"
 
 [Rx_Vehicle_Humvee]
-VehiclePositionString="в Хамви"
-VehicleNameString="Хамви"
-PT_Title="ХАМВИ"
+VehiclePositionString="в «Хамви»"
+VehicleNameString="«Хамви»"
+PT_Title="«ХАМВИ»"
 PT_Description="<font size='10'>-Пулемёт .50 калибра\n-Лёгкая броня\n-Развед. транспорт\n-Водитель + Пассажир</font>"
 
 [Rx_Vehicle_MRLS]
@@ -524,19 +524,19 @@ VehiclePositionString="в A-10"
 VehicleNameString="A-10"
 
 [Rx_Vehicle_Apache]
-VehiclePositionString="в Апаче"
-VehicleNameString="Апач"
-PT_Title="АПАЧ"
+VehiclePositionString="в «Апаче»"
+VehicleNameString="«Апач»"
+PT_Title="«АПАЧ»"
 PT_Description="<font size='10'>-30мм автопушка\n-Ракеты Hydra-70\n-Лёгкая броня\n-Ударный вертолёт\n-Пилот + Пассажир</font>"
 
 [Rx_Vehicle_Orca]
-VehiclePositionString="в Орке"
-VehicleNameString="Орка"
-PT_Title="СВВП ОРКА"
+VehiclePositionString="в «Орке»"
+VehicleNameString="«Орка»"
+PT_Title="СВВП «ОРКА»"
 PT_Description="<font size='10'>-Hellfire Missiles\n-.50 Calibre Machine Gun\n-Лёгкая броня\n-Ударный СВВП\n-Пилот + Пассажир</font>"
 
 [Rx_Vehicle_Harvester]
-VehiclePositionString="в Харвестере"
+VehiclePositionString="в харвестере"
 VehicleNameString="Харвестер"
 
 [Rx_Vehicle_HoverCraft_GDI]
@@ -572,8 +572,8 @@ VehiclePositionString="в .50 Cal"
 VehicleNameString=".50 Cal"
 
 [APB_Vehicle_TeslaTank]
-VehiclePositionString="в танке Тесла"
-VehicleNameString="Танк Тесла"
+VehiclePositionString="в танке Теслы"
+VehicleNameString="Танк Теслы"
 
 [TS_Vehicle_HoverMRLS]
 VehiclePositionString="в РСЗОВП"
@@ -581,24 +581,24 @@ VehicleNameString="РСЗОВП"
 PT_Title="РСЗОВП"
 
 [TS_Vehicle_Titan]
-VehiclePositionString="в Титане"
-VehicleNameString="Титан"
-PT_Title="ТИТАН"
+VehiclePositionString="в «Титане»"
+VehicleNameString="«Титан»"
+PT_Title="«ТИТАН»"
 
 [TS_Vehicle_Wolverine]
-VehiclePositionString="в Росомахе"
-VehicleNameString="Росомаха"
-PT_Title="РОСОМАХА"
+VehiclePositionString="в «Росомахе»"
+VehicleNameString="«Росомаха»"
+PT_Title="«РОСОМАХА»"
 
 [TS_Vehicle_Wolverine_HD]
-VehiclePositionString="в Росомахе"
-VehicleNameString="Росомаха"
-PT_Title="РОСОМАХА"
+VehiclePositionString="в «Росомахе»"
+VehicleNameString="«Росомаха»"
+PT_Title="«РОСОМАХА»"
 
 [TS_Vehicle_Juggernaut]
-VehiclePositionString="в Джаггернауте"
-VehicleNameString="Джаггернаут"
-PT_Title="ДЖАГГЕРНАУТ"
+VehiclePositionString="в «Джаггернауте»"
+VehicleNameString="«Джаггернаут»"
+PT_Title="«ДЖАГГЕРНАУТ»"
 
 [TS_Vehicle_AAPC]
 VehiclePositionString="в БМП-амфибии"
@@ -606,19 +606,19 @@ VehicleNameString="БМП-амфибия"
 PT_Title="БМП-АМФИБИЯ"
 
 [TS_Vehicle_Disruptor]
-VehiclePositionString="в Дизрапторе"
-VehicleNameString="Дизраптор"
-PT_Title="ДИЗРАПТОР"
+VehiclePositionString="в «Дизрапторе»"
+VehicleNameString="«Дизраптор»"
+PT_Title="«ДИЗРАПТОР»"
 
 [TS_Vehicle_MMKII]
-VehiclePositionString="в Мамонте Мк. II"
-VehicleNameString="Мамонт Мк. II"
-PT_Title="МАМОНТ МК. II"
+VehiclePositionString="в «Мамонте Мк. II»"
+VehicleNameString="«Мамонт Мк. II»"
+PT_Title="«МАМОНТ МК. II»"
 
 [TS_Vehicle_TickTank]
-VehiclePositionString="в танке Клещ"
-VehicleNameString="Танк Клещ"
-PT_Title="ТАНК КЛЕЩ"
+VehiclePositionString="в танке «Клещ»"
+VehicleNameString="Танк «Клещ»"
+PT_Title="ТАНК «КЛЕЩ»"
 
 [TS_Vehicle_ReconBike]
 VehiclePositionString="в мотоцикле"
@@ -628,32 +628,32 @@ PT_Title="БОЕВОЙ МОТОЦИКЛ"
 [TS_Vehicle_Buggy]
 VehiclePositionString="в багги"
 VehicleNameString="Багги"
-PT_Title="BUGGY"
+PT_Title="БАГГИ"
 
 [TS_Vehicle_Buggy_HD]
 VehiclePositionString="в багги"
 VehicleNameString="Багги"
-PT_Title="ATTACK BUGGY"
+PT_Title="БАГГИ"
 
 [TS_Vehicle_Artillery]
 VehiclePositionString="в артиллерии"
 VehicleNameString="Артиллерия"
-PT_Title="ARTILLERY"
+PT_Title="АРТИЛЛЕРИЯ"
 
 [TS_Vehicle_StealthTank]
 VehiclePositionString="в стелс-танке"
 VehicleNameString="Стелс-танк"
-PT_Title="STEALTH TANK"
+PT_Title="СТЕЛС-ТАНК"
 
 [TS_Vehicle_DevilsTongue]
-VehiclePositionString="в Языке Дьявола"
-VehicleNameString="Язык Дьявола"
-PT_Title="DEVIL'S TONGUE"
+VehiclePositionString="в «Языке Дьявола»"
+VehicleNameString="«Язык Дьявола»"
+PT_Title="«ЯЗЫК ДЬЯВОЛА»"
 
 [Rx_Vehicle_M2Bradley]
 VehiclePositionString="в лёгком танке"
 VehicleNameString="Лёгкий танк"
-PT_Title="LIGHT TANK"
+PT_Title="ЛЁГКИЙ ТАНК"
 PT_Description="<font size='10'>\n-75мм орудие\n-Тяжёлая броня\n-Основной боевой танк\n-Водитель + Пассажир</font>"
 
 //=====================================
@@ -672,12 +672,12 @@ PickupMessage="Оружие A-10"
 [Rx_Vehicle_Apache_Weapon]
 ItemName="30мм автоматическая пушка"
 AltItemName="Ракеты Hydra-70"
-PickupMessage="Оружие Апача"
+PickupMessage="Оружие «Апача»"
 
 [Rx_Vehicle_Orca_Weapon]
 ItemName="Ракеты Hellfire"
 AltItemName="Пулемёт .50 Cal"
-PickupMessage="Оружие Орки"
+PickupMessage="Оружие «Орки»"
 
 [Rx_Vehicle_APC_Nod_Weapon]
 ItemName="M134 Minigun"
@@ -693,27 +693,27 @@ PickupMessage="Орудие артиллерии"
 
 [Rx_Vehicle_Buggy_Weapon]
 AltItemName="Пулемёт .50 Cal"
-PickupMessage="Орудие баги"
+PickupMessage="Орудие багги"
 
 [Rx_Vehicle_Chinook_Weapon]
 ItemName="Транспортный вертолёт"
-PickupMessage="Орудие Чинука"
+PickupMessage="Орудие «Чинука»"
 
 [Rx_Vehicle_Chinook_Weapon_GDI_Left]
 ItemName="Орудие Гаттлинга"
-PickupMessage="Орудие Чинука"
+PickupMessage="Орудие «Чинука»"
 
 [Rx_Vehicle_Chinook_Weapon_GDI_Right]
 ItemName="Орудие Гаттлинга"
-PickupMessage="Орудие Чинука"
+PickupMessage="Орудие «Чинука»"
 
 [Rx_Vehicle_Chinook_Weapon_Nod_Left]
 ItemName="Орудие Гаттлинга"
-PickupMessage="Орудие Чинука"
+PickupMessage="Орудие «Чинука»"
 
 [Rx_Vehicle_Chinook_Weapon_Nod_Right]
 ItemName="Орудие Гаттлинга"
-PickupMessage="Орудие Чинука"
+PickupMessage="Орудие «Чинука»"
 
 [Rx_Defence_GunEmplacement_Weapon]
 ItemName="Орудие Гаттлинга"
@@ -727,7 +727,7 @@ PickupMessage="Ракетная башня"
 
 [Rx_Vehicle_Humvee_Weapon]
 AltItemName="Пулемёт .50 Cal"
-PickupMessage="Орудие Хаммви"
+PickupMessage="Орудие «Хамви»"
 
 [Rx_Vehicle_LightTank_Weapon]
 ItemName="75мм пушка"
@@ -736,7 +736,7 @@ PickupMessage="Орудие лёгкого танка"
 [Rx_Vehicle_MammothWeapon]
 ItemName="120мм пушка"
 AltItemName="Ракеты Tusk"
-PickupMessage="Орудие танка Мамонт"
+PickupMessage="Орудие танка «Мамонт»"
 
 [Rx_Vehicle_MediumTank_Weapon]
 ItemName="105мм пушка"
@@ -790,8 +790,8 @@ AltItemName="Пусковая установка SWARM"
 PickupMessage="Орудие СВП"
 
 [APB_Vehicle_TeslaTank_Weapon]
-ItemName="Катушка Тесла"
-PickupMessage="Орудие танка Тесла"
+ItemName="Катушка Теслы"
+PickupMessage="Орудие танка Теслы"
 
 [TS_Vehicle_HoverMRLS_Weapon]
 ItemName="Ракеты M269"
@@ -799,37 +799,37 @@ PickupMessage="Орудие РСЗОВП"
 
 [TS_Vehicle_Titan_Weapon]
 ItemName="120мм пушка"
-PickupMessage="Орудие Титана"
+PickupMessage="Орудие «Титана»"
 
 [TS_Vehicle_Wolverine_Weapon]
 ItemName="Орудия Vulcan"
-PickupMessage="Орудия Росомахи"
+PickupMessage="Орудия «Росомахи»"
 
 [TS_Vehicle_Wolverine_HD_Weapon]
 ItemName="Орудия Vulcan"
-PickupMessage="Орудия Росомахи"
+PickupMessage="Орудия «Росомахи»"
 
 [TS_Vehicle_Juggernaut_Weapon]
 ItemName="155мм пушка"
-PickupMessage="Орудие Джаггернаута"
+PickupMessage="Орудие «Джаггернаута»"
 
 [TS_Vehicle_AAPC_Weapon]
 ItemName="Beep Beep"
 PickupMessage="Орудие БМП-амфибии"
 
 [TS_Vehicle_Disruptor_Weapon]
-ItemName="Ульразвуковая волна"
-PickupMessage="Орудие Дизраптора"
+ItemName="Ульразвуковое орудие"
+PickupMessage="Орудие «Дизраптора»"
 
 [TS_Vehicle_MMKII_Weapon]
 ItemName="Рельсотрон"
 AltItemName="Ракеты Tusk"
-PickupMessage="Орудие Мамонта Мк. II"
+PickupMessage="Орудие «Мамонта Мк. II»"
 
 [TS_Vehicle_TickTank_Weapon]
 ItemName="90мм орудие"
 AltItemName="Пулемёт .50 Cal"
-PickupMessage="Орудие танка Клещ"
+PickupMessage="Орудие танка «Клещ»"
 
 [TS_Vehicle_ReconBike_Weapon]
 ItemName="Ракеты Hydra-70"
@@ -850,7 +850,7 @@ PickupMessage="Орудие артиллерии"
 
 [TS_Vehicle_DevilsTongue_Weapon]
 ItemName="Огнемёты"
-PickupMessage="Орудие Языка Дьявола"
+PickupMessage="Орудие «Языка Дьявола»"
 
 [TS_Vehicle_StealthTank_Weapon]
 ItemName="Ракеты TOW"
@@ -859,7 +859,7 @@ PickupMessage="Орудие стелс-танка"
 [Rx_Vehicle_M2Bradley_Weapon]
 ItemName="22мм пушка"
 AltItemName="Ракеты TOW"
-PickupMessage="Орудие М2 Брэдли"
+PickupMessage="Орудие М2 «Брэдли»"
 
 
 //////////////////////
