@@ -4,7 +4,7 @@ In an effort to further expand our hand to non-English speakers, TA is calling u
 
 ## Getting Started
 
-If you would like to directly pull request on GitHub, fork this repo and add your language in its own folder, with each file translated. If you would not like to use GitHub, copy the files, translate and send the files to Sarah on the forums or Discord.
+If you would like to directly pull request on GitHub, fork this repo and add your language in its own folder, with each file translated. If you would not like to use GitHub, copy the files, translate and send the files to Sarah on the forums or Discord. Please note I will be adding much more stuff to the English version, so if you complete a file, there will be more to do. It is also slightly out of date, mostly the PT stuff. 
 
 ### Disclaimer
 
