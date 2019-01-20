@@ -13,7 +13,7 @@ EndOfMatchRulesTemplateStr_Time=L'équipe au meilleur score en `t min. gagne
 //=====================================
 
 [Rx_Weapon]
-ItemName="Arme sans-nom"
+ItemName="Arme 5848946"
 PickupMessage="Arme sans-nom"
 
 [Rx_Weapon_Reloadable]
