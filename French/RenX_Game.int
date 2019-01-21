@@ -590,31 +590,6 @@ VehiclePositionString="dans un Lycaon"
 VehicleNameString="Lycaon"
 PT_Title="LYCAON"
 
-[TS_Vehicle_Wolverine_HD]
-VehiclePositionString="dans un Lycaon"
-VehicleNameString="Lycaon"
-PT_Title="LYCAON"
-
-[TS_Vehicle_Juggernaut]
-VehiclePositionString="dans un Juggernaut"
-VehicleNameString="Juggernaut"
-PT_Title="JUGGERNAUT"
-
-[TS_Vehicle_AAPC]
-VehiclePositionString="dans un VBT Amphibie"
-VehicleNameString="VBT Amphibie"
-PT_Title="VBT AMPHIBIE"
-
-[TS_Vehicle_Disruptor]
-VehiclePositionString="dans un Tank Disrupteur"
-VehicleNameString="Tank Disrupteur"
-PT_Title="DISRUPTEUR"
-
-[TS_Vehicle_MMKII]
-VehiclePositionString="dans un Mammouth Mark II"
-VehicleNameString="Mammouth Mark II"
-PT_Title="MAMMOUTH MARK II"
-
 [TS_Vehicle_TickTank]
 VehiclePositionString="dans un Tank Scarabée"
 VehicleNameString="Tank Scarabée"
@@ -629,26 +604,6 @@ PT_Title="MOTO DE RECONAISSANCE"
 VehiclePositionString="Dans une Buggy"
 VehicleNameString="Buggy"
 PT_Title="BUGGY"
-
-[TS_Vehicle_Buggy_HD]
-VehiclePositionString="dans une Buggy"
-VehicleNameString="Buggy D'attaque"
-PT_Title="BUGGY D'ATTAQUE"
-
-[TS_Vehicle_Artillery]
-VehiclePositionString="dans une Artillerie"
-VehicleNameString="Artillerie"
-PT_Title="ARTILLERIE"
-
-[TS_Vehicle_StealthTank]
-VehiclePositionString="dans une Tank Furtif"
-VehicleNameString="Tank Furtif"
-PT_Title="TANK FURTIF"
-
-[TS_Vehicle_DevilsTongue]
-VehiclePositionString="dans une Langue du Diable"
-VehicleNameString="Langue du Diable"
-PT_Title="LANGUE DU DIABLE"
 
 [Rx_Vehicle_M2Bradley]
 VehiclePositionString="dans un Tank Léger M2"
@@ -805,22 +760,6 @@ PickupMessage="Arme de Titan"
 ItemName="Mitrailleuses Vulcain"
 PickupMessage="Arme de Lycaon"
 
-[TS_Vehicle_Wolverine_HD_Weapon]
-ItemName="Mitrailleuses Vulcain"
-PickupMessage="Arme de Lycaon"
-
-[TS_Vehicle_Juggernaut_Weapon]
-ItemName="Canon de 155 mm"
-PickupMessage="Arme de Juggernaut"
-
-[TS_Vehicle_AAPC_Weapon]
-ItemName="Beep Beep"
-PickupMessage="Arme de VBT Amphibie"
-
-[TS_Vehicle_Disruptor_Weapon]
-ItemName="Impulsion sonique"
-PickupMessage="Arme de Désintégrateur"
-
 [TS_Vehicle_MMKII_Weapon]
 ItemName="Railgun"
 AltItemName="Missiles Tusk"
@@ -838,23 +777,6 @@ PickupMessage="Arme de Moto de Reco"
 [TS_Vehicle_Buggy_Weapon]
 ItemName="Canon automatique de 30 mm"
 PickupMessage="Arme de Buggy"
-
-[TS_Vehicle_Buggy_HD_Weapon]
-ItemName="Gattling"
-AltItemName="Canon de 20 mm"
-PickupMessage="Arme de Buggy"
-
-[TS_Vehicle_Artillery_Weapon]
-ItemName="Canon de 185 mm"
-PickupMessage="Arme d'Artillerie"
-
-[TS_Vehicle_DevilsTongue_Weapon]
-ItemName="Lance-flammes"
-PickupMessage="Arme de Langue du Diable"
-
-[TS_Vehicle_StealthTank_Weapon]
-ItemName="Missiles TOW"
-PickupMessage="Arme de Tank Furtif"
 
 [Rx_Vehicle_M2Bradley_Weapon]
 ItemName="Canon de 22 mm"
