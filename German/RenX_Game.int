@@ -4,8 +4,8 @@
 [Rx_Game]
 Description="Zerstöre die gegnerische Basis und verteidige deine eigene."
 GameName="C&C Mode"
-EndOfMatchRulesTemplateStr_Scoring=First team to destroy the other wins
-EndOfMatchRulesTemplateStr_Time=Team with most points in `t mins. wins
+EndOfMatchRulesTemplateStr_Scoring=Zerstöre den Gegner um zu gewinnen.
+EndOfMatchRulesTemplateStr_Time=Das Team mit den meisten Punkten nach `t Minuten gewinnt.
 
 
 //=====================================
@@ -89,8 +89,8 @@ ItemName="Lasergewehr"
 PickupMessage="Lasergewehr"
 
 [Rx_Weapon_LaserChainGun]
-ItemName="Laser Chaingun"
-PickupMessage="Laser Chaingun"
+ItemName="Laser Gatling"
+PickupMessage="Laser Gatling"
 
 [Rx_Weapon_MissileLauncher]
 ItemName="Raketenwerfer"
@@ -961,135 +961,135 @@ SubHelpText[0]=""
 [Rx_CommandMenuChoice_SupportPowers]
 
 //Radar Scan [GDI]
-SubHelpText_GDI[0]="+Delivery:%Instant Radar Scan%%+Purpose:%-COMMAND SPOTS all units in an area for 20s%%-Spots units on map for a full 60s%%Notes%%-Ignores cover"
+SubHelpText_GDI[0]="+Methode:%Sofortiger Radar Scan%%+Einsatzzweck:%-Markiert alle Einheiten im Zielbereich für 20s%%-Zeigt Einheiten für 60s auf der Karte%%Hinweise%%-Ignoriert Deckung"
 
 //Spy Plane [Nod]
-SubHelpText_Nod[0]="+Delivery:%Spy Aircraft%%+Purpose:%-COMMAND SPOTS units not in cover for 20s%%-Spots units on map for a full 45s%%Notes%%-Plane requires line of sight%%-Can be shot down%"
+SubHelpText_Nod[0]="+Methode:%Spionageflugzeug%%+Einsatzzweck:%-Markiert alle Einheiten die nicht in Deckung sind für 20s%%-Zeigt Einheiten für 60s auf der Karte%%Hinweise%%-Flugzeug benötigt Sichtlinie%%-Kann abgeschossen werden%"
 
 //Smoke
-SubHelpText_GDI[1]="+Delivery:%Bomber Aircraft%%+Purpose:%-Blocks line of sight%-Blinds base defenses%%Notes%%-Can be shot down%"
+SubHelpText_GDI[1]="+Methode:%Bomber%%+Einsatzzweck:%-Blockiert Sicht%-Blendet Basis-Verteidigungen%%Hinweise%%-Kann abgeschossen werden%"
 
-SubHelpText_Nod[1]="+Delivery:%Bomber Aircraft%%+Purpose:%-Blocks line of sight%-Blinds base defenses%%Notes%%-Can be shot down%"
+SubHelpText_Nod[1]="+Methode:%Bomber%%+Einsatzzweck:%-Blockiert Sicht%-Blendet Basis-Verteidigungen%%Hinweise%%-Kann abgeschossen werden%"
 
 //EMP Strike
-SubHelpText_GDI[2]="+Delivery:%Bomber Aircraft%%+Purpose:%-Disables vehicle movement%-Disarms enemy mines%%Notes%%-Can be shot down%"
+SubHelpText_GDI[2]="+Methode:%Bomber%%+Einsatzzweck:%-Legt Fahrzeuge lahm%-Entschärft gegnerische Minen%%Hinweise%%-Kann abgeschossen werden%"
 
-SubHelpText_Nod[2]="+Delivery:%Bomber Aircraft%%+Purpose:%-Disables vehicle movement%-Disarms enemy mines%%Notes%%-Can be shot down%"
+SubHelpText_Nod[2]="+Methode:%Bomber%%+Einsatzzweck:%-Legt Fahrzeuge lahm%-Entschärft gegnerische Minen%%Hinweise%%-Kann abgeschossen werden%"
 
 
 //Cruise Missile
-SubHelpText_GDI[3]="+Delivery:%Self-Guided Missile%%+Purpose:%-Heavy damage%-Large AoE%%-Airburst%Can be shot down%"
+SubHelpText_GDI[3]="+Methode:%Lenkrakete%%+Einsatzzweck:%-Hoher Schaden%-Flächenschaden%%-Explodiert in der Luft%Kann abgeschossen werden%"
 
-SubHelpText_Nod[3]="+Delivery:%Self-Guided Missile%%+Purpose:%-Heavy damage%-Large AoE%%-Airburst%Can be shot down%"
+SubHelpText_Nod[3]="+Methode:%Lenkrakete%%+Einsatzzweck:%-Hoher Schaden%-Flächenschaden%%-Explodiert in der Luft%Kann abgeschossen werden%"
 
 //Defensive Buff
-SubHelpText_GDI[4]="+Delivery:%Self Cast%%+Purpose:%INCREASE DEFENSIVE ABILITY%%Affects all FRIENDLY units around you.%%DURATION: 20s%"
+SubHelpText_GDI[4]="+Methode:%Wirkt auf sich selbst%%+Einsatzzweck:%ERHÖHT VERTEIDIGUNG%%Alle VERBÜNDETEN Einheiten in deiner Nähe.%%Dauer: 20s%"
 
-SubHelpText_Nod[4]="+Delivery:%Self Cast%%+Purpose:%INCREASE DEFENSIVE ABILITY%%Affects all FRIENDLY units around you.%%DURATION: 20s%"
+SubHelpText_Nod[4]="+Methode:%Wirkt auf sich selbst%%+Einsatzzweck:%ERHÖHT VERTEIDIGUNG%%Alle VERBÜNDETEN Einheiten in deiner Nähe.%%Dauer: 20s%"
 
 //Offensive Buff
-SubHelpText_GDI[5]="+Delivery:%Self Cast%%+Purpose:%+GREATLY INCREASE OFFENSIVE ABILITY%%Affects all FRIENDLY units around you.%%DURATION: 15s%"
+SubHelpText_GDI[5]="+Methode:%Wirkt auf sich selbst%%+Einsatzzweck:%+SCHADEN MASSIV ERHÖHT%%Alle VERBÜNDETEN Einheiten in deiner Nähe.%%Dauer: 15s%"
 
-SubHelpText_Nod[5]="+Delivery:%Self Cast%%+Purpose:%+GREATLY INCREASE OFFENSIVE ABILITY%%Affects all FRIENDLY units around you.%%DURATION: 15s%"
+SubHelpText_Nod[5]="+Methode:%Wirkt auf sich selbst%%+Einsatzzweck:%+SCHADEN MASSIV ERHÖHT%%Alle VERBÜNDETEN Einheiten in deiner Nähe.%%Dauer: 15s%"
 
 
 
 //Help Menu
 [Rx_CommandMenuChoice_Help]
-MainHelpText="Select a topic with a 'number' button.%"
+MainHelpText="Wähle ein Thema mit einer 'Nummern' Taste.%"
 
 //Commander Help: Chat
-SubHelpText[0]="+Commander's teamchat messages are%coloured differently to allow easy%identification.%%+Preface a teamchat message with%'/C' to send as a COMMANDER MESSAGE.%%+COMMANDER MESSAGES appear both in%normal chat AND mid-screen chat for%emphasis.%%+Preface a team message with '/R' %to send a RUSH message.%%+RUSH messages appear mid-screen%and last for 15 seconds.%"
+SubHelpText[0]="+Commander teamchat Nachrichten sind%farbig um sie einfach zu%erkennen.%%+Beginne eine Nachricht mit%'/C' um eine COMMANDER MESSAGE zu schicken.%%+COMMANDER MESSAGES erscheinen im%chat UND mitten auf dem Bildschirm%zur Verstärkung.%%+Beginne eine Nachricht mit '/R' %um eine RUSH Nachricht zu senden.%%+RUSH Nachrichten erscheinen mitten auf dem Bildschirm%und bleiben für 15 Sekunden.%"
 
 //Commander Help: Targeting
-SubHelpText[1]="+Targets Q-spotted by the COMMANDER are%visible to ALL friendly units.%%+COMMANDER spotted units are numbered for%identification.%%+COMMANDER spotted units decay over time.%Targets last for 20 seconds.%They begin to SHRINK when they are about to decay.%%COMMANDER spotted targets grant%10 COMMAND POINTS[CP] when destroyed.%"
+SubHelpText[1]="+Ziele die vom COMMANDER markiert wurden%sind für ALLE Verbündeten sichtbar.%%+COMMANDER Ziele werden zur Identifikation%nummeriert.%%+COMMANDER Ziele verfallen mit der Zeit.%Ziele halten für 20 Sekunden.%Sie schrumpfen kurz bevor sie verfallen.%%COMMANDER Ziele geben%10 COMMAND POINTS[CP] wenn sie zerstört werden.%"
 
 //Commander Help: Waypoints
-SubHelpText[2]="+WAYPOINTS are visible to the entire team.%%+After selecting a waypoint with 1-9,% Q will place it wherever you are pointing.%%+Holding Q will remove the corresponding waypoint.%" 
+SubHelpText[2]="+WEGPUNKTE sind für das ganze Team sichtbar.%%+Nachdem du einen Wegpunkt mit 1-9 gewählt hast,% platziere ihn mit Q.%%+halte Q gedrückt um den ensprechenden Wegpunkt zu löschen.%" 
 
 //Commander Help: Remove Mines
-SubHelpText[3]="+Select a building with a number% then hold -Q- to remove ALL% proximity C4 in that building.%"
+SubHelpText[3]="+Wähle eine Gebäude mit einer Nummer% dann halte Q gedruckt um ALLE% Minen im Gebäude zu entfernen.%"
 
 //Commander Help: Harvester Options
-SubHelpText[4]="+The HARVESTER can be told to STOP.%%+The Harvester WAYPOINT% is where the HARVESTER%will go when STOPPED.%%+The HARVESTER can be told to detonate if%it appears to be stuck.%%+Telling the HARVESTER to detonate again will%cancel the detonation.%"
+SubHelpText[4]="+Du kannst den ERNTER ANHALTEN.%%+Der Ernter fährt zum% ERNTER WEGPUNKT%wenn du ihn anhälst.%%+Der Ernter hat eine Selbstzerstörung,%falls er sich festfährt.%%+Erneutes Aktivieren der Selbstzerörung,%bricht die Selbstzerstörung ab.%"
 
 
 //Commander Help: Support Powers
-SubHelpText[5]="+Support Powers ALL COST COMMAND POINTS%%+Most support powers are cast by%HOLDING -Q- and pointing at an area.%%+Support powers have their%own tooltips when selected%"
+SubHelpText[5]="+Alle Unterstützungsfähigkeiten kosten COMMAND POINTS%%+Die meisten Unterstützungsfähigkeiten wirkst du,%indem du Q gedrückt hälst und das Ziel anvisierst.%%+Unterstützungsfähigkeiten haben ihre eigenen%Hilfetexte wenn du sie auswählst%"
 
 //=====================================
 // Text Radio Commands
 //=====================================
 [Rx_Controller]
 	// CTRL + Number
-	RadioCommandsText[0]     =   "Building needs repair!"
-	RadioCommandsText[1]     =   "Get in the vehicle!"
-	RadioCommandsText[2]     =   "Get out of the vehicle!"
-	RadioCommandsText[3]     =   "Destroy that vehicle!" 
-	RadioCommandsText[4]     =   "Watch where you're pointing that!"
-	RadioCommandsText[5]     =   "Don't get in my way!"
-	RadioCommandsText[6]     =   "Affirmative."
-	RadioCommandsText[7]     =   "Negative."
-	RadioCommandsText[8]     =   "I'm in position."
-	RadioCommandsText[9]     =   "Enemy spotted!"
+	RadioCommandsText[0]     =   "Gebäude reparieren!"
+	RadioCommandsText[1]     =   "Rein in das Fahrzeug!"
+	RadioCommandsText[2]     =   "Raus aus dem Fahrzeug!"
+	RadioCommandsText[3]     =   "Fahrzeug zerstören!" 
+	RadioCommandsText[4]     =   "Pass auf wo du hinschiest!"
+	RadioCommandsText[5]     =   "Aus dem Weg!"
+	RadioCommandsText[6]     =   "Bestätigt."
+	RadioCommandsText[7]     =   "Negativ."
+	RadioCommandsText[8]     =   "In Position."
+	RadioCommandsText[9]     =   "Feind gesichtet!"
 
 	// ALT + Number
-	RadioCommandsText[10]    =   "I need repairs!"
-	RadioCommandsText[11]    =   "Take the point."
-	RadioCommandsText[12]    =   "Move out."
-	RadioCommandsText[13]    =   "Follow me."
-	RadioCommandsText[14]    =   "Hold position."
-	RadioCommandsText[15]    =   "Cover me."
-	RadioCommandsText[16]    =   "Take cover."
-	RadioCommandsText[17]    =   "Fall back."
-	RadioCommandsText[18]    =   "Return to base."
-	RadioCommandsText[19]    =   "Destroy it now!"
+	RadioCommandsText[10]    =   "Benötige Reparatur!"
+	RadioCommandsText[11]    =   "Übernimm die Spitze."
+	RadioCommandsText[12]    =   "Los gehts."
+	RadioCommandsText[13]    =   "Mir folgen."
+	RadioCommandsText[14]    =   "Position halten."
+	RadioCommandsText[15]    =   "Gib mir Deckung."
+	RadioCommandsText[16]    =   "In Deckung."
+	RadioCommandsText[17]    =   "Rückzug."
+	RadioCommandsText[18]    =   "Zurück zur Basis."
+	RadioCommandsText[19]    =   "Jetzt zerstören!"
 
 	// CTRL+ALT + Number
-	RadioCommandsText[20]    =   "Attack the base defenses!"
-	RadioCommandsText[21]    =   "Attack the Harvester!"
-	RadioCommandsText[22]    =   "Attack that structure!"
-	RadioCommandsText[23]    =   "Attack the Refinery!" 
-	RadioCommandsText[24]    =   "Attack the Power Plant!"
-	RadioCommandsText[25]    =   "Defend the base!"
-	RadioCommandsText[26]    =   "Defend the Harvester!"
-	RadioCommandsText[27]    =   "Defend that structure!"
-	RadioCommandsText[28]    =   "Defend the Refinery!"
-	RadioCommandsText[29]    =   "Defend the Power Plant!"
+	RadioCommandsText[20]    =   "Basis-Verteidigung angreifen!"
+	RadioCommandsText[21]    =   "Ernter angreifen!"
+	RadioCommandsText[22]    =   "Gebäude angreifen!"
+	RadioCommandsText[23]    =   "Raffinerie angreifen!" 
+	RadioCommandsText[24]    =   "Kraftwerk angreifen!"
+	RadioCommandsText[25]    =   "Basis verteidigen!"
+	RadioCommandsText[26]    =   "Ernter verteidigen!"
+	RadioCommandsText[27]    =   "Gebäude verteidigen!"
+	RadioCommandsText[28]    =   "Raffinerie verteidigen!"
+	RadioCommandsText[29]    =   "Kraftwerk verteidigen!"
 
 [Rx_HUD]
 	// CTRL + Number
-	RadioCommandsCTRL[0]     =   "1|Building needs repair!"
-	RadioCommandsCTRL[1]     =   "2|Get in the vehicle!"
-	RadioCommandsCTRL[2]     =   "3|Get out of the vehicle!"
-	RadioCommandsCTRL[3]     =   "4|Destroy that vehicle!" 
-	RadioCommandsCTRL[4]     =   "5|Watch where you're pointing that!"
-	RadioCommandsCTRL[5]     =   "6|Don't get in my way!"
-	RadioCommandsCTRL[6]     =   "7|Affirmative."
-	RadioCommandsCTRL[7]     =   "8|Negative."
-	RadioCommandsCTRL[8]     =   "9|I'm in position."
-	RadioCommandsCTRL[9]     =   "0|Enemy spotted!"
+	RadioCommandsCTRL[0]     =   "1|Gebäude reparieren!"
+	RadioCommandsCTRL[1]     =   "2|Rein in das Fahrzeug!"
+	RadioCommandsCTRL[2]     =   "3|Raus aus dem Fahrzeug!"
+	RadioCommandsCTRL[3]     =   "4|Fahrzeug zerstören!" 
+	RadioCommandsCTRL[4]     =   "5|Pass auf wo du hinschiest!"
+	RadioCommandsCTRL[5]     =   "6|Aus dem Weg!"
+	RadioCommandsCTRL[6]     =   "7|Bestätigt."
+	RadioCommandsCTRL[7]     =   "8|Negativ."
+	RadioCommandsCTRL[8]     =   "9|In Position."
+	RadioCommandsCTRL[9]     =   "0|Feind gesichtet!"
 
 	// ALT + Number
-	RadioCommandsALT[0]    =   "1|I need repairs!"
-	RadioCommandsALT[1]    =   "2|Take the point."
-	RadioCommandsALT[2]    =   "3|Move out."
-	RadioCommandsALT[3]    =   "4|Follow me."
-	RadioCommandsALT[4]    =   "5|Hold position."
-	RadioCommandsALT[5]    =   "6|Cover me."
-	RadioCommandsALT[6]    =   "7|Take cover."
-	RadioCommandsALT[7]    =   "8|Fall back."
-	RadioCommandsALT[8]    =   "9|Return to base."
-	RadioCommandsALT[9]    =   "0|Destroy it now!"
+	RadioCommandsALT[0]    =   "1|Benötige Reparatur!"
+	RadioCommandsALT[1]    =   "2|Übernimm die Spitze."
+	RadioCommandsALT[2]    =   "3|Los gehts."
+	RadioCommandsALT[3]    =   "4|Mir folgen."
+	RadioCommandsALT[4]    =   "5|Position halten."
+	RadioCommandsALT[5]    =   "6|Gib mir Deckung."
+	RadioCommandsALT[6]    =   "7|In Deckung."
+	RadioCommandsALT[7]    =   "8|Rückzug."
+	RadioCommandsALT[8]    =   "9|Zurück zur Basis."
+	RadioCommandsALT[9]    =   "0|Jetzt zerstören!"
 
 	// CTRL+ALT + Number
-	RadioCommandsCTRLALT[0]    =   "1|Attack the base defenses!"
-	RadioCommandsCTRLALT[1]    =   "2|Attack the Harvester!"
-	RadioCommandsCTRLALT[2]    =   "3|Attack that structure!"
-	RadioCommandsCTRLALT[3]    =   "4|Attack the Refinery!" 
-	RadioCommandsCTRLALT[4]    =   "5|Attack the Power Plant!"
-	RadioCommandsCTRLALT[5]    =   "6|Defend the base!"
-	RadioCommandsCTRLALT[6]    =   "7|Defend the Harvester!"
-	RadioCommandsCTRLALT[7]    =   "8|Defend that structure!"
-	RadioCommandsCTRLALT[8]    =   "9|Defend the Refinery!"
-	RadioCommandsCTRLALT[9]    =   "0|Defend the Power Plant!"
+	RadioCommandsCTRLALT[0]    =   "1|Basis-Verteidigung angreifen!"
+	RadioCommandsCTRLALT[1]    =   "2|Ernter angreifen!"
+	RadioCommandsCTRLALT[2]    =   "3|Gebäude angreifen!"
+	RadioCommandsCTRLALT[3]    =   "4|Raffinerie angreifen!" 
+	RadioCommandsCTRLALT[4]    =   "5|Kraftwerk angreifen!"
+	RadioCommandsCTRLALT[5]    =   "6|Basis verteidigen!"
+	RadioCommandsCTRLALT[6]    =   "7|Ernter verteidigen!"
+	RadioCommandsCTRLALT[7]    =   "8|Gebäude verteidigen!"
+	RadioCommandsCTRLALT[8]    =   "9|Raffinerie verteidigen!"
+	RadioCommandsCTRLALT[9]    =   "0|Kraftwerk verteidigen!"
