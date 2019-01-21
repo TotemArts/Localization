@@ -934,76 +934,76 @@ PickupMessages[7]="Votre santé et vos munitions ont été restaurés !"
 
 [Rx_Message_Crates]
 PickupBroadcastMessages[0]= "`PlayerName` a trouvé une caisse !"
-PickupBroadcastMessages[1]="`PlayerName` just got a death crate. Sucks to be you."
-PickupBroadcastMessages[2]="`PlayerName` got an Ion Cannon to the face. Ouch!"
-PickupBroadcastMessages[3]="`PlayerName` is green with nuclear radiation"
-PickupBroadcastMessages[4]="`PlayerName` found a money crate!"
-PickupBroadcastMessages[5]="`PlayerName` got a new character!"
-PickupBroadcastMessages[6]="`PlayerName` got a new vehicle!"
-PickupBroadcastMessages[7]="Watch out, an enemy player picked up a spy crate!"
-PickupBroadcastMessages[8]="`PlayerName` picked up a spy crate!"
-PickupBroadcastMessages[9]="`PlayerName` picked up a refill crate."
-PickupBroadcastMessages[10]="`PlayerName` picked up a suicide crate."
-PickupBroadcastMessages[11]="`PlayerName` picked up a speed upgrade crate."
-PickupBroadcastMessages[12]="`PlayerName` was abducted by aliens."
-PickupBroadcastMessages[13]="`PlayerName` won't last more than 30 seconds."
-PickupBroadcastMessages[14]="`PlayerName` discovered weaponry from the future!"
-PickupBroadcastMessages[15]="`PlayerName` discovered weaponry from Kane's past!"
-PickupBroadcastMessages[16]="`PlayerName` picked up a veterancy crate!"
-PickupBroadcastMessages[17]="`PlayerName` picked up a damage resistance crate!" 
-PickupBroadcastMessages[18]="`PlayerName` discovered CLASSIC weaponry!" 
-PickupBroadcastMessages[19]="`PlayerName` found an EPIC Character crate!" 
+PickupBroadcastMessages[1]="`PlayerName` a une caisse de mort. C'est nul d'être toi."
+PickupBroadcastMessages[2]="`PlayerName` a eu un Cannon à Ion dans la face. Aie!"
+PickupBroadcastMessages[3]="`PlayerName` est vert avec les radiations nucléaire"
+PickupBroadcastMessages[4]="`PlayerName` a trouvé un caisse d'argent!"
+PickupBroadcastMessages[5]="`PlayerName` a un nouveau personnage!"
+PickupBroadcastMessages[6]="`PlayerName` a un nouveau véhicule!"
+PickupBroadcastMessages[7]="Prudence, un joueur ennemie a pris une caisse d'espion!"
+PickupBroadcastMessages[8]="`PlayerName` a ramassé une caisse d'espion!"
+PickupBroadcastMessages[9]="`PlayerName` a ramassé une caisse de recharge."
+PickupBroadcastMessages[10]="`PlayerName` a ramassé une caisse de suicide."
+PickupBroadcastMessages[11]="`PlayerName` a ramassé une caisse d'augmentation de vitesse."
+PickupBroadcastMessages[12]="`PlayerName` a été enlevé par les aliens."
+PickupBroadcastMessages[13]="`PlayerName` ne durera pas plus de 30 secondes."
+PickupBroadcastMessages[14]="`PlayerName` a dévouvert des armes du futur!"
+PickupBroadcastMessages[15]="`PlayerName` a découvert des armes du passé de Kane!"
+PickupBroadcastMessages[16]="`PlayerName` a ramassé une caisse de vétéran!"
+PickupBroadcastMessages[17]="`PlayerName` a ramassé une caisse de résistance au dommages!" 
+PickupBroadcastMessages[18]="`PlayerName` a découvert des armes CLASSIQUE!" 
+PickupBroadcastMessages[19]="`PlayerName` a trouvé une caisse de Personnage EPIC!" 
 
 [Rx_CrateType_Money]
-PickupMessage = "You found `credsum` credits!"
+PickupMessage = "Vous avez trouvé `credsum` crédits!"
 
 [Rx_CrateType_Refill]
-PickupMessage = "Your health and ammo has been restored!"
+PickupMessage = "Votre santé et vos munitions on été restauré!"
 
 [Rx_CrateType_Spy]
-PickupMessage = "You found an enemy uniform!"
+PickupMessage = "Vous avez trouvé un uniforme ennemie!"
 
 [Rx_CrateType_Vehicle]
-PickupMessage = "You got a `vehname`!"
+PickupMessage = "Vous avez un `vehname`!"
 
 [Rx_CrateType_Character]
-PickupMessage = "You found a new uniform!"
+PickupMessage = "Vous avez trouvé un nouvel uniforme!"
 
 [Rx_CrateType_Suicide]
-PickupMessage = "You found the answer to the universe inside the box, and see no reason to continue living."
+PickupMessage = "Vous avez trouvé la réponse de l'univers dans une boite, et vous ne voyez aucune raison de continuer a vivre."
 
 [Rx_CrateType_TimeBomb]
-PickupMessage = "There is a bomb on your head. You have 30 seconds to live."
+PickupMessage = "Il y a une bombe sur votre tête, il vous reste 30 secondes a vivre."
 
 [Rx_CrateType_Nuke]
-PickupMessage = "By the way, Nuclear Missile Launch Detected. Bwahahaha!"
+PickupMessage = "Au passage, Lancement de Missile Nucléaire detecté. Bouahahaha!"
 
 [Rx_CrateType_Speed]
-PickupMessage = "Your character's speed has been upgraded by `increasepct`%!"
+PickupMessage = "La vitesse de votre personnage a été augmenter de `increasepct`%!"
 
 [Rx_CrateType_Abduction]
-PickupMessage = "You have been abducted by the Scrin!"
+PickupMessage = "Vous avez été enlevé par les Scrins!"
 
 [Rx_CrateType_TSVehicle]
-PickupMessage = "A hole in space time has opened! You command the future."
+PickupMessage = "Un trou dans l'espace temps a été ouvert, vous commandé le futur."
 
 [Rx_CrateType_RAVehicle]
-PickupMessage = "A rougue chrono-shift seems to be going on! You control the past."
+PickupMessage = "Un décalage Chronologique semble se produire, vous controlé le passé."
 
 [Rx_CrateType_Veterancy]
-PickupMessage = "You've learned just a little more in the art of war."
+PickupMessage = "Vous avez apris un peu plus dans l'art de la guerre."
 
 [Rx_CrateType_DamageResistance]
-PickupMessage = "You picked up a DAMAGE RESISTANCE crate"
+PickupMessage = "Vous avez ramassé un caisse de RESISTANCE AU DOMMAGES"
 
 [Rx_CrateType_ClassicVehicle]
-PickupMessage = "Never forget the CLASSICS"
+PickupMessage = "N'oubliez jamais lCLASSIQUES"     
 
 [Rx_CrateType_EpicCharacter]
-PickupMessage = "You've found an EPIC Character!"
+PickupMessage = "Vous avez trouvé un PERSONNAGE EPIC!"
 
 [Rx_Message_Vehicle]
-VehicleMessages[0]="`VehicleClass` bound. Press [`LockKey`] to toggle lock on driver seat. Hold [`LockKey`] to unbind."
+VehicleMessages[0]="`VehicleClass` assigné sur'ckKey`] pour vérouillez le siège du conducteur. Hold [`LockKey`] to unbind."
 VehicleMessages[1]="`VehicleClass` auto-bound. Press [`LockKey`] to toggle lock on driver seat. Hold [`LockKey`] to unbind."
 VehicleMessages[2]="`VehicleClass` unbound."
 
