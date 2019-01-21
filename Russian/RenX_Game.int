@@ -4,8 +4,8 @@
 [Rx_Game]
 Description="Уничтожить вражескую базу, защитив свою."
 GameName="Режим C&C"
-EndOfMatchRulesTemplateStr_Scoring=First team to destroy the other wins
-EndOfMatchRulesTemplateStr_Time=Team with most points in `t mins. wins
+EndOfMatchRulesTemplateStr_Scoring=Побеждает команда, которая первой уничтожит другую команду.
+EndOfMatchRulesTemplateStr_Time=Побеждает команда, набравшая больше очков за `t минут.
 
 
 //=====================================
@@ -509,7 +509,7 @@ PT_Description="<font size='10'>\n-Два огнемёта\n-Тяжёлая бр
 VehiclePositionString="в стелс-танке"
 VehicleNameString="Стелс-танк"
 PT_Title="СТЕЛС-ТАНК"
-PT_Description="<font size='10'>-Две ракеты TOW\n-Тяжёлая броня\n-Машина партизанского боя\n-Активный камуфляж\n-DriveOnly</font>"
+PT_Description="<font size='10'>-Две ракеты TOW\n-Тяжёлая броня\n-Машина партизанского боя\n-Активный камуфляж\n-Только водитель</font>"
 
 [Rx_Defence_GunEmplacement]
 VehiclePositionString="в орудийной башне"
@@ -533,7 +533,7 @@ PT_Description="<font size='10'>-30мм автопушка\n-Ракеты Hydra-
 VehiclePositionString="в «Орке»"
 VehicleNameString="«Орка»"
 PT_Title="СВВП «ОРКА»"
-PT_Description="<font size='10'>-Hellfire Missiles\n-.50 Calibre Machine Gun\n-Лёгкая броня\n-Ударный СВВП\n-Пилот + Пассажир</font>"
+PT_Description="<font size='10'>-Ракеты Hellfire\n-Пулемёт .50 калибра\n-Лёгкая броня\n-Ударный СВВП\n-Пилот + Пассажир</font>"
 
 [Rx_Vehicle_Harvester]
 VehiclePositionString="в харвестере"
@@ -692,7 +692,7 @@ ItemName="155мм пушка"
 PickupMessage="Орудие артиллерии"
 
 [Rx_Vehicle_Buggy_Weapon]
-AltItemName="Пулемёт .50 Cal"
+AltItemName="Пулемёт .50 калибра"
 PickupMessage="Орудие багги"
 
 [Rx_Vehicle_Chinook_Weapon]
@@ -726,7 +726,7 @@ AltItemName="Ракеты Hellfire"
 PickupMessage="Ракетная башня"
 
 [Rx_Vehicle_Humvee_Weapon]
-AltItemName="Пулемёт .50 Cal"
+AltItemName="Пулемёт .50 калибра"
 PickupMessage="Орудие «Хамви»"
 
 [Rx_Vehicle_LightTank_Weapon]
@@ -828,7 +828,7 @@ PickupMessage="Орудие «Мамонта Мк. II»"
 
 [TS_Vehicle_TickTank_Weapon]
 ItemName="90мм орудие"
-AltItemName="Пулемёт .50 Cal"
+AltItemName="Пулемёт .50 калибра"
 PickupMessage="Орудие танка «Клещ»"
 
 [TS_Vehicle_ReconBike_Weapon]
@@ -1114,7 +1114,7 @@ SubHelpText[5]="+Все СИЛЫ ПОДДЕРЖКИ стоят ОЧКОВ КОМ
 	// ALT + Number
 	RadioCommandsText[10]    =   "Мне нужен ремонт!"
 	RadioCommandsText[11]    =   "Займи позицию."
-	RadioCommandsText[12]    =   "Выступаем."
+	RadioCommandsText[12]    =   "Выдвигаемся."
 	RadioCommandsText[13]    =   "За мной."
 	RadioCommandsText[14]    =   "Держи позицию."
 	RadioCommandsText[15]    =   "Прикрой меня."
@@ -1151,7 +1151,7 @@ SubHelpText[5]="+Все СИЛЫ ПОДДЕРЖКИ стоят ОЧКОВ КОМ
 	// ALT + Number
 	RadioCommandsALT[0]    =   "1|Мне нужен ремонт!"
 	RadioCommandsALT[1]    =   "2|Займи позицию."
-	RadioCommandsALT[2]    =   "3|Выступаем."
+	RadioCommandsALT[2]    =   "3|Выдвигаемся."
 	RadioCommandsALT[3]    =   "4|За мной."
 	RadioCommandsALT[4]    =   "5|Держим позицию."
 	RadioCommandsALT[5]    =   "6|Прикройте меня."
