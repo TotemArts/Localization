@@ -1,0 +1,1173 @@
+//=====================================
+//	Game
+//=====================================
+[Rx_Game]
+Description="Уничтожить вражескую базу, защитив свою."
+GameName="Режим C&C"
+EndOfMatchRulesTemplateStr_Scoring=First team to destroy the other wins
+EndOfMatchRulesTemplateStr_Time=Team with most points in `t mins. wins
+
+
+//=====================================
+//	Weapons 
+//=====================================
+
+[Rx_Weapon]
+ItemName="Безымянное оружие"
+PickupMessage="Безымянное оружие"
+
+[Rx_Weapon_Reloadable]
+ItemName="Безымянное восстанавливаемое оружие"
+PickupMessage="Безымянное восстанавливаемое оружие"
+
+[Rx_Weapon_Spray]
+ItemName="Безымянный распылитель"
+PickupMessage="Безымянный распылитель"
+
+[Rx_Weapon_Scoped]
+ItemName="Безымянное оружие с прицелом"
+PickupMessage="Безымянное оружие с прицелом"
+
+[Rx_Weapon_AutoRifle]
+ItemName="Автоматическая винтовка"
+PickupMessage="Автоматическая винтовка"
+
+[Rx_Weapon_TacticalRifle]
+ItemName="Тактическая винтовка"
+PickupMessage="Тактическая винтовка"
+
+[Rx_Weapon_Shotgun]
+ItemName="Дробовик"
+PickupMessage="Дробовик"
+
+[Rx_Weapon_RocketLauncher]
+ItemName="Реактивный гранатомёт"
+PickupMessage="Реактивный гранатомёт"
+
+[Rx_Weapon_Flamethrower]
+ItemName="Огнемёт"
+PickupMessage="Огнемёт"
+
+[Rx_Weapon_GrenadeLauncher]
+ItemName="Гранатомёт"
+PickupMessage="Гранатомёт"
+
+[Rx_Weapon_Pistol]
+ItemName="Пистолет с глушителем"
+PickupMessage="Пистолет с глушителем"
+
+[Rx_Weapon_Pistol_UnSILENCED]
+ItemName="Пистолет"
+PickupMessage="Пистолет"
+
+[Rx_Weapon_ChainGun]
+ItemName="Пулемёт"
+PickupMessage="Пулемёт"
+
+[Rx_Weapon_SniperRifle]
+ItemName="Снайперская винтовка"
+PickupMessage="Снайперская винтовка"
+
+[Rx_Weapon_VoltAutoRifle]
+ItemName="Электрошоковая винтовка"
+PickupMessage="Электрошоковая винтовка"
+
+[Rx_Weapon_RamjetRifle]
+ItemName="Крупнокалиберная снайперская винтовка"
+PickupMessage="Крупнокалиберная снайперская винтовка"
+
+[Rx_Weapon_Railgun]
+ItemName="Рельсовая пушка"
+PickupMessage="Рельсовая пушка"
+
+[Rx_Weapon_PersonalIonCannon]
+ItemName="Индивидуальная ионная пушка"
+PickupMessage="Индивидуальная ионная пушка"
+
+[Rx_Weapon_LaserRifle]
+ItemName="Лазерная винтовка"
+PickupMessage="Лазерная винтовка"
+
+[Rx_Weapon_LaserChainGun]
+ItemName="Лазерный пулемёт"
+PickupMessage="Лазерный пулемёт"
+
+[Rx_Weapon_MissileLauncher]
+ItemName="Пусковая установка"
+PickupMessage="Пусковая установка"
+
+[Rx_Weapon_ChemicalThrower]
+ItemName="Хим. распылитель"
+PickupMessage="Хим. распылитель"
+
+[Rx_Weapon_FlakCannon]
+ItemName="Зенитная пушка"
+PickupMessage="Зенитная пушка"
+
+[Rx_Weapon_RepairGun]
+ItemName="Ремонтный модуль"
+PickupMessage="Ремонтный модуль"
+
+[Rx_Weapon_RepairGunAdvanced]
+ItemName="Усоверш. ремонтный модуль"
+PickupMessage="Усоверш. ремонтный модуль"
+
+[Rx_Weapon_TimedC4]
+ItemName="C4 с часовым механизмом"
+PickupMessage="C4 с часовым механизмом"
+
+[Rx_Weapon_RemoteC4]
+ItemName="Дистанц. C4"
+PickupMessage="Дистанц. C4"
+
+[Rx_Weapon_ProxyC4]
+ItemName="Противопехотная мина"
+PickupMessage="Противопехотная мина"
+
+[Rx_Weapon_NukeBeacon]
+ItemName="Маяк ядерного удара"
+PickupMessage="Маяк ядерного удара"
+
+[Rx_Weapon_IonCannonBeacon]
+ItemName="Маяк ионного орудия"
+PickupMessage="Маяк ионного орудия"
+
+[Rx_Weapon_Grenade]
+ItemName="Осколочная граната"
+PickupMessage="Осколочная граната"
+
+[Rx_Weapon_Grenade_Rechargeable]
+ItemName="Осколочная граната"
+PickupMessage="Осколочная граната"
+
+[Rx_Weapon_SMG]
+ItemName="Пистолет-пулемёт"
+PickupMessage="Пистолет-пулемёт"
+
+[Rx_Weapon_SMG_Silenced]
+ItemName="Пистолет-пулемёт с глушителем"
+PickupMessage="Пистолет-пулемёт с глушителем"
+
+[Rx_Weapon_HeavyPistol]
+ItemName="Тяжёлый пистолет"
+PickupMessage="Тяжёлый пистолет"
+
+[Rx_Weapon_MarksmanRifle]
+ItemName="Снайперская полуавт. винтовка"
+PickupMessage="Снайперская полуавт. винтовка"
+
+[Rx_Weapon_Carbine]
+ItemName="Карабин"
+PickupMessage="Карабин"
+
+[Rx_Weapon_Carbine_Silencer]
+ItemName="Карабин с глушителем"
+PickupMessage="Карабин с глушителем"
+
+[Rx_Weapon_Airstrike]
+ItemName="Указатель авиаудара"
+PickupMessage="Указатель авиаудара"
+
+[Rx_Weapon_Airstrike_GDI]
+ItemName="Авиаудар A-10"
+PickupMessage="Авиаудар A-10"
+
+[Rx_Weapon_Airstrike_Nod]
+ItemName="Авиаудар AC-130"
+PickupMessage="Авиаудар AC-130"
+
+[Rx_Weapon_TiberiumFlechetteRifle]
+ItemName="Тибериумная флешеттная винтовка"
+PickupMessage="Тибериумная флешеттная винтовка"
+
+[Rx_Weapon_TiberiumAutoRifle]
+ItemName="Тибериумная автоматическая винтовка"
+PickupMessage="Тибериумная автоматическая винтовка"
+
+[Rx_Weapon_TiberiumAutoRifle_Blue]
+ItemName="Тибериумная автоматическая винтовка"
+PickupMessage="Тибериумная автоматическая винтовка"
+
+[Rx_Weapon_ATMine]
+ItemName="Противотанковая мина"
+PickupMessage="Противотанковая мина"
+
+[Rx_Weapon_EMPGrenade]
+ItemName="ЭМИ граната"
+PickupMessage="ЭМИ граната"
+
+[Rx_Weapon_EMPGrenade_Rechargeable]
+ItemName="ЭМИ граната"
+PickupMessage="ЭМИ граната"
+
+[Rx_Weapon_RepairTool]
+ItemName="Ремонтный инструмент"
+PickupMessage="Ремонтный инструмент"
+
+[Rx_Weapon_SmokeGrenade]
+ItemName="Дымовая граната"
+PickupMessage="Дымовая граната"
+
+[Rx_Weapon_SmokeGrenade_Rechargeable]
+ItemName="Дымовая граната"
+PickupMessage="Дымовая граната"
+
+[Rx_Weapon_TiberiumGrenade_Rechargeable]
+ItemName="Тибериумная граната"
+PickupMessage="Тибериумная граната"
+
+[Rx_Weapon_SniperRifle_UnSilenced]
+ItemName="Снайперская винтовка"
+PickupMessage="Снайперская винтовка"
+
+//=====================================
+//Rx WeaponAbilities
+//=====================================
+
+[Rx_WeaponAbility]
+ItemName="Безымянная способность"
+PickupMessage="Безымянная способность"
+
+[Rx_WeaponAbility_TiberiumGrenade]
+ItemName="Тибериумная граната"
+PickupMessage="Тибериумные гранаты"
+
+[Rx_WeaponAbility_Grenade]
+ItemName="Осколочная граната"
+PickupMessage="Осколочные гранаты"
+
+[Rx_WeaponAbility_EMPGrenade]
+ItemName="ЭМИ граната"
+PickupMessage="ЭМИ гранаты"
+
+[Rx_WeaponAbility_SmokeGrenade]
+ItemName="Дымовая граната"
+PickupMessage="Дымовые гранаты"
+
+[Rx_WeaponAbility_TacRifleGrenade]
+ItemName="Подствольный гранатомёт"
+PickupMessage="Подствольный гранатомёт"
+
+
+
+//=====================================
+//	Characters
+//=====================================
+
+[Rx_FamilyInfo]
+CharacterName="Безымянный персонаж"
+PT_Title="Безымянный"
+
+// GDI Infantry
+[Rx_FamilyInfo_GDI_Soldier]
+CharacterName="Солдат"
+PT_Title="СОЛДАТ"
+PT_Description="Броня: Кевлар\nСкорость: 100\nДоп.: Пистолет\n+Противопехотный"
+
+[Rx_FamilyInfo_GDI_Shotgunner]
+CharacterName="Солдат с дробовиком"
+PT_Title="СОЛДАТ С ДРОБОВИКОМ"
+PT_Description="Броня: Кевлар\nСкорость: 95\nДоп: Пистолет\n+Противопехотный"
+
+[Rx_FamilyInfo_GDI_Grenadier]
+CharacterName="Гренадер"
+PT_Title="ГРЕНАДЕР"
+PT_Description="Броня: Противоосколоч.\nСкорость: 100\nДоп: Пистолет\n+Противотанковый\n+Против построек"
+
+[Rx_FamilyInfo_GDI_Marksman]
+CharacterName="Стрелок"
+PT_Title="СТРЕЛОК"
+PT_Description="Броня: Кевлар\nСкорость: 100\nДоп: Пистолет\n+Противопехотный"
+
+[Rx_FamilyInfo_GDI_Engineer]
+CharacterName="Инженер"
+PT_Title="ИНЖЕНЕР"
+PT_Description="Броня: Противоосколоч.\nСкорость: 95\nДоп: Пистолет с глушителем\nДист. C4\n+Против построек\n+Ремонт/Поддержка"
+
+[Rx_FamilyInfo_GDI_Officer]
+CharacterName="Офицер"
+PT_Title="ОФИЦЕР"
+PT_Description="Броня: Кевлар\nСкорость: 100\nДоп: Пистолет\nДымовые гранаты\n+Противопехотный"
+
+[Rx_FamilyInfo_GDI_RocketSoldier]
+CharacterName="Ракетчик"
+PT_Title="РАКЕТЧИК"
+PT_Description="Броня: Противоосколоч.\nСкорость: 95\nДоп: Пистолет-пулемёт\nПротивотанковые мины\n+Противотанковый\n+Противовоздушный"
+
+[Rx_FamilyInfo_GDI_McFarland]
+CharacterName="МакФарланд"
+PT_Title="МАКФАРЛАНД"
+PT_Description="Броня: Кевлар\nСкорость: 105\nДоп: Пистолет\nОсколочные гранаты\n+Противопехотный"
+
+[Rx_FamilyInfo_GDI_Gunner]
+CharacterName="Ганнер"
+PT_Title="ГАННЕР"
+PT_Description="Броня: Противоосколоч.\nСкорость: 95\nДоп: Карабин\nЭМИ гранаты\nПротивотанковые мины\n+Противотанковый\n+Против построек"
+
+[Rx_FamilyInfo_GDI_Deadeye]
+CharacterName="Дэдай"
+PT_Title="ДЭДАЙ"
+PT_Description="Броня: Нет\nСкорость: 90\nДоп: Тяжёлый пистолет\nДымовые гранаты\n+Противопехотный"
+
+[Rx_FamilyInfo_GDI_Patch]
+CharacterName="Патч"
+PT_Title="ПАТЧ"
+PT_Description="Броня: Кевлар\nСкорость: 112.5\nДоп: Тяжёлый пистолет\nОсколочные гранаты\n+Противопехотный"
+
+[Rx_FamilyInfo_GDI_Havoc]
+CharacterName="Хавок"
+PT_Title="ХАВОК"
+PT_Description="Броня: Нет\nСкорость: 90\nДоп: Карабин\nДымовые гранаты\n+Противопехотный"
+
+[Rx_FamilyInfo_GDI_Sydney]
+CharacterName="Сидни"
+PT_Title="СИДНИ"
+PT_Description="Броня: Противоосколоч.\nСкорость: 100\nДоп: Тяжёлый пистолет\nЭМИ гранаты\nПротивотанковые мины\n+Противотанковый"
+
+[Rx_FamilyInfo_GDI_Mobius]
+CharacterName="Мёбиус"
+PT_Title="МЁБИУС"
+PT_Description="Броня: Кевлар\nСкорость: 100\nДоп: Тяжёлый пистолет\n+Против всего"
+
+[Rx_FamilyInfo_GDI_Hotwire]
+CharacterName="Хотвай"
+PT_Title="ХОТВАЙ"
+PT_Description="Броня: Противоосколоч.\nСкорость: 100\nДоп: Пистолет с глушителем\nДист. C4\nПротивопехотные мины\n+Против построек\n+Ремонт/Поддержка"
+
+//GDI Hero Units
+[Rx_FamilyInfo_GDI_Sydney_Suit]
+CharacterName="Брон. Сидни"
+PT_Title="Брон. Сидни"
+PT_Description="Броня: Противоосколоч.\nСкорость: 95\nДоп: Тибериумная авт. винтовка\n+Против всего"
+
+
+// Nod Infantry
+[Rx_FamilyInfo_Nod_Soldier]
+CharacterName="Солдат"
+PT_Title="СОЛДАТ"
+PT_Description="Броня: Кевлар\nСкорость: 100\nДоп: Пистолет\n+Противопехотный"
+
+[Rx_FamilyInfo_Nod_Shotgunner]
+CharacterName="Солдат с дробовиком"
+PT_Title="СОЛДАТ С ДРОБОВИКОМ"
+PT_Description="Броня: Кевлар\nСкорость: 100\nДоп: Пистолет\n+Противопехотный"
+
+[Rx_FamilyInfo_Nod_FlameTrooper]
+CharacterName="Огнемётчик"
+PT_Title="ОГНЕМЁТЧИК"
+PT_Description="Броня: Противоосколоч.\nСкорость: 105\nДоп: Пистолет\n+Против всего"
+
+[Rx_FamilyInfo_Nod_Marksman]
+CharacterName="Стрелок"
+PT_Title="СТРЕЛОК"
+PT_Description="Броня: Кевлар\nСкорость: 100\nДоп: Пистолет\n+Противопехотный"
+
+[Rx_FamilyInfo_Nod_Engineer]
+CharacterName="Инженер"
+PT_Title="ИНЖЕНЕР"
+PT_Description="Броня: Противоосколоч.\nСкорость: 95\nДоп: Пистолет с глушителем\nДист. C4\n+Против построек\n+Ремонт/Поддержка"
+
+[Rx_FamilyInfo_Nod_Officer]
+CharacterName="Офицер"
+PT_Title="ОФИЦЕР"
+PT_Description="Броня: Кевлар\nСкорость: 110\nДоп: Пистолет\nДымовые гранаты\n+Противопехотный"
+
+[Rx_FamilyInfo_Nod_RocketSoldier]
+CharacterName="Ракетчик"
+PT_Title="РАКЕТЧИК"
+PT_Description="Броня: Противоосколоч.\nСкорость: 105\nДоп: Пистолет-пулемёт\nПротивотанковые мины\n+Противотанковый\n+Противовоздушный"
+
+[Rx_FamilyInfo_Nod_ChemicalTrooper]
+CharacterName="Хим. солдат"
+PT_Title="ХИМ. СОЛДАТ"
+PT_Description="Броня: Противоосколоч.\nСкорость: 100\nДоп: Пистолет\nТибериумные гранаты\n+Против всего"
+
+[Rx_FamilyInfo_Nod_StealthBlackHand]
+CharacterName="Боец «Чёрной Руки»"
+PT_Title="БОЕЦ «ЧЁРНОЙ РУКИ»"
+PT_Description="Броня: Лазерная\nСкорость: 110\nДоп: Пистолет-пулемёт с глушителем\nАктивный камуфляж\n+Против всего"
+
+[Rx_FamilyInfo_Nod_BlackHandSniper]
+CharacterName="Снайпер «Чёрной Руки»"
+PT_Title="СНАЙПЕР «ЧЁРНОЙ РУКИ»"
+PT_Description="Броня: Нет\nСкорость: 90\nДоп: Тяжёлый пистолет\nДымовые гранаты\n+Противопехотный"
+
+[Rx_FamilyInfo_Nod_LaserChainGunner]
+CharacterName="Пулемётчик «Чёрной Руки»"
+PT_Title="ПУЛЕМЁТЧИК «ЧЁРНОЙ РУКИ»"
+PT_Description="Броня: Противоосколоч.\nСкорость: 80\nЭМИ гранаты\nПротивотанковые мины\n+Против всего\n+Тяжёлая пехота"
+
+[Rx_FamilyInfo_Nod_Sakura]
+CharacterName="Сакура"
+PT_Title="САКУРА"
+PT_Description="Броня: Нет\nСкорость: 90\nДоп: Карабин с глушителем\nДымовые гранаты\n+Противопехотный"
+
+[Rx_FamilyInfo_Nod_Raveshaw]
+CharacterName="Рэйвшоу"
+PT_Title="РЭЙВШОУ"
+PT_Description="Броня: Противоосколоч.\nСкорость: 100\nДоп: Тяжёлый пистолет\nЭМИ гранаты\nПротивотанковые мины\n+Противотанковый"
+
+[Rx_FamilyInfo_Nod_Mendoza]
+CharacterName="Мендоза"
+PT_Title="МЕНДОЗА"
+PT_Description="Броня: Кевлар\nСкорость: 110\nДоп: Тяжёлый пистолет\n+Против всего"
+
+[Rx_FamilyInfo_Nod_Technician]
+CharacterName="Техник"
+PT_Title="ТЕХНИК"
+PT_Description="Броня: Противоосколоч.\nСкорость: 100\nДоп: Пистолет с глушителем\nДист. C4\nПротивопехотные мины\n+Против построек\n+Ремонт/Поддержка"
+
+//Nod Hero Units 
+[Rx_FamilyInfo_Nod_Raveshaw_Mutant]
+CharacterName="Мутант Рэйвшоу"
+PT_Title="Мутант Рэйвшоу"
+PT_Description="Броня: Противоосколоч.\nСкорость: 95\nДоп: Тибериумная авт. винтовка\n+Против всего"
+
+
+//=====================================
+//	Vehicles
+//=====================================
+[Rx_Vehicle]
+VehiclePositionString="в машине"
+VehicleNameString="Машина"
+
+[Rx_Vehicle_Treaded]
+VehiclePositionString="в танке"
+VehicleNameString="Танк"
+
+[Rx_Vehicle_MammothTank]
+VehiclePositionString="в танке Мамонт"
+VehicleNameString="Танк «Мамонт»"
+PT_Title="ТАНК «МАМОНТ»"
+PT_Description="<font size='10'>-Два 120мм орудия\n-Четыре ракеты Tusk\n-Тяжелая броня\n-Тяжёлый танк\n-Водитель + Пассажир</font>"
+
+[Rx_Vehicle_MediumTank]
+VehiclePositionString="в среднем танке"
+VehicleNameString="Средний танк"
+PT_Title="СРЕДНИЙ ТАНК"
+PT_Description="<font size='10'>-105мм орудие\n-Тяжёлая броня\n-Основной боевой танк\n-Водитель + Пассажир</font>"
+
+[Rx_Vehicle_Chinook]
+VehiclePositionString="в «Чинуке»"
+VehicleNameString="«Чинук»"
+PT_Title="ТРАНСПОРТНЫЙ ВЕРТОЛЁТ"
+PT_Description="<font size='10'>\n-Два пулемёта Гаттлинга\n-Лёгкая броня\n-Десантный транспорт\n-Пилот + 4 пассажира</font>"
+
+[Rx_Vehicle_APC_Nod]
+VehiclePositionString="в БТРе"
+VehicleNameString="БТР"
+PT_Title="БРОНЕТРАНСПОРТЁР"
+PT_Description="<font size='10'>-M134 Minigun\n-Тяжёлая броня\n-Десантный транспорт\n-Водитель + 4 пассажира</font>"
+
+[Rx_Vehicle_APC_GDI]
+VehiclePositionString="в БМП"
+VehicleNameString="БМП"
+PT_Title="БОЕВАЯ МАШИНА ПЕХОТЫ"
+PT_Description="<font size='10'>-M134 Minigun\n-Тяжёлая броня\n-Десантный транспорт\n-Водитель + 4 пассажира</font>"
+
+[Rx_Vehicle_Buggy]
+VehiclePositionString="в багги"
+VehicleNameString="Багги"
+PT_Title="БАГГИ"
+PT_Description="<font size='10'>-Пулемёт .50 калибра\n-Лёгкая броня\n-Развед. транспорт\n-Водитель + Пассажир</font>"
+
+[Rx_Vehicle_HoverCraft]
+VehiclePositionString="в СВП"
+VehicleNameString="СВП"
+
+[Rx_Vehicle_Humvee]
+VehiclePositionString="в «Хамви»"
+VehicleNameString="«Хамви»"
+PT_Title="«ХАМВИ»"
+PT_Description="<font size='10'>-Пулемёт .50 калибра\n-Лёгкая броня\n-Развед. транспорт\n-Водитель + Пассажир</font>"
+
+[Rx_Vehicle_MRLS]
+VehiclePositionString="в РСЗО"
+VehicleNameString="РСЗО"
+PT_Title="РЕАКТИВНАЯ СИСТЕМА ЗАЛПОВОГО ОГНЯ"
+PT_Description="<font size='10'>-Ракеты M269\n-Лёгкая броня\n-Артиллерийская стрельба\n-Водитель + Пассажир</font>"
+
+[Rx_Vehicle_LightTank]
+VehiclePositionString="в лёгком танке"
+VehicleNameString="Лёгкий танк"
+PT_Title="ЛЁГКИЙ ТАНК"
+PT_Description="<font size='10'>\n-75мм орудие\n-Тяжёлая броня\n-Основной боевой танк\n-Водитель + Пассажир</font>"
+
+[Rx_Vehicle_Artillery]
+VehiclePositionString="в артиллерии"
+VehicleNameString="Артиллерия"
+PT_Title="САМОХОДНАЯ АРТИЛЛЕРИЯ"
+PT_Description="<font size='10'>\n-155мм гаубица\n-Лёгкая броня\n-Артиллерийская стрельба\n-Водитель + Пассажир</font>"
+
+[Rx_Vehicle_FlameTank]
+VehiclePositionString="в огнемётном танке"
+VehicleNameString="Огнемётный танк"
+PT_Title="ОГНЕМЁТНЫЙ ТАНК"
+PT_Description="<font size='10'>\n-Два огнемёта\n-Тяжёлая броня\n-Подавитель ближнего действия\n-Водитель + Пассажир</font>"
+
+[Rx_Vehicle_StealthTank]
+VehiclePositionString="в стелс-танке"
+VehicleNameString="Стелс-танк"
+PT_Title="СТЕЛС-ТАНК"
+PT_Description="<font size='10'>-Две ракеты TOW\n-Тяжёлая броня\n-Машина партизанского боя\n-Активный камуфляж\n-DriveOnly</font>"
+
+[Rx_Defence_GunEmplacement]
+VehiclePositionString="в орудийной башне"
+VehicleNameString="Орудийная башня"
+
+[Rx_Defence_RocketEmplacement]
+VehiclePositionString="в ракетной башне"
+VehicleNameString="Ракетная башня"
+
+[Rx_Vehicle_A10]
+VehiclePositionString="в A-10"
+VehicleNameString="A-10"
+
+[Rx_Vehicle_Apache]
+VehiclePositionString="в «Апаче»"
+VehicleNameString="«Апач»"
+PT_Title="«АПАЧ»"
+PT_Description="<font size='10'>-30мм автопушка\n-Ракеты Hydra-70\n-Лёгкая броня\n-Ударный вертолёт\n-Пилот + Пассажир</font>"
+
+[Rx_Vehicle_Orca]
+VehiclePositionString="в «Орке»"
+VehicleNameString="«Орка»"
+PT_Title="СВВП «ОРКА»"
+PT_Description="<font size='10'>-Hellfire Missiles\n-.50 Calibre Machine Gun\n-Лёгкая броня\n-Ударный СВВП\n-Пилот + Пассажир</font>"
+
+[Rx_Vehicle_Harvester]
+VehiclePositionString="в харвестере"
+VehicleNameString="Харвестер"
+
+[Rx_Vehicle_HoverCraft_GDI]
+VehiclePositionString="в СВП"
+VehicleNameString="СВП"
+
+[Rx_Vehicle_HoverCraft_Nod]
+VehiclePositionString="в СВП"
+VehicleNameString="СВП"
+
+[Rx_Vehicle_Bus]
+VehiclePositionString="в автобусе"
+VehicleNameString="Автобус"
+
+[Rx_Defence_GuardTower]
+VehiclePositionString="в сторожевой вышке"
+VehicleNameString="Сторожевая вышка"
+
+[Rx_Defence_Turret]
+VehiclePositionString="в турели"
+VehicleNameString="Турель"
+
+[Rx_Defence_AATower]
+VehiclePositionString="в противовоздушной вышке"
+VehicleNameString="Противовоздушная вышка"
+
+[Rx_Defence_SAMSite]
+VehiclePositionString="в установке ПВО"
+VehicleNameString="Установка ПВО"
+
+[Rx_Vehicle_MG_GDI]
+VehiclePositionString="в .50 Cal"
+VehicleNameString=".50 Cal"
+
+[APB_Vehicle_TeslaTank]
+VehiclePositionString="в танке Теслы"
+VehicleNameString="Танк Теслы"
+
+[TS_Vehicle_HoverMRLS]
+VehiclePositionString="в РСЗОВП"
+VehicleNameString="РСЗОВП"
+PT_Title="РСЗОВП"
+
+[TS_Vehicle_Titan]
+VehiclePositionString="в «Титане»"
+VehicleNameString="«Титан»"
+PT_Title="«ТИТАН»"
+
+[TS_Vehicle_Wolverine]
+VehiclePositionString="в «Росомахе»"
+VehicleNameString="«Росомаха»"
+PT_Title="«РОСОМАХА»"
+
+[TS_Vehicle_Wolverine_HD]
+VehiclePositionString="в «Росомахе»"
+VehicleNameString="«Росомаха»"
+PT_Title="«РОСОМАХА»"
+
+[TS_Vehicle_Juggernaut]
+VehiclePositionString="в «Джаггернауте»"
+VehicleNameString="«Джаггернаут»"
+PT_Title="«ДЖАГГЕРНАУТ»"
+
+[TS_Vehicle_AAPC]
+VehiclePositionString="в БМП-амфибии"
+VehicleNameString="БМП-амфибия"
+PT_Title="БМП-АМФИБИЯ"
+
+[TS_Vehicle_Disruptor]
+VehiclePositionString="в «Дизрапторе»"
+VehicleNameString="«Дизраптор»"
+PT_Title="«ДИЗРАПТОР»"
+
+[TS_Vehicle_MMKII]
+VehiclePositionString="в «Мамонте Мк. II»"
+VehicleNameString="«Мамонт Мк. II»"
+PT_Title="«МАМОНТ МК. II»"
+
+[TS_Vehicle_TickTank]
+VehiclePositionString="в танке «Клещ»"
+VehicleNameString="Танк «Клещ»"
+PT_Title="ТАНК «КЛЕЩ»"
+
+[TS_Vehicle_ReconBike]
+VehiclePositionString="в мотоцикле"
+VehicleNameString="Мотоцикл"
+PT_Title="БОЕВОЙ МОТОЦИКЛ"
+
+[TS_Vehicle_Buggy]
+VehiclePositionString="в багги"
+VehicleNameString="Багги"
+PT_Title="БАГГИ"
+
+[TS_Vehicle_Buggy_HD]
+VehiclePositionString="в багги"
+VehicleNameString="Багги"
+PT_Title="БАГГИ"
+
+[TS_Vehicle_Artillery]
+VehiclePositionString="в артиллерии"
+VehicleNameString="Артиллерия"
+PT_Title="АРТИЛЛЕРИЯ"
+
+[TS_Vehicle_StealthTank]
+VehiclePositionString="в стелс-танке"
+VehicleNameString="Стелс-танк"
+PT_Title="СТЕЛС-ТАНК"
+
+[TS_Vehicle_DevilsTongue]
+VehiclePositionString="в «Языке Дьявола»"
+VehicleNameString="«Язык Дьявола»"
+PT_Title="«ЯЗЫК ДЬЯВОЛА»"
+
+[Rx_Vehicle_M2Bradley]
+VehiclePositionString="в лёгком танке"
+VehicleNameString="Лёгкий танк"
+PT_Title="ЛЁГКИЙ ТАНК"
+PT_Description="<font size='10'>\n-75мм орудие\n-Тяжёлая броня\n-Основной боевой танк\n-Водитель + Пассажир</font>"
+
+//=====================================
+//	Vehicle Weapons
+//=====================================
+
+[Rx_Vehicle_Weapon]
+ItemName="Основное оружие"
+PickupMessage="Основное оружие"
+
+[Rx_Vehicle_A10_Weapon]
+ItemName="Пушка GAU-8/A"
+AltItemName="Ракеты AGM-65"
+PickupMessage="Оружие A-10"
+
+[Rx_Vehicle_Apache_Weapon]
+ItemName="30мм автоматическая пушка"
+AltItemName="Ракеты Hydra-70"
+PickupMessage="Оружие «Апача»"
+
+[Rx_Vehicle_Orca_Weapon]
+ItemName="Ракеты Hellfire"
+AltItemName="Пулемёт .50 Cal"
+PickupMessage="Оружие «Орки»"
+
+[Rx_Vehicle_APC_Nod_Weapon]
+ItemName="M134 Minigun"
+PickupMessage="Орудие БТРа"
+
+[Rx_Vehicle_APC_GDI_Weapon]
+ItemName="M134 Minigun"
+PickupMessage="Орудие БМП"
+
+[Rx_Vehicle_Artillery_Weapon]
+ItemName="155мм пушка"
+PickupMessage="Орудие артиллерии"
+
+[Rx_Vehicle_Buggy_Weapon]
+AltItemName="Пулемёт .50 Cal"
+PickupMessage="Орудие багги"
+
+[Rx_Vehicle_Chinook_Weapon]
+ItemName="Транспортный вертолёт"
+PickupMessage="Орудие «Чинука»"
+
+[Rx_Vehicle_Chinook_Weapon_GDI_Left]
+ItemName="Орудие Гаттлинга"
+PickupMessage="Орудие «Чинука»"
+
+[Rx_Vehicle_Chinook_Weapon_GDI_Right]
+ItemName="Орудие Гаттлинга"
+PickupMessage="Орудие «Чинука»"
+
+[Rx_Vehicle_Chinook_Weapon_Nod_Left]
+ItemName="Орудие Гаттлинга"
+PickupMessage="Орудие «Чинука»"
+
+[Rx_Vehicle_Chinook_Weapon_Nod_Right]
+ItemName="Орудие Гаттлинга"
+PickupMessage="Орудие «Чинука»"
+
+[Rx_Defence_GunEmplacement_Weapon]
+ItemName="Орудие Гаттлинга"
+PickupMessage="Автопушка"
+PickupMessage="Орудийная башня"
+
+[Rx_Defence_RocketEmplacement_Weapon]
+ItemName="Пусковая установка SWARM"
+AltItemName="Ракеты Hellfire"
+PickupMessage="Ракетная башня"
+
+[Rx_Vehicle_Humvee_Weapon]
+AltItemName="Пулемёт .50 Cal"
+PickupMessage="Орудие «Хамви»"
+
+[Rx_Vehicle_LightTank_Weapon]
+ItemName="75мм пушка"
+PickupMessage="Орудие лёгкого танка"
+
+[Rx_Vehicle_MammothWeapon]
+ItemName="120мм пушка"
+AltItemName="Ракеты Tusk"
+PickupMessage="Орудие танка «Мамонт»"
+
+[Rx_Vehicle_MediumTank_Weapon]
+ItemName="105мм пушка"
+PickupMessage="Орудие среднего танка"
+
+[Rx_Vehicle_MediumTank_Weapon_MultiWeap]
+ItemName="105мм пушка"
+AltItemName="Спаренный пулемёт"
+PickupMessage="Орудие среднего танка"
+
+[Rx_Vehicle_MRLS_Weapon]
+ItemName="Ракеты M269"
+PickupMessage="Орудие РСЗО"
+
+[Rx_Vehicle_FlameTank_Weapon]
+ItemName="Огнемёты"
+PickupMessage="Орудия огнемётного танка"
+
+[Rx_Vehicle_StealthTank_Weapon]
+ItemName="Ракеты TOW"
+PickupMessage="Орудие стелс-танка"
+
+[Rx_Vehicle_Harvester_Weapon]
+ItemName="Тибериумный харвестер"
+PickupMessage="Орудие харвестера"
+
+[Rx_Defence_GuardTower_Weapon]
+ItemName="Орудие Vulcan"
+PickupMessage="Орудие сторожевой вышки"
+
+[Rx_Defence_Turret_Weapon]
+ItemName="105мм пушка"
+PickupMessage="Орудие турели"
+
+[Rx_Defence_SAMSite_Weapon]
+ItemName="Ракеты земля-воздух"
+PickupMessage="Орудие ПВО"
+
+[Rx_Defence_AATower_Weapon]
+ItemName="Противовоздушные ракеты"
+PickupMessage="Орудие противовоздушной вышки"
+
+[Rx_Vehicle_Hovercraft_GDI_Weapon]
+ItemName="Тяжёлые орудия"
+AltItemName="Пусковая установка SWARM"
+PickupMessage="Орудие СВП"
+
+[Rx_Vehicle_Hovercraft_Nod_Weapon]
+ItemName="Тяжёлые орудия"
+AltItemName="Пусковая установка SWARM"
+PickupMessage="Орудие СВП"
+
+[APB_Vehicle_TeslaTank_Weapon]
+ItemName="Катушка Теслы"
+PickupMessage="Орудие танка Теслы"
+
+[TS_Vehicle_HoverMRLS_Weapon]
+ItemName="Ракеты M269"
+PickupMessage="Орудие РСЗОВП"
+
+[TS_Vehicle_Titan_Weapon]
+ItemName="120мм пушка"
+PickupMessage="Орудие «Титана»"
+
+[TS_Vehicle_Wolverine_Weapon]
+ItemName="Орудия Vulcan"
+PickupMessage="Орудия «Росомахи»"
+
+[TS_Vehicle_Wolverine_HD_Weapon]
+ItemName="Орудия Vulcan"
+PickupMessage="Орудия «Росомахи»"
+
+[TS_Vehicle_Juggernaut_Weapon]
+ItemName="155мм пушка"
+PickupMessage="Орудие «Джаггернаута»"
+
+[TS_Vehicle_AAPC_Weapon]
+ItemName="Beep Beep"
+PickupMessage="Орудие БМП-амфибии"
+
+[TS_Vehicle_Disruptor_Weapon]
+ItemName="Ульразвуковое орудие"
+PickupMessage="Орудие «Дизраптора»"
+
+[TS_Vehicle_MMKII_Weapon]
+ItemName="Рельсотрон"
+AltItemName="Ракеты Tusk"
+PickupMessage="Орудие «Мамонта Мк. II»"
+
+[TS_Vehicle_TickTank_Weapon]
+ItemName="90мм орудие"
+AltItemName="Пулемёт .50 Cal"
+PickupMessage="Орудие танка «Клещ»"
+
+[TS_Vehicle_ReconBike_Weapon]
+ItemName="Ракеты Hydra-70"
+PickupMessage="Орудие мотоцикла"
+
+[TS_Vehicle_Buggy_Weapon]
+ItemName="30мм автопушка"
+PickupMessage="Орудие багги"
+
+[TS_Vehicle_Buggy_HD_Weapon]
+ItemName="Орудие Гаттлинга"
+AltItemName="20мм пушка"
+PickupMessage="Орудие багги"
+
+[TS_Vehicle_Artillery_Weapon]
+ItemName="185мм пушка"
+PickupMessage="Орудие артиллерии"
+
+[TS_Vehicle_DevilsTongue_Weapon]
+ItemName="Огнемёты"
+PickupMessage="Орудие «Языка Дьявола»"
+
+[TS_Vehicle_StealthTank_Weapon]
+ItemName="Ракеты TOW"
+PickupMessage="Орудие стелс-танка"
+
+[Rx_Vehicle_M2Bradley_Weapon]
+ItemName="22мм пушка"
+AltItemName="Ракеты TOW"
+PickupMessage="Орудие М2 «Брэдли»"
+
+
+//////////////////////
+//  Building Names  //
+//////////////////////
+[Rx_Building_AdvancedGuardTower_Internals]
+BuildingName = "Улучшенная сторожевая вышка"
+
+[Rx_Building_AirTower_Internals]
+BuildingName = "ВПП"
+
+[Rx_Building_Barracks_Internals]
+BuildingName = "Бараки пехоты"
+
+[Rx_Building_HandOfNod_Internals]
+BuildingName = "Рука Нод"
+
+[Rx_Building_Obelisk_Internals]
+BuildingName = "Обелиск"
+
+[Rx_Building_PowerPlant_Internals]
+BuildingName = "Электростанция"
+
+[Rx_Building_Refinery_Internals]
+BuildingName = "Перерабатывающий завод"
+
+[Rx_Building_Silo_Internals]
+BuildingName = "Хранилище"
+
+[Rx_Building_WeaponsFactory_Internals]
+BuildingName = "Оружейный завод"
+
+[Rx_CapturableMCT_Internals_Kismet]
+BuildingName = "Тех. здание"
+
+[Rx_Building_CommCentre_Internals]
+BuildingName = "Центр коммуникаций"
+
+[Rx_CapturableMCT_MC_Internals]
+BuildingName = "Мед. центр"
+
+[Rx_CapturableMCT_Fort_Internals]
+BuildingName = "Форт"
+
+[Rx_Building_MedicalCentre_Internals]
+BuildingName = "Мед. центр"
+
+[Rx_Building_RepairPad_Internals]
+BuildingName = "Ремонтная площадка"
+
+//=====================================
+//	Buildings
+//=====================================
+[Rx_Message_Buildings]
+BuildingBroadcastMessages[0]="`PlayerName` уничтожил `BuildingName`"
+BuildingBroadcastMessages[1]="`BuildingName` уничтожена `PlayerName`"
+BuildingBroadcastMessages[2]="`PlayerName` захватил `BuildingName`"
+BuildingBroadcastMessages[3]="`PlayerName` нейтрализовал `BuildingName`"
+
+//=====================================
+//	Crates
+//=====================================
+[Rx_CratePickup]
+PickupMessages[0]="Вы наткнулись на гранату, БА-БАХ!"
+PickupMessages[1]="Сюрприз! Приближается удар ионного орудия!"
+PickupMessages[2]="Кстати, зафиксирован запуск ядерной ракеты. Муахахаха!"
+PickupMessages[3]="Вы нашли `credsum` кредитов!"
+PickupMessages[4]="Вы нашли новую униформу!"
+PickupMessages[5]="Вы получили `vehname`!"
+PickupMessages[6]="Вы получили вражескую униформу!"
+PickupMessages[7]="Ваше здоровье и боеприпасы были восстановлены!"
+
+[Rx_Message_Crates]
+PickupBroadcastMessages[0]= "`PlayerName` нашёл ящик!"
+PickupBroadcastMessages[1]="`PlayerName` только что получил ящик смерти. Хреново быть им."
+PickupBroadcastMessages[2]="`PlayerName` получил ионным ударом по лицу. Ой!"
+PickupBroadcastMessages[3]="`PlayerName` озеленился. Ядерной радиацией."
+PickupBroadcastMessages[4]="`PlayerName` нашёл ящик с деньгами!"
+PickupBroadcastMessages[5]="`PlayerName` получил нового персонажа!"
+PickupBroadcastMessages[6]="`PlayerName` получил новый транспорт!"
+PickupBroadcastMessages[7]="Глядите в оба, вражеский игрок поднял шпионский ящик!"
+PickupBroadcastMessages[8]="`PlayerName` поднял шпионский ящик!"
+PickupBroadcastMessages[9]="`PlayerName` поднял восстанавливающий ящик."
+PickupBroadcastMessages[10]="`PlayerName` поднял ящик самоубийства."
+PickupBroadcastMessages[11]="`PlayerName` поднял ящик улучшения скорости."
+PickupBroadcastMessages[12]="`PlayerName` был похищен пришельцами."
+PickupBroadcastMessages[13]="`PlayerName` не проживёт дольше 30 секунд."
+PickupBroadcastMessages[14]="`PlayerName` открыл вооружение из будущего!"
+PickupBroadcastMessages[15]="`PlayerName` открыл вооружение из прошлого Кейна!"
+PickupBroadcastMessages[16]="`PlayerName` поднял ящик ветеранства!"
+PickupBroadcastMessages[17]="`PlayerName` поднял ящик устойчивости к урону!" 
+PickupBroadcastMessages[18]="`PlayerName` открыл КЛАССИЧЕСКОЕ вооружение!" 
+PickupBroadcastMessages[19]="`PlayerName` нашёл ящик с ЭПИЧЕСКИМ персонажем!" 
+
+[Rx_CrateType_Money]
+PickupMessage = "Вы нашли `credsum` кредитов!"
+
+[Rx_CrateType_Refill]
+PickupMessage = "Ваше здоровье и боеприпасы были восстановлены!"
+
+[Rx_CrateType_Spy]
+PickupMessage = "Вы нашли вражескую униформу!"
+
+[Rx_CrateType_Vehicle]
+PickupMessage = "Вы получили `vehname`!"
+
+[Rx_CrateType_Character]
+PickupMessage = "Вы нашли новую униформу!"
+
+[Rx_CrateType_Suicide]
+PickupMessage = "Вы нашли ответ на все вопросы Вселенной и больше не видите смысла жить дальше."
+
+[Rx_CrateType_TimeBomb]
+PickupMessage = "На твоей голове бомба. У тебя осталось 30 секунд жизни."
+
+[Rx_CrateType_Nuke]
+PickupMessage = "Кстати, зафиксирован запуск ядерной ракеты. Муахахаха!"
+
+[Rx_CrateType_Speed]
+PickupMessage = "Скорость вашего персонажа была увеличена на `increasepct`%!"
+
+[Rx_CrateType_Abduction]
+PickupMessage = "Вы были похищены Скриннами!"
+
+[Rx_CrateType_TSVehicle]
+PickupMessage = "Открылась дыра во времени! Теперь вы командуете будущим."
+
+[Rx_CrateType_RAVehicle]
+PickupMessage = "Похоже, что происходит страшный хроносдвиг! Вы управляете прошлым."
+
+[Rx_CrateType_Veterancy]
+PickupMessage = "Вы узнали немного больше об искусстве войны."
+
+[Rx_CrateType_DamageResistance]
+PickupMessage = "Вы подняли ящик СОПРОТИВЛЕНИЯ К УРОНУ."
+
+[Rx_CrateType_ClassicVehicle]
+PickupMessage = "Никогда не забывайте КЛАССИКУ."
+
+[Rx_CrateType_EpicCharacter]
+PickupMessage = "Вы нашли ЭПИЧЕСКОГО персонажа!"
+
+[Rx_Message_Vehicle]
+VehicleMessages[0]="`VehicleClass` закреплен за вами. Нажмите [`LockKey`] чтобы закрыть водительское место. Задержите [`LockKey`] чтобы освободить машину для команды."
+VehicleMessages[1]="`VehicleClass` автоматически закреплен за вами. Нажмите [`LockKey`] чтобы закрыть водительское место. Держите [`LockKey`] чтобы освободить машину для команды."
+VehicleMessages[2]="`VehicleClass` отдан команде."
+
+VehicleMessages[3]="Эта машина не занята, держите [`LockKey`] закрепить её за собой."
+VehicleMessages[4]="Эта машина не занята, держите [`LockKey`] чтобы заменить свой `VehicleClass` этой машиной."
+VehicleMessages[5]="Предыдущий владелец освободил эту машину. Держите [`LockKey`] чтобы закрепить её за собой."
+VehicleMessages[6]="Невозоможно закрепить машину, так как она уже закреплена за игроком `OwnerName`."
+
+VehicleMessages[7]="`VehicleClass` водительское место Закрыто."
+VehicleMessages[8]="`VehicleClass` водительское место Открыто."
+
+VehicleMessages[9]="Водительское место закрыто `OwnerName`."
+VehicleMessages[10]="Вы не можете войти в эту технику. Покупатель '`OwnerName`' имеет персональный доступ к ней ещё `IntegerValue` секунд."
+VehicleMessages[11]="Вы не можете войти в эту технику. `OwnerTeam` имеет персональный доступ к ней ещё `IntegerValue` секунд."
+
+VehicleMessages[12]="`VehicleClass` `OwnerName`а был украден врагом!"
+VehicleMessages[13]="`OtherName` занял водительское место вашего `VehicleClass`."
+VehicleMessages[14]="Ваш `VehicleClass` был уничтожен."
+
+VehicleMessages[15]="`OwnerName` закрыл водительское место."
+
+VehicleMessages[16]="`OtherName` украл `VehicleClass`!"
+VehicleMessages[17]="`VehicleClass` попал в руки врага!"
+
+//=====================================
+// Context Menu Help
+//=====================================
+
+[Rx_CommandMenuChoice]
+MainHelpText=""
+SubHelpText[0]=""
+
+[Rx_CommandMenuChoice_SupportPowers]
+
+//Radar Scan [GDI]
+SubHelpText_GDI[0]="+Доставка:%Мгновенное сканирование радаром%%+Назначение:%-КОМАНДИР помечает всех врагов в указанном радиусе на 20 секунд%%-Показывает юнитов на карте полные 60 секунд%%Заметки%%-Игнорирует укрытия"
+
+//Spy Plane [Nod]
+SubHelpText_Nod[0]="+Доставка:%Разведывательный самолёт%%+Назначение:%-КОМАНДИР помечает врагов, находящихся не в укрытии, на 20 секунд%%-Помечает юнитов на полные 45 секунд%%Заметки%%-Самолёт требует прямого визуального контакта с врагом%%-Не может быть сбит%"
+
+//Smoke
+SubHelpText_GDI[1]="+Доставка:%Бомбардировщик%%+Назначение:%-Блокирует поле зрения%-Ослепляет защитные сооружения%%Заметки%%-Не может быть сбит%"
+
+SubHelpText_Nod[1]="+Доставка:%Бомбардировщик%%+Назначение:%-Блокирует поле зрения%-Ослепляет защитные сооружения%%Заметки%%-Не может быть сбит%"
+
+//EMP Strike
+SubHelpText_GDI[2]="+Доставка:%Бомбардировщик%%+Назначение:%-Обездвиживает технику%-Обезвреживает вражеские мины%%Заметки%%-Не может быть сбит%"
+
+SubHelpText_Nod[2]="+Доставка:%Бомбардировщик%%+Назначение:%-Обездвиживает технику%-Обезвреживает вражеские мины%%Заметки%%-Не может быть сбит%"
+
+
+//Cruise Missile
+SubHelpText_GDI[3]="+Доставка:%Самонаводящаяся ракета%%+Назначение:%-Огромный урон%-Большой радиус действия%%-Может взорваться в воздухе%Может быть сбита%"
+
+SubHelpText_Nod[3]="+Доставка:%Самонаводящаяся ракета%%+Назначение:%-Огромный урон%-Большой радиус действия%%-Может взорваться в воздухе%Может быть сбита%"
+
+//Defensive Buff
+SubHelpText_GDI[4]="+Доставка:%Вызов на себя%%+Назначение:%УВЕЛИЧЕНИЕ СОПРОТИВЛЕНИЯ К УРОНУ%%Действует на всех ДРУЖЕСТВЕННЫХ юнитов вокруг командира.%%Длительность: 20 секунд%"
+
+SubHelpText_Nod[4]="+Доставка:%Вызов на себя%%+Назначение:%УВЕЛИЧЕНИЕ СОПРОТИВЛЕНИЯ К УРОНУ%%Действует на всех ДРУЖЕСТВЕННЫХ юнитов вокруг командира.%%Длительность: 20 секунд%"
+
+//Offensive Buff
+SubHelpText_GDI[5]="+Доставка:%Вызов на себя%%+Назначение:%+МНОЖЕСТВЕННО увеличивает атакующую способность%%Действует на всех ДРУЖЕСТВЕННЫХ юнитов вокрут командира%%Длительность: 20 секунд%"
+
+SubHelpText_Nod[5]="+Доставка:%Вызов на себя%%+Назначение:%+МНОЖЕСТВЕННО увеличивает атакующую способность%%Действует на всех ДРУЖЕСТВЕННЫХ юнитов вокрут командира%%Длительность: 20 секунд%"
+
+
+
+//Help Menu
+[Rx_CommandMenuChoice_Help]
+MainHelpText="Выберите тему с помощью 'циферных' клавиш.%"
+
+//Commander Help: Chat
+SubHelpText[0]="+Сообщения командира в командный чат%окрашены другим цветом, чтобы обеспечить%более лёгкое распознавание.%%+Начните сообщение в чат команды с%'/C', чтобы оно отобразилось как СООБЩЕНИЕ КОМАНДИРА.%%+СООБЩЕНИЯ КОМАНДИРА показываются как и в%обычном чате, так и в центральном чате для%выразительности.%%+Начните сообщение в чат команды с '/R', %чтобы оно отобразилось как сообщение о РАШЕ.%%+сообщения о РАШЕ появляются в центре экрана%и длятся 15 секунд.%"
+
+//Commander Help: Targeting
+SubHelpText[1]="+Цели, отмеченные КОМАНДИРОМ,%видимы ВСЕМ игрокам в команде.%%+Цели, отмеченные КОМАНДИРОМ, нумеруются для%лёгкой идентификации.%%+Цели, отмеченные командиром исчезают со временем.%Цели длятся 20 секунд.%Они начнут УМЕНЬШАТЬСЯ, когда они начнут исчезать.%%Цели, отмеченные КОМАНДИРОМ, дают%10 ОЧКОВ КОМАНДОВАНИЯ[ОК] при уничтожении.%"
+
+//Commander Help: Waypoints
+SubHelpText[2]="+ТОЧКИ СЛЕДОВАНИЯ видны всей команде.%%+После выбора точки следования с помощью 1-9,% Q поставить её в место, куда был направлен прицел.%%+Задержав Q, Вы можете убрать точку следования.%" 
+
+//Commander Help: Remove Mines
+SubHelpText[3]="+Выберите здание с помощью цифры,% а затем задержите -Q-, чтобы убрать ВСЕ% Мины C4 в этом здании.%"
+
+//Commander Help: Harvester Options
+SubHelpText[4]="+ХАРВЕСТЕР можно ОСТАНОВИТЬ.%%+ТОЧКА СЛЕДОВАНИЯ ХАРВЕСТЕРА% это место, куда ХАРВЕСТЕР%последует, когда будет отдана команда.%%+ХАРВЕСТЕРУ можно приказать самоуничтожиться,%если он застрянет где-нибудь по пути.%%+Если отдать приказ о САМОУНИЧТОЖЕНИИ снова,%это отменит детонацию.%"
+
+
+//Commander Help: Support Powers
+SubHelpText[5]="+Все СИЛЫ ПОДДЕРЖКИ стоят ОЧКОВ КОМАНДОВАНИЯ%%+Большинство из них вызываются%задержкой клавиши -Q- и указанием района.%%+Силы поддержки имеют свот%подсказки при их выборе%"
+
+//=====================================
+// Text Radio Commands
+//=====================================
+[Rx_Controller]
+	// CTRL + Number
+	RadioCommandsText[0]     =   "Зданиям нужен ремонт!"
+	RadioCommandsText[1]     =   "Садись в машину!"
+	RadioCommandsText[2]     =   "Выходи из машины!"
+	RadioCommandsText[3]     =   "Уничтожьте эту машину!" 
+	RadioCommandsText[4]     =   "Смотри, куда целишься!"
+	RadioCommandsText[5]     =   "Не стой на пути!"
+	RadioCommandsText[6]     =   "Есть."
+	RadioCommandsText[7]     =   "Никак нет."
+	RadioCommandsText[8]     =   "Я на позиции."
+	RadioCommandsText[9]     =   "Вижу противника!"
+
+	// ALT + Number
+	RadioCommandsText[10]    =   "Мне нужен ремонт!"
+	RadioCommandsText[11]    =   "Займи позицию."
+	RadioCommandsText[12]    =   "Выступаем."
+	RadioCommandsText[13]    =   "За мной."
+	RadioCommandsText[14]    =   "Держи позицию."
+	RadioCommandsText[15]    =   "Прикрой меня."
+	RadioCommandsText[16]    =   "В укрытие!"
+	RadioCommandsText[17]    =   "Назад!"
+	RadioCommandsText[18]    =   "Возвращаемся на базу."
+	RadioCommandsText[19]    =   "Уничтожьте это сейчас же!"
+
+	// CTRL+ALT + Number
+	RadioCommandsText[20]    =   "Атакуем оборонительные сооружения!"
+	RadioCommandsText[21]    =   "Атакуем Харвестер!"
+	RadioCommandsText[22]    =   "Атакуем это здание!"
+	RadioCommandsText[23]    =   "Атакуем завод!" 
+	RadioCommandsText[24]    =   "Атакуем электростанцию!"
+	RadioCommandsText[25]    =   "Защищаем базу!"
+	RadioCommandsText[26]    =   "Защищаем Харвестер!"
+	RadioCommandsText[27]    =   "Защищаем это здание!"
+	RadioCommandsText[28]    =   "Защищаем завод!"
+	RadioCommandsText[29]    =   "Защищаем электростанцию!"
+
+[Rx_HUD]
+	// CTRL + Number
+	RadioCommandsCTRL[0]     =   "1|Зданиям нужен ремонт!"
+	RadioCommandsCTRL[1]     =   "2|Садись в машину!"
+	RadioCommandsCTRL[2]     =   "3|Выходи из машины!"
+	RadioCommandsCTRL[3]     =   "4|Уничтожить эту машину!" 
+	RadioCommandsCTRL[4]     =   "5|Смотри, куда целишься!"
+	RadioCommandsCTRL[5]     =   "6|Не стой на пути!"
+	RadioCommandsCTRL[6]     =   "7|Есть."
+	RadioCommandsCTRL[7]     =   "8|Никак нет."
+	RadioCommandsCTRL[8]     =   "9|Я на позиции."
+	RadioCommandsCTRL[9]     =   "0|Вижу противника!"
+
+	// ALT + Number
+	RadioCommandsALT[0]    =   "1|Мне нужен ремонт!"
+	RadioCommandsALT[1]    =   "2|Займи позицию."
+	RadioCommandsALT[2]    =   "3|Выступаем."
+	RadioCommandsALT[3]    =   "4|За мной."
+	RadioCommandsALT[4]    =   "5|Держим позицию."
+	RadioCommandsALT[5]    =   "6|Прикройте меня."
+	RadioCommandsALT[6]    =   "7|В укрытие!"
+	RadioCommandsALT[7]    =   "8|Назад!"
+	RadioCommandsALT[8]    =   "9|Возвращаемся на базу."
+	RadioCommandsALT[9]    =   "0|Уничтожьте сейчас же!"
+
+	// CTRL+ALT + Number
+	RadioCommandsCTRLALT[0]    =   "1|Атакуем оборонительные сооружения!"
+	RadioCommandsCTRLALT[1]    =   "2|Атакуем харвестер!"
+	RadioCommandsCTRLALT[2]    =   "3|Атакуем это здание!"
+	RadioCommandsCTRLALT[3]    =   "4|Атакуем завод!" 
+	RadioCommandsCTRLALT[4]    =   "5|Атакуем электростанцию!"
+	RadioCommandsCTRLALT[5]    =   "6|Защищаем базу!"
+	RadioCommandsCTRLALT[6]    =   "7|Защищаем харвестер!"
+	RadioCommandsCTRLALT[7]    =   "8|Защищаем это здание!"
+	RadioCommandsCTRLALT[8]    =   "9|Защищаем завод!"
+	RadioCommandsCTRLALT[9]    =   "0|Защищаем электростанцию!"
