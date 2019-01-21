@@ -925,7 +925,7 @@ BuildingBroadcastMessages[3]="`PlayerName` a neutralisé le `BuildingName`"
 [Rx_CratePickup]
 PickupMessages[0]="Vous avez trébuché sur une grenade, BOOOM !"
 PickupMessages[1]="Surprise! Frappe de canon à ion en approche !"
-PickupMessages[2]="Soit, lancement de missile nucléaire détecté. Bwahahaha !"
+PickupMessages[2]="Au passage, lancement de missile nucléaire détecté. Bwahahaha !"
 PickupMessages[3]="Vous avez trouvé `credsum` crédits !"
 PickupMessages[4]="Vous avez trouvé un nouvel uniforme !"
 PickupMessages[5]="Vous obtenez un `vehname`!"
@@ -934,40 +934,40 @@ PickupMessages[7]="Votre santé et vos munitions ont été restaurés !"
 
 [Rx_Message_Crates]
 PickupBroadcastMessages[0]= "`PlayerName` a trouvé une caisse !"
-PickupBroadcastMessages[1]="`PlayerName` a une caisse de mort. C'est nul d'être toi."
-PickupBroadcastMessages[2]="`PlayerName` a eu un Cannon à Ion dans la face. Aie!"
+PickupBroadcastMessages[1]="`PlayerName` a trouvé une caisse mortelle. Je n'aimerais pas être à ta place."
+PickupBroadcastMessages[2]="`PlayerName` gagne un Canon à Ion dans la face. Aie !"
 PickupBroadcastMessages[3]="`PlayerName` est vert avec les radiations nucléaire"
-PickupBroadcastMessages[4]="`PlayerName` a trouvé un caisse d'argent!"
+PickupBroadcastMessages[4]="`PlayerName` a trouvé un caisse de crédits !"
 PickupBroadcastMessages[5]="`PlayerName` a un nouveau personnage!"
 PickupBroadcastMessages[6]="`PlayerName` a un nouveau véhicule!"
-PickupBroadcastMessages[7]="Prudence, un joueur ennemie a pris une caisse d'espion!"
+PickupBroadcastMessages[7]="Prudence, un joueur ennemi a pris une caisse d'espion!"
 PickupBroadcastMessages[8]="`PlayerName` a ramassé une caisse d'espion!"
-PickupBroadcastMessages[9]="`PlayerName` a ramassé une caisse de recharge."
-PickupBroadcastMessages[10]="`PlayerName` a ramassé une caisse de suicide."
+PickupBroadcastMessages[9]="`PlayerName` a ramassé une caisse de ravitaillement."
+PickupBroadcastMessages[10]="`PlayerName` a ramassé une caisse mortelle."
 PickupBroadcastMessages[11]="`PlayerName` a ramassé une caisse d'augmentation de vitesse."
 PickupBroadcastMessages[12]="`PlayerName` a été enlevé par les aliens."
 PickupBroadcastMessages[13]="`PlayerName` ne durera pas plus de 30 secondes."
-PickupBroadcastMessages[14]="`PlayerName` a dévouvert des armes du futur!"
+PickupBroadcastMessages[14]="`PlayerName` a découvert des armes du futur!"
 PickupBroadcastMessages[15]="`PlayerName` a découvert des armes du passé de Kane!"
 PickupBroadcastMessages[16]="`PlayerName` a ramassé une caisse de vétéran!"
-PickupBroadcastMessages[17]="`PlayerName` a ramassé une caisse de résistance au dommages!" 
-PickupBroadcastMessages[18]="`PlayerName` a découvert des armes CLASSIQUE!" 
-PickupBroadcastMessages[19]="`PlayerName` a trouvé une caisse de Personnage EPIC!" 
+PickupBroadcastMessages[17]="`PlayerName` a ramassé une caisse de résistance aux dommages!" 
+PickupBroadcastMessages[18]="`PlayerName` a découvert une arme CLASSIQUE!" 
+PickupBroadcastMessages[19]="`PlayerName` a trouvé une caisse de Personnage EPIQUE!" 
 
 [Rx_CrateType_Money]
 PickupMessage = "Vous avez trouvé `credsum` crédits!"
 
 [Rx_CrateType_Refill]
-PickupMessage = "Votre santé et vos munitions on été restauré!"
+PickupMessage = "Votre santé et vos munitions ont été restaurés !"
 
 [Rx_CrateType_Spy]
-PickupMessage = "Vous avez trouvé un uniforme ennemie!"
+PickupMessage = "Vous avez trouvé un uniforme ennemi !"
 
 [Rx_CrateType_Vehicle]
 PickupMessage = "Vous avez un `vehname`!"
 
 [Rx_CrateType_Character]
-PickupMessage = "Vous avez trouvé un nouvel uniforme!"
+PickupMessage = "Vous avez trouvé un nouvel uniforme !"
 
 [Rx_CrateType_Suicide]
 PickupMessage = "Vous avez trouvé la réponse de l'univers dans une boite, et vous ne voyez aucune raison de continuer a vivre."
@@ -985,27 +985,27 @@ PickupMessage = "La vitesse de votre personnage a été augmenter de `increasepc
 PickupMessage = "Vous avez été enlevé par les Scrins!"
 
 [Rx_CrateType_TSVehicle]
-PickupMessage = "Un trou dans l'espace temps a été ouvert, vous commandé le futur."
+PickupMessage = "Un trou dans l'espace temps a été ouvert, vous commandez le futur."
 
 [Rx_CrateType_RAVehicle]
-PickupMessage = "Un décalage Chronologique semble se produire, vous controlé le passé."
+PickupMessage = "Un décalage Chronologique semble se produire, vous controlez le passé."
 
 [Rx_CrateType_Veterancy]
-PickupMessage = "Vous avez apris un peu plus dans l'art de la guerre."
+PickupMessage = "Vous avez appris un peu plus dans l'art de la guerre."
 
 [Rx_CrateType_DamageResistance]
 PickupMessage = "Vous avez ramassé un caisse de RESISTANCE AU DOMMAGES"
 
 [Rx_CrateType_ClassicVehicle]
-PickupMessage = "N'oubliez jamais lCLASSIQUES"     
+PickupMessage = "N'oubliez jamais les CLASSIQUES"     
 
 [Rx_CrateType_EpicCharacter]
-PickupMessage = "Vous avez trouvé un PERSONNAGE EPIC!"
+PickupMessage = "Vous avez trouvé un PERSONNAGE EPIQUE!"
 
 [Rx_Message_Vehicle]
-VehicleMessages[0]="`VehicleClass` assigné sur'ckKey`] pour vérouillez le siège du conducteur. Hold [`LockKey`] to unbind."
-VehicleMessages[1]="`VehicleClass` auto-bound. Press [`LockKey`] to toggle lock on driver seat. Hold [`LockKey`] to unbind."
-VehicleMessages[2]="`VehicleClass` unbound."
+VehicleMessages[0]="`VehicleClass` assigné. Appuyez sur [`LockKey`] pour verouiller le siège du conducteur. Maintenez [`LockKey`] to désassigner."
+VehicleMessages[1]="`VehicleClass` auto-assigné. Appuyez sur [`LockKey`] pour verouiller le siège du conducteur. Maintenez [`LockKey`] pour désassigner."
+VehicleMessages[2]="`VehicleClass` désassigné."
 
 VehicleMessages[3]="This vehicle is not bound, hold [`LockKey`] to bind to it."
 VehicleMessages[4]="This vehicle is not bound, hold [`LockKey`] to replace your existing `VehicleClass` bind with this vehicle."
