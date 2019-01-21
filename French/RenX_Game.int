@@ -442,8 +442,8 @@ PT_Title="TANK MAMMOUTH"
 PT_Description="<font size='10'>-2 canons 120mm\n-4x Missiles Tusk\n-Blindage lourde\n-Tank de combat lourd\n-Pilote + Passager</font>"
 
 [Rx_Vehicle_MediumTank]
-VehiclePositionString="dans un Tank moyen"
-VehicleNameString="Tank moyen"
+VehiclePositionString="dans un Tank Moyen"
+VehicleNameString="Tank Moyen"
 PT_Title="TANK MOYEN"
 PT_Description="<font size='10'>-Canon 105mm\n-Blindage lourd\n-Char de bataille\n-Pilote + Passager</font>"
 
@@ -488,14 +488,14 @@ PT_Title="LANCE ROQUETTES MULTIPLE"
 PT_Description="<font size='10'>-Missiles M269\n-Blindage léger\n-Missiles longue portée\n-Pilote + Passager</font>"
 
 [Rx_Vehicle_LightTank]
-VehiclePositionString="dans un Tank léger"
-VehicleNameString="Tank léger"
+VehiclePositionString="dans un Tank Léger"
+VehicleNameString="Tank Léger"
 PT_Title="TANK LEGER"
 PT_Description="<font size='10'>\n-Canon 75mm\n-Blindage lourd\n-Char de bataille\n-Pilote + Passager</font>"
 
 [Rx_Vehicle_Artillery]
 VehiclePositionString="dans une Artillerie"
-VehicleNameString="Artillerie"
+VehicleNameString="Artillerie mobile"
 PT_Title="ARTILLERIE MOBILE"
 PT_Description="<font size='10'>\n-Obusier 155mm\n-Blindage léger\n-Obus à longue portée\n-Pilote + Passager</font>"
 
@@ -506,8 +506,8 @@ PT_Title="INCINERATEUR"
 PT_Description="<font size='10'>\n-2x lance-flammes\n-Blindage lourd\n-Suppression au combat rapproché\n-Pilote + Passager</font>"
 
 [Rx_Vehicle_StealthTank]
-VehiclePositionString="dans un Tank furtif"
-VehicleNameString="Tank furtif"
+VehiclePositionString="dans un Tank Furtif"
+VehicleNameString="Tank Furtif"
 PT_Title="TANK FURTIF"
 PT_Description="<font size='10'>-2x Missiles TOW\n-Blindage lourd\n-Véhicule de guérilla\n-Camouflage actif\n-Pilote seul</font>"
 
@@ -601,9 +601,9 @@ VehicleNameString="Juggernaut"
 PT_Title="JUGGERNAUT"
 
 [TS_Vehicle_AAPC]
-VehiclePositionString="dans un APC Amphibie"
-VehicleNameString="APC Amphibie"
-PT_Title="APC AMPHIBIE"
+VehiclePositionString="dans un VBT Amphibie"
+VehicleNameString="VBT Amphibie"
+PT_Title="VBT AMPHIBIE"
 
 [TS_Vehicle_Disruptor]
 VehiclePositionString="dans un Tank Disrupteur"
@@ -616,9 +616,9 @@ VehicleNameString="Mammouth Mark II"
 PT_Title="MAMMOUTH MARK II"
 
 [TS_Vehicle_TickTank]
-VehiclePositionString="dans un Tank Scarabé"
-VehicleNameString="Tank Scarabé"
-PT_Title="TANK SCARABÉ"
+VehiclePositionString="dans un Tank Scarabée"
+VehicleNameString="Tank Scarabée"
+PT_Title="TANK SCARABÉE"
 
 [TS_Vehicle_ReconBike]
 VehiclePositionString="dans une Moto de Reconnaisance"
@@ -651,8 +651,8 @@ VehicleNameString="Langue du Diable"
 PT_Title="LANGUE DU DIABLE"
 
 [Rx_Vehicle_M2Bradley]
-VehiclePositionString="dans un Tank Léger"
-VehicleNameString="Tank Léger"
+VehiclePositionString="dans un Tank Léger M2"
+VehicleNameString="Tank Léger M2"
 PT_Title="TANK LÉGER"
 PT_Description="<font size='10'>\n-75mm Cannon\n-Heavy Armour\n-Main Battle Tank\n-Driver + Passenger</font>"
 
@@ -661,279 +661,279 @@ PT_Description="<font size='10'>\n-75mm Cannon\n-Heavy Armour\n-Main Battle Tank
 //=====================================
 
 [Rx_Vehicle_Weapon]
-ItemName="Primary Weapon"
-PickupMessage="Primary Weapon"
+ItemName="Arme principale"
+PickupMessage="Arme principale"
 
 [Rx_Vehicle_A10_Weapon]
-ItemName="GAU-8/A Cannon"
-AltItemName="AGM-65 Missile"
-PickupMessage="A-10 Weapon"
+ItemName="Canon GAU-8/A"
+AltItemName="Missile AGM-65"
+PickupMessage="Arme d'A-10"
 
 [Rx_Vehicle_Apache_Weapon]
-ItemName="30mm Automatic Cannon"
-AltItemName="Hydra-70 Rocket"
-PickupMessage="Apache Weapon"
+ItemName="Canon automatique 30mm"
+AltItemName="Roquettes Hydra-70"
+PickupMessage="Arme d'Apache"
 
 [Rx_Vehicle_Orca_Weapon]
-ItemName="Hellfire Missile"
-AltItemName=".50 Cal Machine Gun"
-PickupMessage="Orca Weapon"
+ItemName="Missile Hellfire"
+AltItemName="Mitrailleuse 50 mm"
+PickupMessage="Arme d'Orca"
 
 [Rx_Vehicle_APC_Nod_Weapon]
-ItemName="M134 Minigun"
-PickupMessage="APC Weapon"
+ItemName="Mitrailleuse M134"
+PickupMessage="Arme de VBT"
 
 [Rx_Vehicle_APC_GDI_Weapon]
-ItemName="M134 Minigun"
-PickupMessage="APC Weapon"
+ItemName="Mitrailleuse M134"
+PickupMessage="Arme de VBT"
 
 [Rx_Vehicle_Artillery_Weapon]
-ItemName="155MM Cannon"
-PickupMessage="Artillery Weapon"
+ItemName="Canon de 155 mm"
+PickupMessage="Arme d'Artillerie"
 
 [Rx_Vehicle_Buggy_Weapon]
-ItemName=".50 Cal Machine Gun"
-PickupMessage="Buggy Weapon"
+ItemName="Mitrailleuse de 50 mm"
+PickupMessage="Arme de Buggy"
 
 [Rx_Vehicle_Chinook_Weapon]
-ItemName="Transport Helicopter"
-PickupMessage="Chinook Weapon"
+ItemName="Hélicoptère de transport"
+PickupMessage="Arme de Chinook"
 
 [Rx_Vehicle_Chinook_Weapon_GDI_Left]
-ItemName="Gattling Gun"
-PickupMessage="Chinook Weapon"
+ItemName="Gattling"
+PickupMessage="Arme de Chinook"
 
 [Rx_Vehicle_Chinook_Weapon_GDI_Right]
-ItemName="Gattling Gun"
-PickupMessage="Chinook Weapon"
+ItemName="Gattling"
+PickupMessage="Arme de Chinook"
 
 [Rx_Vehicle_Chinook_Weapon_Nod_Left]
-ItemName="Gattling Gun"
-PickupMessage="Chinook Weapon"
+ItemName="Gattling"
+PickupMessage="Arme de Chinook"
 
 [Rx_Vehicle_Chinook_Weapon_Nod_Right]
-ItemName="Gattling Gun"
-PickupMessage="Chinook Weapon"
+ItemName="Gattling"
+PickupMessage="Arme de Chinook"
 
 [Rx_Defence_GunEmplacement_Weapon]
-ItemName="Gattling Gun"
-AltItemName="Auto Cannon"
-PickupMessage="Gun Emplacement"
+ItemName="Gattling"
+AltItemName="Canon automatique"
+PickupMessage="Poste de tir"
 
 [Rx_Defence_RocketEmplacement_Weapon]
-ItemName="SWARM Launcher"
-AltItemName="Hellfire Missile"
-PickupMessage="Rocket Emplacement"
+ItemName="Lanceur SWARM"
+AltItemName="Missile Hellfire"
+PickupMessage="Poste lance-roquettes"
 
 [Rx_Vehicle_Humvee_Weapon]
-ItemName=".50 Cal Machine Gun"
-PickupMessage="Humvee Weapon"
+ItemName="Mitrailleuse de 50 mm"
+PickupMessage="Arme d'Humvee"
 
 [Rx_Vehicle_LightTank_Weapon]
-ItemName="75MM Cannon"
-PickupMessage="Light Tank Weapon"
+ItemName="Canon de 75 mm"
+PickupMessage="Arme de Tank léger"
 
 [Rx_Vehicle_MammothWeapon]
-ItemName="120MM Cannon"
-AltItemName="Tusk Missiles"
-PickupMessage="Mammoth Tank Weapon"
+ItemName="Canon de 120 mm"
+AltItemName="Missiles Tusk"
+PickupMessage="Arme de Tank Mammouth"
 
 [Rx_Vehicle_MediumTank_Weapon]
-ItemName="105MM Cannon"
-PickupMessage="Medium Tank Weapon"
+ItemName="Canon de 105 mm"
+PickupMessage="Arme de Tank Moyen"
 
 [Rx_Vehicle_MediumTank_Weapon_MultiWeap]
-ItemName="105MM Cannon"
-AltItemName="Coaxial MG"
-PickupMessage="Medium Tank Weapon"
+ItemName="Canon de 105 mm"
+AltItemName="Mitrailleuse coaxiale"
+PickupMessage="Arme de Tank Moyen"
 
 [Rx_Vehicle_MRLS_Weapon]
-ItemName="M269 Missile"
-PickupMessage="MRLS Tank Weapon"
+ItemName="Missile M269"
+PickupMessage="Arme de Tank LRM"
 
 [Rx_Vehicle_FlameTank_Weapon]
-ItemName="Flamethrowers"
-PickupMessage="Flame Tank Weapon"
+ItemName="Lance-flammes"
+PickupMessage="Arme d'Incinérateur"
 
 [Rx_Vehicle_StealthTank_Weapon]
-ItemName="TOW Missiles"
-PickupMessage="Stealth Tank Weapon"
+ItemName="Missiles TOW"
+PickupMessage="Arme de Tank Furtif"
 
 [Rx_Vehicle_Harvester_Weapon]
-ItemName="Tiberium Harvester"
-PickupMessage="Harvester Weapon"
+ItemName="Collecteur de Tibérium"
+PickupMessage="Arme de Collecteur"
 
 [Rx_Defence_GuardTower_Weapon]
-ItemName="Vulcan Cannon"
-PickupMessage="Guard Tower Weapon"
+ItemName="Mitrailleuse Vulcain"
+PickupMessage="Arme de Tour de Garde"
 
 [Rx_Defence_Turret_Weapon]
-ItemName="105MM Cannon"
-PickupMessage="Turret Weapon"
+ItemName="Canon de 105 mm"
+PickupMessage="Arme de Tourelle"
 
 [Rx_Defence_SAMSite_Weapon]
-ItemName="Surface-to-air Missile"
-PickupMessage="SAM Weapon"
+ItemName="Missile sol-air"
+PickupMessage="Arme de SAM"
 
 [Rx_Defence_AATower_Weapon]
-ItemName="Anti-Air Missile"
-PickupMessage="Anti-Air Weapon"
+ItemName="Missile Anti-Air"
+PickupMessage="Arme Anti-Air"
 
 [Rx_Vehicle_Hovercraft_GDI_Weapon]
-ItemName="Heavy Cannons"
-AltItemName="SWARM Launcher"
-PickupMessage="Hovercraft Weapon"
+ItemName="Canons lourds"
+AltItemName="Lanceur SWARM"
+PickupMessage="Arme d'Aéroglisseur"
 
 [Rx_Vehicle_Hovercraft_Nod_Weapon]
-ItemName="Heavy Cannons"
-AltItemName="SWARM Launcher"
-PickupMessage="Hovercraft Weapon"
+ItemName="Canons lourds"
+AltItemName="Lanceur SWARM"
+PickupMessage="Arme d'Aéroglisseur"
 
 [APB_Vehicle_TeslaTank_Weapon]
-ItemName="Tesla Coil"
-PickupMessage="Tesla Tank Weapon"
+ItemName="Bobine Tesla"
+PickupMessage="Arme de Tank Tesla"
 
 [TS_Vehicle_HoverMRLS_Weapon]
-ItemName="M269 Missile"
-PickupMessage="Hover MRLS Weapon"
+ItemName="Missile M269"
+PickupMessage="Arme de LRM Amphibie"
 
 [TS_Vehicle_Titan_Weapon]
-ItemName="120MM Cannon"
-PickupMessage="Titan Weapon"
+ItemName="Canon de 120 mm"
+PickupMessage="Arme de Titan"
 
 [TS_Vehicle_Wolverine_Weapon]
-ItemName="Vulcan Cannons"
-PickupMessage="Wolverine Weapon"
+ItemName="Mitrailleuses Vulcain"
+PickupMessage="Arme de Lycaon"
 
 [TS_Vehicle_Wolverine_HD_Weapon]
-ItemName="Vulcan Cannons"
-PickupMessage="Wolverine Weapon"
+ItemName="Mitrailleuses Vulcain"
+PickupMessage="Arme de Lycaon"
 
 [TS_Vehicle_Juggernaut_Weapon]
-ItemName="155MM Cannon"
-PickupMessage="Juggernaut Weapon"
+ItemName="Canon de 155 mm"
+PickupMessage="Arme de Juggernaut"
 
 [TS_Vehicle_AAPC_Weapon]
 ItemName="Beep Beep"
-PickupMessage="Amphibious APC Weapon"
+PickupMessage="Arme de VBT Amphibie"
 
 [TS_Vehicle_Disruptor_Weapon]
-ItemName="Sonic Wave"
-PickupMessage="Disruptor Weapon"
+ItemName="Impulsion sonique"
+PickupMessage="Arme de Désintégrateur"
 
 [TS_Vehicle_MMKII_Weapon]
 ItemName="Railgun"
-AltItemName="Tusk Missile"
-PickupMessage="Mammoth Mark II Weapon"
+AltItemName="Missiles Tusk"
+PickupMessage="Arme de Mammouth Mark II"
 
 [TS_Vehicle_TickTank_Weapon]
-ItemName="90MM Cannons"
-AltItemName=".50 Cal Machine Gun"
-PickupMessage="Tick Tank Weapon"
+ItemName="Canon de 90 mm"
+AltItemName="Mitrailleuse de 50 mm"
+PickupMessage="Arme de Scarabée"
 
 [TS_Vehicle_ReconBike_Weapon]
-ItemName="Hydra-70 Rocket"
-PickupMessage="Recon Bike Weapon"
+ItemName="Roquettes Hydra-70"
+PickupMessage="Arme de Moto de Reco"
 
 [TS_Vehicle_Buggy_Weapon]
-ItemName="30mm Automatic Cannon"
-PickupMessage="Buggy Weapon"
+ItemName="Canon automatique de 30 mm"
+PickupMessage="Arme de Buggy"
 
 [TS_Vehicle_Buggy_HD_Weapon]
-ItemName="Gattling Gun"
-AltItemName="20mm Cannon"
-PickupMessage="Buggy Weapon"
+ItemName="Gattling"
+AltItemName="Canon de 20 mm"
+PickupMessage="Arme de Buggy"
 
 [TS_Vehicle_Artillery_Weapon]
-ItemName="185MM Cannon"
-PickupMessage="Artillery Weapon"
+ItemName="Canon de 185 mm"
+PickupMessage="Arme d'Artillerie"
 
 [TS_Vehicle_DevilsTongue_Weapon]
-ItemName="Flame Throwers"
-PickupMessage="Devil's Tongue Weapon"
+ItemName="Lance-flammes"
+PickupMessage="Arme de Langue du Diable"
 
 [TS_Vehicle_StealthTank_Weapon]
-ItemName="TOW Missiles"
-PickupMessage="Stealth Tank Weapon"
+ItemName="Missiles TOW"
+PickupMessage="Arme de Tank Furtif"
 
 [Rx_Vehicle_M2Bradley_Weapon]
-ItemName="22MM Cannon"
-AltItemName="TOW Rocket"
-PickupMessage="A-10 Weapon"
+ItemName="Canon de 22 mm"
+AltItemName="Roquettes TOW"
+PickupMessage="Arme d'A-10"
 
 
 //////////////////////
 //  Building Names  //
 //////////////////////
 [Rx_Building_AdvancedGuardTower_Internals]
-BuildingName = "Advanced Guard Tower"
+BuildingName = "Tour de Garde Avancée"
 
 [Rx_Building_AirTower_Internals]
-BuildingName = "Airstrip"
+BuildingName = "Piste d'aterrissage"
 
 [Rx_Building_Barracks_Internals]
-BuildingName = "Infantry Barracks"
+BuildingName = "Caserne d'infanterie"
 
 [Rx_Building_HandOfNod_Internals]
-BuildingName = "Hand of Nod"
+BuildingName = "Main du Nod"
 
 [Rx_Building_Obelisk_Internals]
-BuildingName = "Obelisk"
+BuildingName = "Obélisque"
 
 [Rx_Building_PowerPlant_Internals]
-BuildingName = "Power Plant"
+BuildingName = "Centrale électrique"
 
 [Rx_Building_Refinery_Internals]
-BuildingName = "Refinery"
+BuildingName = "Raffinerie"
 
 [Rx_Building_Silo_Internals]
 BuildingName = "Silo"
 
 [Rx_Building_WeaponsFactory_Internals]
-BuildingName = "Weapons Factory"
+BuildingName = "Usine d'armement"
 
 [Rx_CapturableMCT_Internals_Kismet]
-BuildingName = "Tech Building"
+BuildingName = "Bâtiment tech"
 
 [Rx_Building_CommCentre_Internals]
-BuildingName = "Communications Center"
+BuildingName = "Centre de communications"
 
 [Rx_CapturableMCT_MC_Internals]
-BuildingName = "Medical Center"
+BuildingName = "Centre médical"
 
 [Rx_CapturableMCT_Fort_Internals]
 BuildingName = "Fort"
 
 [Rx_Building_MedicalCentre_Internals]
-BuildingName = "Medical Centre"
+BuildingName = "Centre Médical"
 
 [Rx_Building_RepairPad_Internals]
-BuildingName = "Repair Pad"
+BuildingName = "Centre de réparations"
 
 //=====================================
 //	Buildings
 //=====================================
 [Rx_Message_Buildings]
-BuildingBroadcastMessages[0]="`PlayerName` destroyed the `BuildingName`"
-BuildingBroadcastMessages[1]="`BuildingName` destroyed by `PlayerName`"
-BuildingBroadcastMessages[2]="`PlayerName` captured the `BuildingName`"
-BuildingBroadcastMessages[3]="`PlayerName` neutralized the `BuildingName`"
+BuildingBroadcastMessages[0]="`PlayerName` a détruit `BuildingName`"
+BuildingBroadcastMessages[1]="`BuildingName` a été détruit par `PlayerName`"
+BuildingBroadcastMessages[2]="`PlayerName` a capturé le `BuildingName`"
+BuildingBroadcastMessages[3]="`PlayerName` a neutralisé le `BuildingName`"
 
 //=====================================
 //	Crates
 //=====================================
 [Rx_CratePickup]
-PickupMessages[0]="You stumbled upon a grenade, BOOOM!"
-PickupMessages[1]="Surprise! Ion Cannon Strike incoming!"
-PickupMessages[2]="By the way, Nuclear Missile Launch Detected. Bwahahaha!"
-PickupMessages[3]="You found `credsum` credits!"
-PickupMessages[4]="You found a new uniform!"
-PickupMessages[5]="You got a `vehname`!"
-PickupMessages[6]="You found an enemy uniform!"
-PickupMessages[7]="Your health and ammo has been restored!"
+PickupMessages[0]="Vous avez trébuché sur une grenade, BOOOM !"
+PickupMessages[1]="Surprise! Frappe de canon à ion en approche !"
+PickupMessages[2]="Soit, lancement de missile nucléaire détecté. Bwahahaha !"
+PickupMessages[3]="Vous avez trouvé `credsum` crédits !"
+PickupMessages[4]="Vous avez trouvé un nouvel uniforme !"
+PickupMessages[5]="Vous obtenez un `vehname`!"
+PickupMessages[6]="You avez trouvé un uniforme ennemi !"
+PickupMessages[7]="Votre santé et vos munitions ont été restaurés !"
 
 [Rx_Message_Crates]
-PickupBroadcastMessages[0]= "`PlayerName` found a crate!"
+PickupBroadcastMessages[0]= "`PlayerName` a trouvé une caisse !"
 PickupBroadcastMessages[1]="`PlayerName` just got a death crate. Sucks to be you."
 PickupBroadcastMessages[2]="`PlayerName` got an Ion Cannon to the face. Ouch!"
 PickupBroadcastMessages[3]="`PlayerName` is green with nuclear radiation"
