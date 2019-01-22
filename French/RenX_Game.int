@@ -858,7 +858,7 @@ PickupMessages[7]="Votre santé et vos munitions ont été restaurés !"
 PickupBroadcastMessages[0]= "`PlayerName` a trouvé une caisse !"
 PickupBroadcastMessages[1]="`PlayerName` a trouvé une caisse mortelle. Je n'aimerais pas être à ta place."
 PickupBroadcastMessages[2]="`PlayerName` gagne un Canon à Ion dans la face. Aie !"
-PickupBroadcastMessages[3]="`PlayerName` est vert avec les radiations nucléaire"
+PickupBroadcastMessages[3]="`PlayerName` est vert avec les radiations nucléaires"
 PickupBroadcastMessages[4]="`PlayerName` a trouvé un caisse de crédits !"
 PickupBroadcastMessages[5]="`PlayerName` a un nouveau personnage!"
 PickupBroadcastMessages[6]="`PlayerName` a un nouveau véhicule!"
@@ -892,7 +892,7 @@ PickupMessage = "Vous avez un `vehname`!"
 PickupMessage = "Vous avez trouvé un nouvel uniforme !"
 
 [Rx_CrateType_Suicide]
-PickupMessage = "Vous avez trouvé la réponse de l'univers dans une boite, et vous ne voyez aucune raison de continuer a vivre."
+PickupMessage = "Vous avez trouvé la réponse de l'univers dans une caisse, et vous ne voyez aucune raison de continuer a vivre."
 
 [Rx_CrateType_TimeBomb]
 PickupMessage = "Il y a une bombe sur votre tête, il vous reste 30 secondes a vivre."
@@ -929,26 +929,26 @@ VehicleMessages[0]="`VehicleClass` assigné. Appuyez sur [`LockKey`] pour veroui
 VehicleMessages[1]="`VehicleClass` auto-assigné. Appuyez sur [`LockKey`] pour verouiller le siège du conducteur. Maintenez [`LockKey`] pour désassigner."
 VehicleMessages[2]="`VehicleClass` désassigné."
 
-VehicleMessages[3]="Ce véhicule n'est pas assigné, maintenez [`LockKey`] pour l'assigné."
+VehicleMessages[3]="Ce véhicule n'est pas assigné, maintenez [`LockKey`] pour l'assigner."
 VehicleMessages[4]="Ce véhicule n'est pas assigné, maintenez [`LockKey`] pour remplacer votre véhicule existant `VehicleClass` assigné par ce véhicule."
-VehicleMessages[5]="Le propriétaire précédent a désassigné ce véhicule. Maintenez [`LockKey`] pour l'assigné."
-VehicleMessages[6]="impossible d'assigné ce véhicule, il est déjà assigné par `OwnerName`."
+VehicleMessages[5]="Le propriétaire précédent a désassigné ce véhicule. Maintenez [`LockKey`] pour l'assigner."
+VehicleMessages[6]="impossible d'assigner ce véhicule, il est déjà assigné par `OwnerName`."
 
-VehicleMessages[7]="`VehicleClass` Siège conducteur vérouiller."
-VehicleMessages[8]="`VehicleClass` Siège conducteur dévérouiller."
+VehicleMessages[7]="`VehicleClass` Siège conducteur verouillé."
+VehicleMessages[8]="`VehicleClass` Siège conducteur dévérouillé."
 
 VehicleMessages[9]="Le siège conducteur est vérouiller par `OwnerName`."
-VehicleMessages[10]="Vous ne pouvez pas entré dans le véhicule. acheteur '`OwnerName`' a un acces exclusif pour `IntegerValue` plus secondes."
-VehicleMessages[11]="Vous ne pouvez pas entré dans le véhicule. `OwnerTeam` a un acces exclusif pour `IntegerValue` plus secondes."
+VehicleMessages[10]="Vous ne pouvez pas entrer dans le véhicule. L'acheteur '`OwnerName`' a l'accès exclusif pour encore `IntegerValue` secondes."
+VehicleMessages[11]="Vous ne pouvez pas entrer dans le véhicule. `OwnerTeam` a l'acces exclusif pour encore `IntegerValue` secondes."
 
-VehicleMessages[12]="`OwnerName`'s `VehicleClass` a été voler par l'ennemie!"
+VehicleMessages[12]="`OwnerName`'s `VehicleClass` a été volé par l'ennemi!"
 VehicleMessages[13]="`OtherName` est entré dans le siège conducteur de votre véhicule `VehicleClass`."
 VehicleMessages[14]="Your `VehicleClass` a été détruit."
 
 VehicleMessages[15]="`OwnerName` a vérouillé le siège conducteur."
 
 VehicleMessages[16]="`OtherName` a volé un `VehicleClass`!"
-VehicleMessages[17]="Un `VehicleClass` est tombé dans les mains de l'ennemie!"
+VehicleMessages[17]="Un `VehicleClass` est tombé dans les mains de l'ennemi!"
 
 //=====================================
 // Context Menu Help
@@ -961,45 +961,45 @@ SubHelpText[0]=""
 [Rx_CommandMenuChoice_SupportPowers]
 
 //Radar Scan [GDI]
-SubHelpText_GDI[0]="+Delivery:%Instant Radar Scan%%+Purpose:%-COMMAND SPOTS all units in an area for 20s%%-Spots units on map for a full 60s%%Notes%%-Ignores cover"
+SubHelpText_GDI[0]="+Déploie:%Scan radar%%+Permet:%-EPINGLE toutes unités dans la zone pour 20s%%-Repère les unités sur la carte pour 60s%%Notes%%-Ignore les couverts"
 
 //Spy Plane [Nod]
-SubHelpText_Nod[0]="+Delivery:%Spy Aircraft%%+Purpose:%-COMMAND SPOTS units not in cover for 20s%%-Spots units on map for a full 45s%%Notes%%-Plane requires line of sight%%-Can be shot down%"
+SubHelpText_Nod[0]="+Déploie:%Avion espion%%+Permet:%-EPINGLE toutes unités à découvert pour 20s%%-Repère les unités sur la carte pour 45s%%Notes%%-Avion recquiert une ligne de vue%%-Peut être abattu%"
 
 //Smoke
-SubHelpText_GDI[1]="+Delivery:%Bomber Aircraft%%+Purpose:%-Blocks line of sight%-Blinds base defenses%%Notes%%-Can be shot down%"
+SubHelpText_GDI[1]="+Déploie:%Bombardier%%+Permet:%-Bloque la ligne de vue%-Aveugle les défenses de base%%Notes%%-Peut être abattu%"
 
-SubHelpText_Nod[1]="+Delivery:%Bomber Aircraft%%+Purpose:%-Blocks line of sight%-Blinds base defenses%%Notes%%-Can be shot down%"
+SubHelpText_Nod[1]="+Déploie:%Bombardier%%+Permet:%-Bloque la ligne de vue%-Aveugle les defénses de base%%Notes%%-Peut être abattu%"
 
 //EMP Strike
-SubHelpText_GDI[2]="+Delivery:%Bomber Aircraft%%+Purpose:%-Disables vehicle movement%-Disarms enemy mines%%Notes%%-Can be shot down%"
+SubHelpText_GDI[2]="+Déploie:%Bombardier%%+Permet:%-Immobilise les véhicules%-Désarme les mines ennemies%%Notes%%-Peut être abattu%"
 
-SubHelpText_Nod[2]="+Delivery:%Bomber Aircraft%%+Purpose:%-Disables vehicle movement%-Disarms enemy mines%%Notes%%-Can be shot down%"
+SubHelpText_Nod[2]="+Déploie:%Bombardier%%+Permet:%-Immobilise les véhicules%-Désarme les mines ennemies%%Notes%%-Peut être abattu%"
 
 
 //Cruise Missile
-SubHelpText_GDI[3]="+Delivery:%Self-Guided Missile%%+Purpose:%-Heavy damage%-Large AoE%%-Airburst%Can be shot down%"
+SubHelpText_GDI[3]="+Déploie:%Missile auto-guidé%%+Permet:%-Inflige de lourds dégâts%-Large zone de dégâts%%-Peut exploser en vol%Peut être abattu%"
 
-SubHelpText_Nod[3]="+Delivery:%Self-Guided Missile%%+Purpose:%-Heavy damage%-Large AoE%%-Airburst%Can be shot down%"
+SubHelpText_Nod[3]="+Déploie:%Missile auto-guidé%%+Permet:%-Inflige de lourds dégâts%-Large zone de dégâts%%-Peut exploser en vol%Peut être abattu%"
 
 //Defensive Buff
-SubHelpText_GDI[4]="+Delivery:%Self Cast%%+Purpose:%INCREASE DEFENSIVE ABILITY%%Affects all FRIENDLY units around you.%%DURATION: 20s%"
+SubHelpText_GDI[4]="+Déploie:%Bonus%%+Permet:%AUGMENTE LA RESISTANCE%%Affecte toutes les unités amicales autour de vous.%%DURÉE: 20s%"
 
-SubHelpText_Nod[4]="+Delivery:%Self Cast%%+Purpose:%INCREASE DEFENSIVE ABILITY%%Affects all FRIENDLY units around you.%%DURATION: 20s%"
+SubHelpText_Nod[4]="+Déploie:%Bonus%%+Permet:%AUGMENTE LA RESISTANCE%%Affecte toutes les unités amicales autour de vous.%%DURÉE: 20s%"
 
 //Offensive Buff
-SubHelpText_GDI[5]="+Delivery:%Self Cast%%+Purpose:%+GREATLY INCREASE OFFENSIVE ABILITY%%Affects all FRIENDLY units around you.%%DURATION: 15s%"
+SubHelpText_GDI[5]="+Déploie:%Bonus%%+Permet:%+AUGMENTE LA RAPIDITE DE TIR%%Affecte toutes les unités amicales autour de vous.%%DURÉE: 15s%"
 
-SubHelpText_Nod[5]="+Delivery:%Self Cast%%+Purpose:%+GREATLY INCREASE OFFENSIVE ABILITY%%Affects all FRIENDLY units around you.%%DURATION: 15s%"
+SubHelpText_Nod[5]="+Déploie:%Bonus%%+Permet:%+AUGMENTE LA RAPIDITE DE TIR%%Affecte toutes les unités amicales autour de vous.%%DURÉE: 15s%"
 
 
 
 //Help Menu
 [Rx_CommandMenuChoice_Help]
-MainHelpText="Select a topic with a 'number' button.%"
+MainHelpText="Sélectionnez un sujet avec un bouton 'number'.%"
 
 //Commander Help: Chat
-SubHelpText[0]="+Commander's teamchat messages are%coloured differently to allow easy%identification.%%+Preface a teamchat message with%'/C' to send as a COMMANDER MESSAGE.%%+COMMANDER MESSAGES appear both in%normal chat AND mid-screen chat for%emphasis.%%+Preface a team message with '/R' %to send a RUSH message.%%+RUSH messages appear mid-screen%and last for 15 seconds.%"
+SubHelpText[0]="+Les messages du commandant dans le chat d'équipe%sont colorés différement pour permettre%une identification plus simple.%%+Démarrez un message dans le chat d'équipe avec%'/C' pour l'envoyer comme MESSAGE DE COMMANDEMENT.%%+LES MESSAGES DE COMMANDANT apparaissent dans%le chat normal ET au milieu de l'écran pour%indiquer son importance.%%+Démarrez un message d'équipe avec '/R' %pour envoyer un message de RUSH.%%+Les messages de RUSH apparaissent en milieu d'écran%et restent affichés pour 15 secondes.%"
 
 //Commander Help: Targeting
 SubHelpText[1]="+Targets Q-spotted by the COMMANDER are%visible to ALL friendly units.%%+COMMANDER spotted units are numbered for%identification.%%+COMMANDER spotted units decay over time.%Targets last for 20 seconds.%They begin to SHRINK when they are about to decay.%%COMMANDER spotted targets grant%10 COMMAND POINTS[CP] when destroyed.%"
