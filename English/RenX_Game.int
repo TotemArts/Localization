@@ -286,7 +286,7 @@ PT_Description="Armour: Flak\nSpeed: 95\nSide: Silenced Pistol\nRemote C4\n+Anti
 
 [Rx_FamilyInfo_GDI_Officer]
 CharacterName="Officer"
-PT_Title="OFFICIER"
+PT_Title="OFFICER"
 PT_Description="Armour: Kevlar\nSpeed: 100\nSide: Silenced Pistol\nSmoke Grenade\n+Anti-Infantry"
 
 [Rx_FamilyInfo_GDI_RocketSoldier]
