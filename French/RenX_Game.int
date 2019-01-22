@@ -590,31 +590,6 @@ VehiclePositionString="dans un Lycaon"
 VehicleNameString="Lycaon"
 PT_Title="LYCAON"
 
-[TS_Vehicle_Wolverine_HD]
-VehiclePositionString="dans un Lycaon"
-VehicleNameString="Lycaon"
-PT_Title="LYCAON"
-
-[TS_Vehicle_Juggernaut]
-VehiclePositionString="dans un Juggernaut"
-VehicleNameString="Juggernaut"
-PT_Title="JUGGERNAUT"
-
-[TS_Vehicle_AAPC]
-VehiclePositionString="dans un VBT Amphibie"
-VehicleNameString="VBT Amphibie"
-PT_Title="VBT AMPHIBIE"
-
-[TS_Vehicle_Disruptor]
-VehiclePositionString="dans un Tank Disrupteur"
-VehicleNameString="Tank Disrupteur"
-PT_Title="DISRUPTEUR"
-
-[TS_Vehicle_MMKII]
-VehiclePositionString="dans un Mammouth Mark II"
-VehicleNameString="Mammouth Mark II"
-PT_Title="MAMMOUTH MARK II"
-
 [TS_Vehicle_TickTank]
 VehiclePositionString="dans un Tank Scarabée"
 VehicleNameString="Tank Scarabée"
@@ -629,26 +604,6 @@ PT_Title="MOTO DE RECONAISSANCE"
 VehiclePositionString="Dans une Buggy"
 VehicleNameString="Buggy"
 PT_Title="BUGGY"
-
-[TS_Vehicle_Buggy_HD]
-VehiclePositionString="dans une Buggy"
-VehicleNameString="Buggy D'attaque"
-PT_Title="BUGGY D'ATTAQUE"
-
-[TS_Vehicle_Artillery]
-VehiclePositionString="dans une Artillerie"
-VehicleNameString="Artillerie"
-PT_Title="ARTILLERIE"
-
-[TS_Vehicle_StealthTank]
-VehiclePositionString="dans une Tank Furtif"
-VehicleNameString="Tank Furtif"
-PT_Title="TANK FURTIF"
-
-[TS_Vehicle_DevilsTongue]
-VehiclePositionString="dans une Langue du Diable"
-VehicleNameString="Langue du Diable"
-PT_Title="LANGUE DU DIABLE"
 
 [Rx_Vehicle_M2Bradley]
 VehiclePositionString="dans un Tank Léger M2"
@@ -805,22 +760,6 @@ PickupMessage="Arme de Titan"
 ItemName="Mitrailleuses Vulcain"
 PickupMessage="Arme de Lycaon"
 
-[TS_Vehicle_Wolverine_HD_Weapon]
-ItemName="Mitrailleuses Vulcain"
-PickupMessage="Arme de Lycaon"
-
-[TS_Vehicle_Juggernaut_Weapon]
-ItemName="Canon de 155 mm"
-PickupMessage="Arme de Juggernaut"
-
-[TS_Vehicle_AAPC_Weapon]
-ItemName="Beep Beep"
-PickupMessage="Arme de VBT Amphibie"
-
-[TS_Vehicle_Disruptor_Weapon]
-ItemName="Impulsion sonique"
-PickupMessage="Arme de Désintégrateur"
-
 [TS_Vehicle_MMKII_Weapon]
 ItemName="Railgun"
 AltItemName="Missiles Tusk"
@@ -838,23 +777,6 @@ PickupMessage="Arme de Moto de Reco"
 [TS_Vehicle_Buggy_Weapon]
 ItemName="Canon automatique de 30 mm"
 PickupMessage="Arme de Buggy"
-
-[TS_Vehicle_Buggy_HD_Weapon]
-ItemName="Gattling"
-AltItemName="Canon de 20 mm"
-PickupMessage="Arme de Buggy"
-
-[TS_Vehicle_Artillery_Weapon]
-ItemName="Canon de 185 mm"
-PickupMessage="Arme d'Artillerie"
-
-[TS_Vehicle_DevilsTongue_Weapon]
-ItemName="Lance-flammes"
-PickupMessage="Arme de Langue du Diable"
-
-[TS_Vehicle_StealthTank_Weapon]
-ItemName="Missiles TOW"
-PickupMessage="Arme de Tank Furtif"
 
 [Rx_Vehicle_M2Bradley_Weapon]
 ItemName="Canon de 22 mm"
@@ -925,7 +847,7 @@ BuildingBroadcastMessages[3]="`PlayerName` a neutralisé le `BuildingName`"
 [Rx_CratePickup]
 PickupMessages[0]="Vous avez trébuché sur une grenade, BOOOM !"
 PickupMessages[1]="Surprise! Frappe de canon à ion en approche !"
-PickupMessages[2]="Soit, lancement de missile nucléaire détecté. Bwahahaha !"
+PickupMessages[2]="Au passage, lancement de missile nucléaire détecté. Bwahahaha !"
 PickupMessages[3]="Vous avez trouvé `credsum` crédits !"
 PickupMessages[4]="Vous avez trouvé un nouvel uniforme !"
 PickupMessages[5]="Vous obtenez un `vehname`!"
@@ -934,99 +856,99 @@ PickupMessages[7]="Votre santé et vos munitions ont été restaurés !"
 
 [Rx_Message_Crates]
 PickupBroadcastMessages[0]= "`PlayerName` a trouvé une caisse !"
-PickupBroadcastMessages[1]="`PlayerName` just got a death crate. Sucks to be you."
-PickupBroadcastMessages[2]="`PlayerName` got an Ion Cannon to the face. Ouch!"
-PickupBroadcastMessages[3]="`PlayerName` is green with nuclear radiation"
-PickupBroadcastMessages[4]="`PlayerName` found a money crate!"
-PickupBroadcastMessages[5]="`PlayerName` got a new character!"
-PickupBroadcastMessages[6]="`PlayerName` got a new vehicle!"
-PickupBroadcastMessages[7]="Watch out, an enemy player picked up a spy crate!"
-PickupBroadcastMessages[8]="`PlayerName` picked up a spy crate!"
-PickupBroadcastMessages[9]="`PlayerName` picked up a refill crate."
-PickupBroadcastMessages[10]="`PlayerName` picked up a suicide crate."
-PickupBroadcastMessages[11]="`PlayerName` picked up a speed upgrade crate."
-PickupBroadcastMessages[12]="`PlayerName` was abducted by aliens."
-PickupBroadcastMessages[13]="`PlayerName` won't last more than 30 seconds."
-PickupBroadcastMessages[14]="`PlayerName` discovered weaponry from the future!"
-PickupBroadcastMessages[15]="`PlayerName` discovered weaponry from Kane's past!"
-PickupBroadcastMessages[16]="`PlayerName` picked up a veterancy crate!"
-PickupBroadcastMessages[17]="`PlayerName` picked up a damage resistance crate!" 
-PickupBroadcastMessages[18]="`PlayerName` discovered CLASSIC weaponry!" 
-PickupBroadcastMessages[19]="`PlayerName` found an EPIC Character crate!" 
+PickupBroadcastMessages[1]="`PlayerName` a trouvé une caisse mortelle. Je n'aimerais pas être à ta place."
+PickupBroadcastMessages[2]="`PlayerName` gagne un Canon à Ion dans la face. Aie !"
+PickupBroadcastMessages[3]="`PlayerName` est vert avec les radiations nucléaires"
+PickupBroadcastMessages[4]="`PlayerName` a trouvé un caisse de crédits !"
+PickupBroadcastMessages[5]="`PlayerName` a un nouveau personnage!"
+PickupBroadcastMessages[6]="`PlayerName` a un nouveau véhicule!"
+PickupBroadcastMessages[7]="Prudence, un joueur ennemi a pris une caisse d'espion!"
+PickupBroadcastMessages[8]="`PlayerName` a ramassé une caisse d'espion!"
+PickupBroadcastMessages[9]="`PlayerName` a ramassé une caisse de ravitaillement."
+PickupBroadcastMessages[10]="`PlayerName` a ramassé une caisse mortelle."
+PickupBroadcastMessages[11]="`PlayerName` a ramassé une caisse d'augmentation de vitesse."
+PickupBroadcastMessages[12]="`PlayerName` a été enlevé par les aliens."
+PickupBroadcastMessages[13]="`PlayerName` ne durera pas plus de 30 secondes."
+PickupBroadcastMessages[14]="`PlayerName` a découvert des armes du futur!"
+PickupBroadcastMessages[15]="`PlayerName` a découvert des armes du passé de Kane!"
+PickupBroadcastMessages[16]="`PlayerName` a ramassé une caisse de vétéran!"
+PickupBroadcastMessages[17]="`PlayerName` a ramassé une caisse de résistance aux dommages!" 
+PickupBroadcastMessages[18]="`PlayerName` a découvert une arme CLASSIQUE!" 
+PickupBroadcastMessages[19]="`PlayerName` a trouvé une caisse de Personnage EPIQUE!" 
 
 [Rx_CrateType_Money]
-PickupMessage = "You found `credsum` credits!"
+PickupMessage = "Vous avez trouvé `credsum` crédits!"
 
 [Rx_CrateType_Refill]
-PickupMessage = "Your health and ammo has been restored!"
+PickupMessage = "Votre santé et vos munitions ont été restaurés !"
 
 [Rx_CrateType_Spy]
-PickupMessage = "You found an enemy uniform!"
+PickupMessage = "Vous avez trouvé un uniforme ennemi !"
 
 [Rx_CrateType_Vehicle]
-PickupMessage = "You got a `vehname`!"
+PickupMessage = "Vous avez un `vehname`!"
 
 [Rx_CrateType_Character]
-PickupMessage = "You found a new uniform!"
+PickupMessage = "Vous avez trouvé un nouvel uniforme !"
 
 [Rx_CrateType_Suicide]
-PickupMessage = "You found the answer to the universe inside the box, and see no reason to continue living."
+PickupMessage = "Vous avez trouvé la réponse de l'univers dans une caisse, et vous ne voyez aucune raison de continuer a vivre."
 
 [Rx_CrateType_TimeBomb]
-PickupMessage = "There is a bomb on your head. You have 30 seconds to live."
+PickupMessage = "Il y a une bombe sur votre tête, il vous reste 30 secondes a vivre."
 
 [Rx_CrateType_Nuke]
-PickupMessage = "By the way, Nuclear Missile Launch Detected. Bwahahaha!"
+PickupMessage = "Au passage, Lancement de Missile Nucléaire detecté. Bouahahaha!"
 
 [Rx_CrateType_Speed]
-PickupMessage = "Your character's speed has been upgraded by `increasepct`%!"
+PickupMessage = "La vitesse de votre personnage a été augmenter de `increasepct`%!"
 
 [Rx_CrateType_Abduction]
-PickupMessage = "You have been abducted by the Scrin!"
+PickupMessage = "Vous avez été enlevé par les Scrins!"
 
 [Rx_CrateType_TSVehicle]
-PickupMessage = "A hole in space time has opened! You command the future."
+PickupMessage = "Un trou dans l'espace temps a été ouvert, vous commandez le futur."
 
 [Rx_CrateType_RAVehicle]
-PickupMessage = "A rougue chrono-shift seems to be going on! You control the past."
+PickupMessage = "Un décalage Chronologique semble se produire, vous controlez le passé."
 
 [Rx_CrateType_Veterancy]
-PickupMessage = "You've learned just a little more in the art of war."
+PickupMessage = "Vous avez appris un peu plus dans l'art de la guerre."
 
 [Rx_CrateType_DamageResistance]
-PickupMessage = "You picked up a DAMAGE RESISTANCE crate"
+PickupMessage = "Vous avez ramassé un caisse de RESISTANCE AU DOMMAGES"
 
 [Rx_CrateType_ClassicVehicle]
-PickupMessage = "Never forget the CLASSICS"
+PickupMessage = "N'oubliez jamais les CLASSIQUES"     
 
 [Rx_CrateType_EpicCharacter]
-PickupMessage = "You've found an EPIC Character!"
+PickupMessage = "Vous avez trouvé un PERSONNAGE EPIQUE!"
 
 [Rx_Message_Vehicle]
-VehicleMessages[0]="`VehicleClass` bound. Press [`LockKey`] to toggle lock on driver seat. Hold [`LockKey`] to unbind."
-VehicleMessages[1]="`VehicleClass` auto-bound. Press [`LockKey`] to toggle lock on driver seat. Hold [`LockKey`] to unbind."
-VehicleMessages[2]="`VehicleClass` unbound."
+VehicleMessages[0]="`VehicleClass` assigné. Appuyez sur [`LockKey`] pour verouiller le siège du conducteur. Maintenez [`LockKey`] pour désassigner."
+VehicleMessages[1]="`VehicleClass` auto-assigné. Appuyez sur [`LockKey`] pour verouiller le siège du conducteur. Maintenez [`LockKey`] pour désassigner."
+VehicleMessages[2]="`VehicleClass` désassigné."
 
-VehicleMessages[3]="This vehicle is not bound, hold [`LockKey`] to bind to it."
-VehicleMessages[4]="This vehicle is not bound, hold [`LockKey`] to replace your existing `VehicleClass` bind with this vehicle."
-VehicleMessages[5]="The previous owner has unbound this vehicle. Hold [`LockKey`] to bind it."
-VehicleMessages[6]="Can not bind vehicle, it is already bound to `OwnerName`."
+VehicleMessages[3]="Ce véhicule n'est pas assigné, maintenez [`LockKey`] pour l'assigner."
+VehicleMessages[4]="Ce véhicule n'est pas assigné, maintenez [`LockKey`] pour remplacer votre véhicule existant `VehicleClass` assigné par ce véhicule."
+VehicleMessages[5]="Le propriétaire précédent a désassigné ce véhicule. Maintenez [`LockKey`] pour l'assigner."
+VehicleMessages[6]="impossible d'assigner ce véhicule, il est déjà assigné par `OwnerName`."
 
-VehicleMessages[7]="`VehicleClass` driver seat Locked."
-VehicleMessages[8]="`VehicleClass` driver seat Unlocked."
+VehicleMessages[7]="`VehicleClass` Siège conducteur verouillé."
+VehicleMessages[8]="`VehicleClass` Siège conducteur dévérouillé."
 
-VehicleMessages[9]="Driver seat is locked by `OwnerName`."
-VehicleMessages[10]="You can't enter the Vehicle. Buyer '`OwnerName`' has exclusive access for `IntegerValue` more seconds."
-VehicleMessages[11]="You can't enter the Vehicle. `OwnerTeam` has exclusive access for `IntegerValue` more seconds."
+VehicleMessages[9]="Le siège conducteur est vérouiller par `OwnerName`."
+VehicleMessages[10]="Vous ne pouvez pas entrer dans le véhicule. L'acheteur '`OwnerName`' a l'accès exclusif pour encore `IntegerValue` secondes."
+VehicleMessages[11]="Vous ne pouvez pas entrer dans le véhicule. `OwnerTeam` a l'acces exclusif pour encore `IntegerValue` secondes."
 
-VehicleMessages[12]="`OwnerName`'s `VehicleClass` has been stolen by the enemy!"
-VehicleMessages[13]="`OtherName` has entered the driver seat of your `VehicleClass`."
-VehicleMessages[14]="Your `VehicleClass` has been destroyed."
+VehicleMessages[12]="`OwnerName`'s `VehicleClass` a été volé par l'ennemi!"
+VehicleMessages[13]="`OtherName` est entré dans le siège conducteur de votre véhicule `VehicleClass`."
+VehicleMessages[14]="Your `VehicleClass` a été détruit."
 
-VehicleMessages[15]="`OwnerName` has locked the drivers seat."
+VehicleMessages[15]="`OwnerName` a vérouillé le siège conducteur."
 
-VehicleMessages[16]="`OtherName` has stolen a `VehicleClass`!"
-VehicleMessages[17]="A `VehicleClass` has fallen into the hands of the enemy!"
+VehicleMessages[16]="`OtherName` a volé un `VehicleClass`!"
+VehicleMessages[17]="Un `VehicleClass` est tombé dans les mains de l'ennemi!"
 
 //=====================================
 // Context Menu Help
@@ -1039,135 +961,135 @@ SubHelpText[0]=""
 [Rx_CommandMenuChoice_SupportPowers]
 
 //Radar Scan [GDI]
-SubHelpText_GDI[0]="+Delivery:%Instant Radar Scan%%+Purpose:%-COMMAND SPOTS all units in an area for 20s%%-Spots units on map for a full 60s%%Notes%%-Ignores cover"
+SubHelpText_GDI[0]="+Déploie:%Scan radar%%+Permet:%-EPINGLE toutes unités dans la zone pour 20s%%-Repère les unités sur la carte pour 60s%%Notes%%-Ignore les couverts"
 
 //Spy Plane [Nod]
-SubHelpText_Nod[0]="+Delivery:%Spy Aircraft%%+Purpose:%-COMMAND SPOTS units not in cover for 20s%%-Spots units on map for a full 45s%%Notes%%-Plane requires line of sight%%-Can be shot down%"
+SubHelpText_Nod[0]="+Déploie:%Avion espion%%+Permet:%-EPINGLE toutes unités à découvert pour 20s%%-Repère les unités sur la carte pour 45s%%Notes%%-Avion recquiert une ligne de vue%%-Peut être abattu%"
 
 //Smoke
-SubHelpText_GDI[1]="+Delivery:%Bomber Aircraft%%+Purpose:%-Blocks line of sight%-Blinds base defenses%%Notes%%-Can be shot down%"
+SubHelpText_GDI[1]="+Déploie:%Bombardier%%+Permet:%-Bloque la ligne de vue%-Aveugle les défenses de base%%Notes%%-Peut être abattu%"
 
-SubHelpText_Nod[1]="+Delivery:%Bomber Aircraft%%+Purpose:%-Blocks line of sight%-Blinds base defenses%%Notes%%-Can be shot down%"
+SubHelpText_Nod[1]="+Déploie:%Bombardier%%+Permet:%-Bloque la ligne de vue%-Aveugle les defénses de base%%Notes%%-Peut être abattu%"
 
 //EMP Strike
-SubHelpText_GDI[2]="+Delivery:%Bomber Aircraft%%+Purpose:%-Disables vehicle movement%-Disarms enemy mines%%Notes%%-Can be shot down%"
+SubHelpText_GDI[2]="+Déploie:%Bombardier%%+Permet:%-Immobilise les véhicules%-Désarme les mines ennemies%%Notes%%-Peut être abattu%"
 
-SubHelpText_Nod[2]="+Delivery:%Bomber Aircraft%%+Purpose:%-Disables vehicle movement%-Disarms enemy mines%%Notes%%-Can be shot down%"
+SubHelpText_Nod[2]="+Déploie:%Bombardier%%+Permet:%-Immobilise les véhicules%-Désarme les mines ennemies%%Notes%%-Peut être abattu%"
 
 
 //Cruise Missile
-SubHelpText_GDI[3]="+Delivery:%Self-Guided Missile%%+Purpose:%-Heavy damage%-Large AoE%%-Airburst%Can be shot down%"
+SubHelpText_GDI[3]="+Déploie:%Missile auto-guidé%%+Permet:%-Inflige de lourds dégâts%-Large zone de dégâts%%-Peut exploser en vol%Peut être abattu%"
 
-SubHelpText_Nod[3]="+Delivery:%Self-Guided Missile%%+Purpose:%-Heavy damage%-Large AoE%%-Airburst%Can be shot down%"
+SubHelpText_Nod[3]="+Déploie:%Missile auto-guidé%%+Permet:%-Inflige de lourds dégâts%-Large zone de dégâts%%-Peut exploser en vol%Peut être abattu%"
 
 //Defensive Buff
-SubHelpText_GDI[4]="+Delivery:%Self Cast%%+Purpose:%INCREASE DEFENSIVE ABILITY%%Affects all FRIENDLY units around you.%%DURATION: 20s%"
+SubHelpText_GDI[4]="+Déploie:%Bonus%%+Permet:%AUGMENTE LA RESISTANCE%%Affecte toutes les unités amicales autour de vous.%%DURÉE: 20s%"
 
-SubHelpText_Nod[4]="+Delivery:%Self Cast%%+Purpose:%INCREASE DEFENSIVE ABILITY%%Affects all FRIENDLY units around you.%%DURATION: 20s%"
+SubHelpText_Nod[4]="+Déploie:%Bonus%%+Permet:%AUGMENTE LA RESISTANCE%%Affecte toutes les unités amicales autour de vous.%%DURÉE: 20s%"
 
 //Offensive Buff
-SubHelpText_GDI[5]="+Delivery:%Self Cast%%+Purpose:%+GREATLY INCREASE OFFENSIVE ABILITY%%Affects all FRIENDLY units around you.%%DURATION: 15s%"
+SubHelpText_GDI[5]="+Déploie:%Bonus%%+Permet:%+AUGMENTE LA RAPIDITE DE TIR%%Affecte toutes les unités amicales autour de vous.%%DURÉE: 15s%"
 
-SubHelpText_Nod[5]="+Delivery:%Self Cast%%+Purpose:%+GREATLY INCREASE OFFENSIVE ABILITY%%Affects all FRIENDLY units around you.%%DURATION: 15s%"
+SubHelpText_Nod[5]="+Déploie:%Bonus%%+Permet:%+AUGMENTE LA RAPIDITE DE TIR%%Affecte toutes les unités amicales autour de vous.%%DURÉE: 15s%"
 
 
 
 //Help Menu
 [Rx_CommandMenuChoice_Help]
-MainHelpText="Select a topic with a 'number' button.%"
+MainHelpText="Sélectionnez un sujet avec un bouton 'number'.%"
 
 //Commander Help: Chat
-SubHelpText[0]="+Commander's teamchat messages are%coloured differently to allow easy%identification.%%+Preface a teamchat message with%'/C' to send as a COMMANDER MESSAGE.%%+COMMANDER MESSAGES appear both in%normal chat AND mid-screen chat for%emphasis.%%+Preface a team message with '/R' %to send a RUSH message.%%+RUSH messages appear mid-screen%and last for 15 seconds.%"
+SubHelpText[0]="+Les messages du commandant dans le chat d'équipe%sont colorés différement pour permettre%une identification plus simple.%%+Démarrez un message dans le chat d'équipe avec%'/C' pour l'envoyer comme MESSAGE DE COMMANDEMENT.%%+LES MESSAGES DE COMMANDANT apparaissent dans%le chat normal ET au milieu de l'écran pour%indiquer son importance.%%+Démarrez un message d'équipe avec '/R' %pour envoyer un message de RUSH.%%+Les messages de RUSH apparaissent en milieu d'écran%et restent affichés pour 15 secondes.%"
 
 //Commander Help: Targeting
-SubHelpText[1]="+Targets Q-spotted by the COMMANDER are%visible to ALL friendly units.%%+COMMANDER spotted units are numbered for%identification.%%+COMMANDER spotted units decay over time.%Targets last for 20 seconds.%They begin to SHRINK when they are about to decay.%%COMMANDER spotted targets grant%10 COMMAND POINTS[CP] when destroyed.%"
+SubHelpText[1]="+Les cibles épinglées avec A par le COMMANDANT sont%visibles par TOUTES les unités amies.%%+Les unités épinglées par le COMMANDANT sont% numérotées pour l'identification.%%+Les unités épinglées disparaissent au fil du temps.%Les cibles restent 20 secondes.%Ils se RETRECISSENT quand ils commencent à disparaître.%%Détruire une cible épinglée offre%10 POINTS DE COMMANDEMENT[PC].%"
 
 //Commander Help: Waypoints
-SubHelpText[2]="+WAYPOINTS are visible to the entire team.%%+After selecting a waypoint with 1-9,% Q will place it wherever you are pointing.%%+Holding Q will remove the corresponding waypoint.%" 
+SubHelpText[2]="+Les POINTS DE RALLIEMENT sont visibles par toute l'équipe.%%+Après avoir sélectionné un point de ralliement avec 1-9,% A va le placer où vous le pointez.%%+Maintenir A va supprimer le point de ralliement correspondant.%" 
 
 //Commander Help: Remove Mines
-SubHelpText[3]="+Select a building with a number% then hold -Q- to remove ALL% proximity C4 in that building.%"
+SubHelpText[3]="+Sélectionnez un bâtiment avec un nombre% puis maintenez -A- pour supprimer TOUTES% les mines placées dans le bâtiment.%"
 
 //Commander Help: Harvester Options
-SubHelpText[4]="+The HARVESTER can be told to STOP.%%+The Harvester WAYPOINT% is where the HARVESTER%will go when STOPPED.%%+The HARVESTER can be told to detonate if%it appears to be stuck.%%+Telling the HARVESTER to detonate again will%cancel the detonation.%"
+SubHelpText[4]="+Le COLLECTEUR peut être STOPPÉ.%%+Le POINT DE RALLIEMENT du COLLECTEUR est là où le COLLECTEUR%va aller lorsqu'il est STOPPÉ.%%+Le COLLECTEUR peut être auto-détruit%s'il est coincé.%%+Refaire la commande annulera l'auto-destruction.%"
 
 
 //Commander Help: Support Powers
-SubHelpText[5]="+Support Powers ALL COST COMMAND POINTS%%+Most support powers are cast by%HOLDING -Q- and pointing at an area.%%+Support powers have their%own tooltips when selected%"
+SubHelpText[5]="+Les Pouvoirs de Soutien COÛTENT DES POINTS DE COMMANDEMENT%%+La plupart de ces pouvoirs peuvent être utilisés en%MAINTENANT -A- et en pointant une zone.%%+Les pouvoirs de soutien ont leurs propres%explications lorsqu'ils sont sélectionnés.%"
 
 //=====================================
 // Text Radio Commands
 //=====================================
 [Rx_Controller]
 	// CTRL + Number
-	RadioCommandsText[0]     =   "Building needs repair!"
-	RadioCommandsText[1]     =   "Get in the vehicle!"
-	RadioCommandsText[2]     =   "Get out of the vehicle!"
-	RadioCommandsText[3]     =   "Destroy that vehicle!" 
-	RadioCommandsText[4]     =   "Watch where you're pointing that!"
-	RadioCommandsText[5]     =   "Don't get in my way!"
-	RadioCommandsText[6]     =   "Affirmative."
-	RadioCommandsText[7]     =   "Negative."
-	RadioCommandsText[8]     =   "I'm in position."
-	RadioCommandsText[9]     =   "Enemy spotted!"
+	RadioCommandsText[0]     =   "Le bâtiment a besoin de réparations!"
+	RadioCommandsText[1]     =   "Montez dans le véhicule!"
+	RadioCommandsText[2]     =   "Sortez du véhicule!"
+	RadioCommandsText[3]     =   "Détruisez ce véhicule!" 
+	RadioCommandsText[4]     =   "Regardez ou vous pointez ça!"
+	RadioCommandsText[5]     =   "Ne vous mettez pas dans mes pattes!"
+	RadioCommandsText[6]     =   "Affirmatif."
+	RadioCommandsText[7]     =   "Négatif.
+	RadioCommandsText[8]     =   "Je suis en position."	
+        RadioCommandsText[9]     =   "Ennemi detecté"
 
 	// ALT + Number
-	RadioCommandsText[10]    =   "I need repairs!"
-	RadioCommandsText[11]    =   "Take the point."
-	RadioCommandsText[12]    =   "Move out."
-	RadioCommandsText[13]    =   "Follow me."
-	RadioCommandsText[14]    =   "Hold position."
-	RadioCommandsText[15]    =   "Cover me."
-	RadioCommandsText[16]    =   "Take cover."
-	RadioCommandsText[17]    =   "Fall back."
-	RadioCommandsText[18]    =   "Return to base."
-	RadioCommandsText[19]    =   "Destroy it now!"
+	RadioCommandsText[10]    =   "J'ai besoin de réparations!"
+	RadioCommandsText[11]    =   "Prenez cette position."
+	RadioCommandsText[12]    =   "Bougez de là."
+	RadioCommandsText[13]    =   "Suivez moi."
+	RadioCommandsText[14]    =   "Restez en position."
+	RadioCommandsText[15]    =   "Couvrez moi."
+	RadioCommandsText[16]    =   "A couvert."
+	RadioCommandsText[17]    =   "Reculez."
+	RadioCommandsText[18]    =   "Retournez à la base."
+	RadioCommandsText[19]    =   "Détruisez ca maintenant!"
 
 	// CTRL+ALT + Number
-	RadioCommandsText[20]    =   "Attack the base defenses!"
-	RadioCommandsText[21]    =   "Attack the Harvester!"
-	RadioCommandsText[22]    =   "Attack that structure!"
-	RadioCommandsText[23]    =   "Attack the Refinery!" 
-	RadioCommandsText[24]    =   "Attack the Power Plant!"
-	RadioCommandsText[25]    =   "Defend the base!"
-	RadioCommandsText[26]    =   "Defend the Harvester!"
-	RadioCommandsText[27]    =   "Defend that structure!"
-	RadioCommandsText[28]    =   "Defend the Refinery!"
-	RadioCommandsText[29]    =   "Defend the Power Plant!"
+	RadioCommandsText[20]    =   "Attaquez les défenses de la base!"
+	RadioCommandsText[21]    =   "Attaquez le collecteur!"
+	RadioCommandsText[22]    =   "Attaquer cette structure!"
+	RadioCommandsText[23]    =   "Attaquez la raffinerie!" 
+	RadioCommandsText[24]    =   "Attaquez la centrale électrique!"
+	RadioCommandsText[25]    =   "Defendez la base!"
+	RadioCommandsText[26]    =   "Defendez le collecteur!"
+	RadioCommandsText[27]    =   "Defendez cette structure!"
+	RadioCommandsText[28]    =   "Defendez la raffinerie!"
+	RadioCommandsText[29]    =   "Defendez la centrale électrique!"
 
 [Rx_HUD]
 	// CTRL + Number
-	RadioCommandsCTRL[0]     =   "1|Building needs repair!"
-	RadioCommandsCTRL[1]     =   "2|Get in the vehicle!"
-	RadioCommandsCTRL[2]     =   "3|Get out of the vehicle!"
-	RadioCommandsCTRL[3]     =   "4|Destroy that vehicle!" 
-	RadioCommandsCTRL[4]     =   "5|Watch where you're pointing that!"
-	RadioCommandsCTRL[5]     =   "6|Don't get in my way!"
-	RadioCommandsCTRL[6]     =   "7|Affirmative."
-	RadioCommandsCTRL[7]     =   "8|Negative."
-	RadioCommandsCTRL[8]     =   "9|I'm in position."
-	RadioCommandsCTRL[9]     =   "0|Enemy spotted!"
+	RadioCommandsCTRL[0]     =   "1|Le batiment a besoin de réparations!"
+	RadioCommandsCTRL[1]     =   "2|Montez dans le véhicule!"
+	RadioCommandsCTRL[2]     =   "3|Sortez du véhicule!"
+	RadioCommandsCTRL[3]     =   "4|Détruisez ce véhicule!" 
+	RadioCommandsCTRL[4]     =   "5|Regardez ou vous pointez ça!"
+	RadioCommandsCTRL[5]     =   "6|Ne vous mettez pas dans mes pattes!"
+	RadioCommandsCTRL[6]     =   "7|Affirmatif."
+	RadioCommandsCTRL[7]     =   "8|Négatif."
+	RadioCommandsCTRL[8]     =   "9|Je suis en position."
+	RadioCommandsCTRL[9]     =   "0|Ennemi detecté!"
 
 	// ALT + Number
-	RadioCommandsALT[0]    =   "1|I need repairs!"
-	RadioCommandsALT[1]    =   "2|Take the point."
-	RadioCommandsALT[2]    =   "3|Move out."
-	RadioCommandsALT[3]    =   "4|Follow me."
-	RadioCommandsALT[4]    =   "5|Hold position."
-	RadioCommandsALT[5]    =   "6|Cover me."
-	RadioCommandsALT[6]    =   "7|Take cover."
-	RadioCommandsALT[7]    =   "8|Fall back."
-	RadioCommandsALT[8]    =   "9|Return to base."
-	RadioCommandsALT[9]    =   "0|Destroy it now!"
+	RadioCommandsALT[0]    =   "1|J'ai besoin de réparations!"
+	RadioCommandsALT[1]    =   "2|Prenez cette position."
+	RadioCommandsALT[2]    =   "3|Bougez de là."
+	RadioCommandsALT[3]    =   "4|Suivez moi."
+	RadioCommandsALT[4]    =   "5|Restez en position."
+	RadioCommandsALT[5]    =   "6|Couvrez moi."
+	RadioCommandsALT[6]    =   "7|A couvert."
+	RadioCommandsALT[7]    =   "8|Reculez."
+	RadioCommandsALT[8]    =   "9|Retournez a la base."
+	RadioCommandsALT[9]    =   "0|Détruisez ça maintenant!"
 
 	// CTRL+ALT + Number
-	RadioCommandsCTRLALT[0]    =   "1|Attack the base defenses!"
-	RadioCommandsCTRLALT[1]    =   "2|Attack the Harvester!"
-	RadioCommandsCTRLALT[2]    =   "3|Attack that structure!"
-	RadioCommandsCTRLALT[3]    =   "4|Attack the Refinery!" 
-	RadioCommandsCTRLALT[4]    =   "5|Attack the Power Plant!"
-	RadioCommandsCTRLALT[5]    =   "6|Defend the base!"
-	RadioCommandsCTRLALT[6]    =   "7|Defend the Harvester!"
-	RadioCommandsCTRLALT[7]    =   "8|Defend that structure!"
-	RadioCommandsCTRLALT[8]    =   "9|Defend the Refinery!"
-	RadioCommandsCTRLALT[9]    =   "0|Defend the Power Plant!"
+	RadioCommandsCTRLALT[0]    =   "1|Attaquez les défenses de la base!"
+	RadioCommandsCTRLALT[1]    =   "2|Attaquez le collecteur!"
+	RadioCommandsCTRLALT[2]    =   "3|Attaquez cette structure!"
+	RadioCommandsCTRLALT[3]    =   "4|Attaquez la raffinerie!" 
+	RadioCommandsCTRLALT[4]    =   "5|Attaquez la centrale électrique!"
+	RadioCommandsCTRLALT[5]    =   "6|Defendez la base!"
+	RadioCommandsCTRLALT[6]    =   "7|Defendez le collecteur!"
+	RadioCommandsCTRLALT[7]    =   "8|Defendez cette structure!"
+	RadioCommandsCTRLALT[8]    =   "9|Defendez la raffinerie!"
+	RadioCommandsCTRLALT[9]    =   "0|Defendez la centrale électrique!"
