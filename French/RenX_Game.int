@@ -1002,36 +1002,36 @@ MainHelpText="Sélectionnez un sujet avec un bouton 'number'.%"
 SubHelpText[0]="+Les messages du commandant dans le chat d'équipe%sont colorés différement pour permettre%une identification plus simple.%%+Démarrez un message dans le chat d'équipe avec%'/C' pour l'envoyer comme MESSAGE DE COMMANDEMENT.%%+LES MESSAGES DE COMMANDANT apparaissent dans%le chat normal ET au milieu de l'écran pour%indiquer son importance.%%+Démarrez un message d'équipe avec '/R' %pour envoyer un message de RUSH.%%+Les messages de RUSH apparaissent en milieu d'écran%et restent affichés pour 15 secondes.%"
 
 //Commander Help: Targeting
-SubHelpText[1]="+Targets Q-spotted by the COMMANDER are%visible to ALL friendly units.%%+COMMANDER spotted units are numbered for%identification.%%+COMMANDER spotted units decay over time.%Targets last for 20 seconds.%They begin to SHRINK when they are about to decay.%%COMMANDER spotted targets grant%10 COMMAND POINTS[CP] when destroyed.%"
+SubHelpText[1]="+Les cibles épinglées avec A par le COMMANDANT sont%visibles par TOUTES les unités amies.%%+Les unités épinglées par le COMMANDANT sont% numérotées pour l'identification.%%+Les unités épinglées disparaissent au fil du temps.%Les cibles restent 20 secondes.%Ils se RETRECISSENT quand ils commencent à disparaître.%%Détruire une cible épinglée offre%10 POINTS DE COMMANDEMENT[PC].%"
 
 //Commander Help: Waypoints
-SubHelpText[2]="+WAYPOINTS are visible to the entire team.%%+After selecting a waypoint with 1-9,% Q will place it wherever you are pointing.%%+Holding Q will remove the corresponding waypoint.%" 
+SubHelpText[2]="+Les POINTS DE RALLIEMENT sont visibles par toute l'équipe.%%+Après avoir sélectionné un point de ralliement avec 1-9,% A va le placer où vous le pointez.%%+Maintenir A va supprimer le point de ralliement correspondant.%" 
 
 //Commander Help: Remove Mines
-SubHelpText[3]="+Select a building with a number% then hold -Q- to remove ALL% proximity C4 in that building.%"
+SubHelpText[3]="+Sélectionnez un bâtiment avec un nombre% puis maintenez -A- pour supprimer TOUTES% les mines placées dans le bâtiment.%"
 
 //Commander Help: Harvester Options
-SubHelpText[4]="+The HARVESTER can be told to STOP.%%+The Harvester WAYPOINT% is where the HARVESTER%will go when STOPPED.%%+The HARVESTER can be told to detonate if%it appears to be stuck.%%+Telling the HARVESTER to detonate again will%cancel the detonation.%"
+SubHelpText[4]="+Le COLLECTEUR peut être STOPPÉ.%%+Le POINT DE RALLIEMENT du COLLECTEUR est là où le COLLECTEUR%va aller lorsqu'il est STOPPÉ.%%+Le COLLECTEUR peut être auto-détruit%s'il est coincé.%%+Refaire la commande annulera l'auto-destruction.%"
 
 
 //Commander Help: Support Powers
-SubHelpText[5]="+Support Powers ALL COST COMMAND POINTS%%+Most support powers are cast by%HOLDING -Q- and pointing at an area.%%+Support powers have their%own tooltips when selected%"
+SubHelpText[5]="+Les Pouvoirs de Soutien COÛTENT DES POINTS DE COMMANDEMENT%%+La plupart de ces pouvoirs peuvent être utilisés en%MAINTENANT -A- et en pointant une zone.%%+Les pouvoirs de soutien ont leurs propres%explications lorsqu'ils sont sélectionnés.%"
 
 //=====================================
 // Text Radio Commands
 //=====================================
 [Rx_Controller]
 	// CTRL + Number
-	RadioCommandsText[0]     =   "Le batiment a besoin de réparations!"
+	RadioCommandsText[0]     =   "Le bâtiment a besoin de réparations!"
 	RadioCommandsText[1]     =   "Montez dans le véhicule!"
 	RadioCommandsText[2]     =   "Sortez du véhicule!"
 	RadioCommandsText[3]     =   "Détruisez ce véhicule!" 
 	RadioCommandsText[4]     =   "Regardez ou vous pointez ça!"
 	RadioCommandsText[5]     =   "Ne vous mettez pas dans mes pattes!"
 	RadioCommandsText[6]     =   "Affirmatif."
-	RadioCommandsText[7]     =   "Negatif.
+	RadioCommandsText[7]     =   "Négatif.
 	RadioCommandsText[8]     =   "Je suis en position."	
-        RadioCommandsText[9]     =   "Ennemie detecté"
+        RadioCommandsText[9]     =   "Ennemi detecté"
 
 	// ALT + Number
 	RadioCommandsText[10]    =   "J'ai besoin de réparations!"
@@ -1066,9 +1066,9 @@ SubHelpText[5]="+Support Powers ALL COST COMMAND POINTS%%+Most support powers ar
 	RadioCommandsCTRL[4]     =   "5|Regardez ou vous pointez ça!"
 	RadioCommandsCTRL[5]     =   "6|Ne vous mettez pas dans mes pattes!"
 	RadioCommandsCTRL[6]     =   "7|Affirmatif."
-	RadioCommandsCTRL[7]     =   "8|Negatif."
+	RadioCommandsCTRL[7]     =   "8|Négatif."
 	RadioCommandsCTRL[8]     =   "9|Je suis en position."
-	RadioCommandsCTRL[9]     =   "0|Ennemie detecté!"
+	RadioCommandsCTRL[9]     =   "0|Ennemi detecté!"
 
 	// ALT + Number
 	RadioCommandsALT[0]    =   "1|J'ai besoin de réparations!"
