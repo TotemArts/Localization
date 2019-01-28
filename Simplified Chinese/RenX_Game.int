@@ -65,16 +65,16 @@ ItemName="链炮"
 PickupMessage="链炮"
 
 [Rx_Weapon_SniperRifle]
-ItemName="狙击步枪"
-PickupMessage="狙击步枪"
+ItemName="消音狙击步枪"
+PickupMessage="消音狙击步枪"
 
 [Rx_Weapon_VoltAutoRifle]
 ItemName="电击自动步枪"
 PickupMessage="电击自动步枪"
 
 [Rx_Weapon_RamjetRifle]
-ItemName="冲压步枪"
-PickupMessage="冲压步枪"
+ItemName="冲压狙击步枪"
+PickupMessage="冲压狙击步枪"
 
 [Rx_Weapon_Railgun]
 ItemName="轨道枪"
@@ -97,20 +97,20 @@ ItemName="导弹发射器"
 PickupMessage="导弹发射器"
 
 [Rx_Weapon_ChemicalThrower]
-ItemName="生化喷射器"
-PickupMessage="生化喷射器"
+ItemName="化学喷射器"
+PickupMessage="化学喷射器"
 
 [Rx_Weapon_FlakCannon]
-ItemName="防空炮"
-PickupMessage="防空炮"
+ItemName="破片炮"
+PickupMessage="破片炮"
 
 [Rx_Weapon_RepairGun]
-ItemName="修理枪"
-PickupMessage="修理枪"
+ItemName="维修枪"
+PickupMessage="维修枪"
 
 [Rx_Weapon_RepairGunAdvanced]
-ItemName="高级修理枪"
-PickupMessage="高级修理枪"
+ItemName="高级维修枪"
+PickupMessage="高级维修枪"
 
 [Rx_Weapon_TimedC4]
 ItemName="定时C4"
@@ -141,12 +141,12 @@ ItemName="破片手雷"
 PickupMessage="破片手雷"
 
 [Rx_Weapon_SMG]
-ItemName="自动手枪"
-PickupMessage="自动手枪"
+ItemName="冲锋手枪"
+PickupMessage="冲锋手枪"
 
 [Rx_Weapon_SMG_Silenced]
-ItemName="消音自动手枪"
-PickupMessage="消音自动手枪"
+ItemName="消音冲锋手枪"
+PickupMessage="消音冲锋手枪"
 
 [Rx_Weapon_HeavyPistol]
 ItemName="重型手枪"
@@ -157,12 +157,12 @@ ItemName="精确射手步枪"
 PickupMessage="精确射手步枪"
 
 [Rx_Weapon_Carbine]
-ItemName="卡宾枪"
-PickupMessage="卡宾枪"
-
-[Rx_Weapon_Carbine_Silencer]
 ItemName="自动步枪"
 PickupMessage="自动步枪"
+
+[Rx_Weapon_Carbine_Silencer]
+ItemName="消音自动步枪"
+PickupMessage="消音自动步枪"
 
 [Rx_Weapon_Airstrike]
 ItemName="空袭引导装置"
@@ -177,16 +177,16 @@ ItemName="AC-130 空中打击"
 PickupMessage="AC-130 空中打击"
 
 [Rx_Weapon_TiberiumFlechetteRifle]
-ItemName="泰伯利亚镖弹步枪"
-PickupMessage="泰伯利亚镖弹步枪"
+ItemName="泰伯利亚镖弹枪"
+PickupMessage="泰伯利亚镖弹枪"
 
 [Rx_Weapon_TiberiumAutoRifle]
 ItemName="泰伯利亚自动步枪"
 PickupMessage="泰伯利亚自动步枪"
 
 [Rx_Weapon_TiberiumAutoRifle_Blue]
-ItemName="蓝晶泰伯利亚自动步枪"
-PickupMessage="蓝晶泰伯利亚自动步枪"
+ItemName="泰伯利亚自动步枪"
+PickupMessage="泰伯利亚自动步枪"
 
 [Rx_Weapon_ATMine]
 ItemName="反坦克地雷"
@@ -201,20 +201,20 @@ ItemName="电磁脉冲手雷"
 PickupMessage="电磁脉冲手雷"
 
 [Rx_Weapon_RepairTool]
-ItemName="修理工具"
-PickupMessage="修理工具"
+ItemName="维修工具"
+PickupMessage="维修工具"
 
 [Rx_Weapon_SmokeGrenade]
-ItemName="烟雾手雷"
-PickupMessage="烟雾手雷"
+ItemName="烟雾弹"
+PickupMessage="烟雾弹"
 
 [Rx_Weapon_SmokeGrenade_Rechargeable]
-ItemName="烟雾手雷"
-PickupMessage="烟雾手雷"
+ItemName="烟雾弹"
+PickupMessage="烟雾弹"
 
 [Rx_Weapon_TiberiumGrenade_Rechargeable]
-ItemName="泰伯利亚手雷"
-PickupMessage="泰伯利亚手雷"
+ItemName="泰伯利亚毒气手雷"
+PickupMessage="泰伯利亚毒气手雷"
 
 [Rx_Weapon_SniperRifle_UnSilenced]
 ItemName="狙击步枪"
@@ -229,8 +229,8 @@ ItemName="未知能力"
 PickupMessage="未知能力"
 
 [Rx_WeaponAbility_TiberiumGrenade]
-ItemName="泰伯利亚手雷"
-PickupMessage="泰伯利亚手雷"
+ItemName="泰伯利亚毒气手雷"
+PickupMessage="泰伯利亚毒气手雷"
 
 [Rx_WeaponAbility_Grenade]
 ItemName="破片手雷"
@@ -241,8 +241,8 @@ ItemName="电磁脉冲手雷"
 PickupMessage="电磁脉冲手雷"
 
 [Rx_WeaponAbility_SmokeGrenade]
-ItemName="烟雾手雷"
-PickupMessage="烟雾手雷"
+ItemName="烟雾弹"
+PickupMessage="烟雾弹"
 
 [Rx_WeaponAbility_TacRifleGrenade]
 ItemName="战术步枪 [榴弹]"
@@ -262,22 +262,22 @@ PT_Title="未知角色"
 [Rx_FamilyInfo_GDI_Soldier]
 CharacterName="步枪兵"
 PT_Title="步枪兵"
-PT_Description="护甲类型: 凯夫拉\n移动速度: 100\n副武器: 消音手枪\n+反步兵"
+PT_Description="护甲类型: 凯夫拉\n移动速度: 100\n副武器: 手枪\n+反步兵"
 
 [Rx_FamilyInfo_GDI_Shotgunner]
-CharacterName="霰弹枪手"
-PT_Title="霰弹枪手"
-PT_Description="护甲类型: 凯夫拉\n移动速度: 95\n副武器: 消音手枪\n+反步兵"
+CharacterName="霰弹兵"
+PT_Title="霰弹兵"
+PT_Description="护甲类型: 凯夫拉\n移动速度: 95\n副武器: 手枪\n+反步兵"
 
 [Rx_FamilyInfo_GDI_Grenadier]
 CharacterName="掷弹兵"
 PT_Title="掷弹兵"
-PT_Description="护甲类型: 防弹衣\n移动速度: 100\n副武器: 消音手枪\n+反装甲\n+反建筑"
+PT_Description="护甲类型: 防弹衣\n移动速度: 100\n副武器: 手枪\n+反装甲\n+反建筑"
 
 [Rx_FamilyInfo_GDI_Marksman]
-CharacterName="尖兵"
-PT_Title="尖兵"
-PT_Description="护甲类型: 凯夫拉\n移动速度: 100\n副武器: 消音手枪\n+反步兵"
+CharacterName="精确射手"
+PT_Title="精确射手"
+PT_Description="护甲类型: 凯夫拉\n移动速度: 100\n副武器: 手枪\n+反步兵"
 
 [Rx_FamilyInfo_GDI_Engineer]
 CharacterName="工程师"
@@ -287,17 +287,17 @@ PT_Description="护甲类型: 防弹衣\n移动速度: 95\n副武器: 消音手�
 [Rx_FamilyInfo_GDI_Officer]
 CharacterName="军官"
 PT_Title="军官"
-PT_Description="护甲类型: 凯夫拉\n移动速度: 100\n副武器: 消音手枪\n烟雾手雷\n+反步兵"
+PT_Description="护甲类型: 凯夫拉\n移动速度: 100\n副武器: 手枪\n烟雾手雷\n+反步兵"
 
 [Rx_FamilyInfo_GDI_RocketSoldier]
 CharacterName="火箭炮兵"
 PT_Title="火箭炮兵"
-PT_Description="护甲类型: 防弹衣\n移动速度: 95\n副武器: 自动手枪\n反坦克地雷\n+反装甲\n+反飞行载具"
+PT_Description="护甲类型: 防弹衣\n移动速度: 95\n副武器: 冲锋手枪\n反坦克地雷\n+反装甲\n+反飞行载具"
 
 [Rx_FamilyInfo_GDI_McFarland]
 CharacterName="麦克法兰"
 PT_Title="麦克法兰"
-PT_Description="护甲类型: 凯夫拉\n移动速度: 105\n副武器: 消音手枪\n破片手雷\n+反步兵"
+PT_Description="护甲类型: 凯夫拉\n移动速度: 105\n副武器: 手枪\n破片手雷\n+反步兵"
 
 [Rx_FamilyInfo_GDI_Gunner]
 CharacterName="炮手"
@@ -307,7 +307,7 @@ PT_Description="护甲类型: 防弹衣\n移动速度: 95\n副武器: 自动步�
 [Rx_FamilyInfo_GDI_Deadeye]
 CharacterName="神枪手"
 PT_Title="神枪手"
-PT_Description="护甲类型: 无\n移动速度: 90\n副武器: 重型手枪\n烟雾手雷\n+反步兵"
+PT_Description="护甲类型: 无\n移动速度: 90\n副武器: 重型手枪\n烟雾弹\n+反步兵"
 
 [Rx_FamilyInfo_GDI_Patch]
 CharacterName="补丁"
@@ -315,14 +315,14 @@ PT_Title="补丁"
 PT_Description="护甲类型: 凯夫拉\n移动速度: 112.5\n副武器: 重型手枪\n破片手雷\n+反步兵"
 
 [Rx_FamilyInfo_GDI_Havoc]
-CharacterName="浩劫"
-PT_Title="浩劫"
-PT_Description="护甲类型: 无\n移动速度: 90\n副武器: 自动步枪\n烟雾手雷\n+反步兵"
+CharacterName="哈洛克"
+PT_Title="哈洛克"
+PT_Description="护甲类型: 无\n移动速度: 90\n副武器: 自动步枪\n烟雾弹\n+反步兵"
 
 [Rx_FamilyInfo_GDI_Sydney]
 CharacterName="悉尼"
 PT_Title="悉尼"
-PT_Description="护甲类型: 防弹衣\n移动速度: 100\n副武器: 重型手枪\n电磁脉冲手雷\n反地面载具地雷\n+反装甲"
+PT_Description="护甲类型: 防弹衣\n移动速度: 100\n副武器: 泰伯利亚镖弹枪\n电磁脉冲手雷\n反坦克地雷\n+反装甲"
 
 [Rx_FamilyInfo_GDI_Mobius]
 CharacterName="莫比乌斯"
@@ -336,8 +336,8 @@ PT_Description="护甲类型: 防弹衣\n移动速度: 100\n副武器: 消音手
 
 //GDI Hero Units
 [Rx_FamilyInfo_GDI_Sydney_Suit]
-CharacterName="悉尼（装甲）"
-PT_Title="悉尼（装甲）"
+CharacterName="悉尼(装甲)"
+PT_Title="悉尼(装甲)"
 PT_Description="护甲类型: 防弹衣\n移动速度: 95\n副武器: 泰伯利亚自动步枪\n+多面手"
 
 
@@ -345,22 +345,22 @@ PT_Description="护甲类型: 防弹衣\n移动速度: 95\n副武器: 泰伯利�
 [Rx_FamilyInfo_Nod_Soldier]
 CharacterName="步枪兵"
 PT_Title="步枪兵"
-PT_Description="护甲类型: 凯夫拉\n移动速度: 100\n副武器: 消音手枪\n+反步兵"
+PT_Description="护甲类型: 凯夫拉\n移动速度: 100\n副武器: 手枪\n+反步兵"
 
 [Rx_FamilyInfo_Nod_Shotgunner]
-CharacterName="霰弹枪手"
-PT_Title="霰弹枪手"
-PT_Description="护甲类型: 凯夫拉\n移动速度: 100\n副武器: 消音手枪\n+反步兵"
+CharacterName="霰弹兵"
+PT_Title="霰弹兵"
+PT_Description="护甲类型: 凯夫拉\n移动速度: 100\n副武器: 手枪\n+反步兵"
 
 [Rx_FamilyInfo_Nod_FlameTrooper]
-CharacterName="火焰步兵"
-PT_Title="火焰步兵"
-PT_Description="护甲类型: 防弹衣\n移动速度: 105\n副武器: 消音手枪\n+多面手"
+CharacterName="喷火步兵"
+PT_Title="喷火步兵"
+PT_Description="护甲类型: 防弹衣\n移动速度: 105\n副武器: 手枪\n+多面手"
 
 [Rx_FamilyInfo_Nod_Marksman]
-CharacterName="尖兵"
-PT_Title="尖兵"
-PT_Description="护甲类型: 凯夫拉\n移动速度: 100\n副武器: 消音手枪\n+反步兵"
+CharacterName="精确射手"
+PT_Title="精确射手"
+PT_Description="护甲类型: 凯夫拉\n移动速度: 100\n副武器: 手枪\n+反步兵"
 
 [Rx_FamilyInfo_Nod_Engineer]
 CharacterName="工程师"
@@ -370,46 +370,46 @@ PT_Description="护甲类型: 防弹衣\n移动速度: 95\n副武器: 消音手�
 [Rx_FamilyInfo_Nod_Officer]
 CharacterName="军官"
 PT_Title="军官"
-PT_Description="护甲类型: 凯夫拉\n移动速度: 110\n副武器: 消音手枪\n烟雾手雷\n+反步兵"
+PT_Description="护甲类型: 凯夫拉\n移动速度: 110\n副武器: 手枪\n烟雾弹\n+反步兵"
 
 [Rx_FamilyInfo_Nod_RocketSoldier]
 CharacterName="火箭炮兵"
 PT_Title="火箭炮兵"
-PT_Description="护甲类型: 防弹衣\n移动速度: 105\n副武器: 自动手枪\n反坦克地雷\n+反装甲\n+反飞行载具"
+PT_Description="护甲类型: 防弹衣\n移动速度: 105\n副武器: 冲锋手枪\n反坦克地雷\n+反装甲\n+反飞行载具"
 
 [Rx_FamilyInfo_Nod_ChemicalTrooper]
-CharacterName="生化部队"
-PT_Title="生化部队"
-PT_Description="护甲类型: 防弹衣\n移动速度: 100\n副武器: 消音手枪\n破片手雷\n+多面手"
+CharacterName="化学部队"
+PT_Title="化学部队"
+PT_Description="护甲类型: 防弹衣\n移动速度: 100\n副武器: 手枪\n破片手雷\n+多面手"
 
 [Rx_FamilyInfo_Nod_StealthBlackHand]
-CharacterName="黑手匿迹者"
-PT_Title="黑手匿迹者"
-PT_Description="护甲类型: 拉撒路\n移动速度: 110\n副武器: S. M. 手枪\nActive Camouflage\n+多面手"
+CharacterName="隐形黑手"
+PT_Title="隐形黑手"
+PT_Description="护甲类型: 拉撒路\n移动速度: 110\n副武器: 消音冲锋手枪\n可隐形\n+多面手"
 
 [Rx_FamilyInfo_Nod_BlackHandSniper]
-CharacterName="黑手狙击手"
-PT_Title="黑手狙击手"
-PT_Description="护甲类型: 无\n移动速度: 90\n副武器: 重型手枪\n烟雾手雷\n+反步兵"
+CharacterName="狙击黑手"
+PT_Title="狙击黑手"
+PT_Description="护甲类型: 无\n移动速度: 90\n副武器: 冲锋手枪\n烟雾弹\n+反步兵"
 
 [Rx_FamilyInfo_Nod_LaserChainGunner]
-CharacterName="激光链炮手"
-PT_Title="激光链炮手"
-PT_Description="护甲类型: 防弹衣\n移动速度: 80\n电磁脉冲手雷\n反地面载具地雷\n+多面手\n+重甲步兵"
+CharacterName="激光链炮黑手"
+PT_Title="激光链炮黑手"
+PT_Description="护甲类型: 防弹衣\n移动速度: 80\n电磁脉冲手雷\n反坦克地雷\n+多面手\n+重甲步兵"
 
 [Rx_FamilyInfo_Nod_Sakura]
 CharacterName="樱花"
 PT_Title="樱花"
-PT_Description="护甲类型: 无\n移动速度: 90\n副武器: S. 自动步枪\n烟雾手雷\n+反步兵"
+PT_Description="护甲类型: 无\n移动速度: 90\n副武器: S. 消音自动步枪\n烟雾弹\n+反步兵"
 
 [Rx_FamilyInfo_Nod_Raveshaw]
-CharacterName="拉维肖"
-PT_Title="拉维肖"
-PT_Description="护甲类型: 防弹衣\n移动速度: 100\n副武器: 重型手枪\n电磁脉冲手雷\n反地面载具地雷\n+反装甲"
+CharacterName="瑞夫索"
+PT_Title="瑞夫索"
+PT_Description="护甲类型: 防弹衣\n移动速度: 100\n副武器: 泰伯利亚镖弹枪\n电磁脉冲手雷\n反坦克地雷\n+反装甲"
 
 [Rx_FamilyInfo_Nod_Mendoza]
-CharacterName="门多萨"
-PT_Title="门多萨"
+CharacterName="曼达札"
+PT_Title="曼达札"
 PT_Description="护甲类型: 凯夫拉\n移动速度: 110\n副武器: 重型手枪\n+多面手"
 
 [Rx_FamilyInfo_Nod_Technician]
@@ -419,8 +419,8 @@ PT_Description="护甲类型: 防弹衣\n移动速度: 100\n副武器: 消音手
 
 //Nod Hero Units 
 [Rx_FamilyInfo_Nod_Raveshaw_Mutant]
-CharacterName="拉维肖（变异）"
-PT_Title="拉维肖（变异）"
+CharacterName="瑞夫索(变异)"
+PT_Title="瑞夫索(变异)"
 PT_Description="护甲类型: 防弹衣\n移动速度: 95\n副武器: 泰伯利亚自动步枪\n+多面手"
 
 
@@ -439,37 +439,37 @@ VehicleNameString="坦克"
 VehiclePositionString="在猛犸坦克内"
 VehicleNameString="猛犸坦克"
 PT_Title="猛犸坦克"
-PT_Description="<font size='10'>-2x 120毫米坦克炮\n-4x 獠牙导弹\n-重型装甲\n-重型主战坦克\n-驾驶员 + 乘员</font>"
+PT_Description="<font size='10'>-2x 120毫米坦克炮\n-4x 獠牙导弹\n-重型装甲\n-重型主战坦克\n-驾驶员 + 1位乘员</font>"
 
 [Rx_Vehicle_MediumTank]
 VehiclePositionString="在中型坦克内"
 VehicleNameString="中型坦克"
 PT_Title="中型坦克"
-PT_Description="<font size='10'>-105毫米坦克炮\n-重型装甲\n-主战坦克\n-驾驶员 + 1个乘员</font>"
+PT_Description="<font size='10'>-105毫米坦克炮\n-重型装甲\n-主战坦克\n-驾驶员 + 1位乘员</font>"
 
 [Rx_Vehicle_Chinook]
 VehiclePositionString="在支奴干运输直升机内"
 VehicleNameString="支奴干运输直升机"
 PT_Title="支奴干运输直升机"
-PT_Description="<font size='10'>\n-2x 加特林机枪\n-轻型装甲\n-运输直升机\n-飞行员 + 4个乘员</font>"
+PT_Description="<font size='10'>\n-2x 加特林机枪\n-轻型装甲\n-运输直升机\n-飞行员 + 4位乘员</font>"
 
 [Rx_Vehicle_APC_Nod]
 VehiclePositionString="在装甲运兵车内"
 VehicleNameString="装甲运兵车"
-PT_Title="Nod装甲运兵车"
-PT_Description="<font size='10'>-M134 Minigun\n-重型装甲\n-运输直升机\n-驾驶员 + 4个乘员</font>"
+PT_Title="装甲运兵车"
+PT_Description="<font size='10'>-M134机枪\n-重型装甲\n-运输直升机\n-驾驶员 + 4位乘员</font>"
 
 [Rx_Vehicle_APC_GDI]
 VehiclePositionString="在装甲运兵车内"
 VehicleNameString="装甲运兵车"
 PT_Title="装甲运兵车"
-PT_Description="<font size='10'>-M134 Minigun\n-重型装甲\n-运输直升机\n-驾驶员 + 4个乘员</font>"
+PT_Description="<font size='10'>-M134机枪\n-重型装甲\n-运输直升机\n-驾驶员 + 4位乘员</font>"
 
 [Rx_Vehicle_Buggy]
 VehiclePositionString="在四驱车内"
 VehicleNameString="四驱车"
 PT_Title="四驱车"
-PT_Description="<font size='10'>-.50机枪\n-轻型装甲\n-突击侦察\n-驾驶员 + 乘员</font>"
+PT_Description="<font size='10'>-.50机枪\n-轻型装甲\n-突击侦察\n-驾驶员 + 1位乘员</font>"
 
 [Rx_Vehicle_HoverCraft]
 VehiclePositionString="在气垫运输艇内"
@@ -479,31 +479,31 @@ VehicleNameString="气垫运输艇"
 VehiclePositionString="在悍马内"
 VehicleNameString="悍马"
 PT_Title="HUMVEE"
-PT_Description="<font size='10'>-.50机枪\n-轻型装甲\n-突击侦察\n-驾驶员 + 乘员</font>"
+PT_Description="<font size='10'>-.50机枪\n-轻型装甲\n-突击侦察\n-驾驶员 + 1位乘员</font>"
 
 [Rx_Vehicle_MRLS]
 VehiclePositionString="在机动火箭发射系统内"
 VehicleNameString="机动火箭发射系统"
 PT_Title="机动火箭发射系统"
-PT_Description="<font size='10'>-M269导弹\n-轻型装甲\n-远程打击\n-驾驶员 + 乘员</font>"
+PT_Description="<font size='10'>-M269导弹\n-轻型装甲\n-远程打击\n-驾驶员 + 1位乘员</font>"
 
 [Rx_Vehicle_LightTank]
 VehiclePositionString="在轻型坦克内"
 VehicleNameString="轻型坦克"
 PT_Title="轻型坦克"
-PT_Description="<font size='10'>\n-75毫米坦克炮\n-重型装甲\n-主战坦克\n-驾驶员 + 乘员</font>"
+PT_Description="<font size='10'>\n-75毫米坦克炮\n-重型装甲\n-主战坦克\n-驾驶员 + 1位乘员</font>"
 
 [Rx_Vehicle_Artillery]
 VehiclePositionString="在自行火炮内"
 VehicleNameString="自行火炮"
 PT_Title="自行火炮"
-PT_Description="<font size='10'>\n-155毫米榴弹炮\n-轻型装甲\n-远程打击\n-驾驶员 + 乘员</font>"
+PT_Description="<font size='10'>\n-155毫米榴弹炮\n-轻型装甲\n-远程打击\n-驾驶员 + 1位乘员</font>"
 
 [Rx_Vehicle_FlameTank]
 VehiclePositionString="在喷火坦克内"
 VehicleNameString="喷火坦克"
 PT_Title="喷火坦克"
-PT_Description="<font size='10'>\n-2x 火焰喷射器\n-重型装甲\n-近距离作战\n-驾驶员 + 乘员</font>"
+PT_Description="<font size='10'>\n-2x 火焰喷射器\n-重型装甲\n-近距离作战\n-驾驶员 + 1位乘员</font>"
 
 [Rx_Vehicle_StealthTank]
 VehiclePositionString="在隐形坦克内"
@@ -527,13 +527,13 @@ VehicleNameString="A-10攻击机"
 VehiclePositionString="在阿帕奇武装直升机内"
 VehicleNameString="阿帕奇武装直升机"
 PT_Title="阿帕奇武装直升机"
-PT_Description="<font size='10'>-30毫米机炮\n-火蛇70火箭弹\n-轻型装甲\n-攻击直升机\n-飞行员 Only</font>"
+PT_Description="<font size='10'>-30毫米机炮\n-火蛇70火箭弹\n-轻型装甲\n-攻击直升机\n-仅飞行员</font>"
 
 [Rx_Vehicle_Orca]
 VehiclePositionString="在奥卡战斗机内"
 VehicleNameString="奥卡战斗机"
 PT_Title="奥卡战斗机"
-PT_Description="<font size='10'>-地狱火导弹\n-.50机枪\n-轻型装甲\n-攻击战斗机\n-飞行员 and 乘员</font>"
+PT_Description="<font size='10'>-地狱火导弹\n-.50机枪\n-轻型装甲\n-攻击战斗机\n-飞行员 + 1位乘员</font>"
 
 [Rx_Vehicle_Harvester]
 VehiclePositionString="在采矿车内"
@@ -609,7 +609,7 @@ PT_Title="四驱车"
 VehiclePositionString="在M2布雷德利步兵战车内"
 VehicleNameString="M2布雷德利步兵战车"
 PT_Title="M2布雷德利步兵战车"
-PT_Description="<font size='10'>\n-75mm Cannon\n-重型装甲\n-Main Battle Tank\n-驾驶员 + 乘员</font>"
+PT_Description="<font size='10'>\n-22毫米机炮\n-重型装甲\n-步兵战车\n-驾驶员 + 1位乘员</font>"
 
 //=====================================
 //	Vehicle Weapons
@@ -626,7 +626,7 @@ PickupMessage="A-10攻击机武器"
 
 [Rx_Vehicle_Apache_Weapon]
 ItemName="30毫米机炮"
-AltItemName="火蛇70火箭弹"
+AltItemName="火蛇-70火箭弹"
 PickupMessage="阿帕奇武装直升机武器"
 
 [Rx_Vehicle_Orca_Weapon]
@@ -803,7 +803,7 @@ BuildingName = "Nod之手"
 BuildingName = "光明石碑"
 
 [Rx_Building_PowerPlant_Internals]
-BuildingName = "发电站"
+BuildingName = "发电厂"
 
 [Rx_Building_Refinery_Internals]
 BuildingName = "精炼厂"
@@ -847,7 +847,7 @@ BuildingBroadcastMessages[3]="`PlayerName` 使 `BuildingName` 中立化"
 [Rx_CratePickup]
 PickupMessages[0]="你偶然发现了一枚手榴弹, 嘣!"
 PickupMessages[1]="惊不惊喜?意不意外?离子炮正巧射你脸上了!"
-PickupMessages[2]="顺便说一下,我侦测到战术核弹已经发射了. 哈哈哈哈哈哈"
+PickupMessages[2]="顺便说一下,我侦测到战术核弹已经发射了. 哈哈哈哈哈哈!"
 PickupMessages[3]="你在箱子中发现了 `credsum` 资金!"
 PickupMessages[4]="你找到了一件新制服!"
 PickupMessages[5]="你获得了一辆 `vehname`!"
@@ -1050,12 +1050,12 @@ SubHelpText[5]="+所有支援能力的使用都会消耗指挥官点数%%+大多
 	RadioCommandsText[21]    =   "攻击采矿车!"
 	RadioCommandsText[22]    =   "攻击那个建筑物!"
 	RadioCommandsText[23]    =   "攻击精炼厂!" 
-	RadioCommandsText[24]    =   "攻击发电站!"
+	RadioCommandsText[24]    =   "攻击发电厂!"
 	RadioCommandsText[25]    =   "保护基地!"
 	RadioCommandsText[26]    =   "保护采矿车!"
 	RadioCommandsText[27]    =   "保护那座建筑!"
 	RadioCommandsText[28]    =   "保护精炼厂!"
-	RadioCommandsText[29]    =   "保护发电站!"
+	RadioCommandsText[29]    =   "保护发电厂!"
 
 [Rx_HUD]
 	// CTRL + Number
@@ -1087,9 +1087,9 @@ SubHelpText[5]="+所有支援能力的使用都会消耗指挥官点数%%+大多
 	RadioCommandsCTRLALT[1]    =   "2|攻击采矿车!"
 	RadioCommandsCTRLALT[2]    =   "3|攻击那个建筑物!"
 	RadioCommandsCTRLALT[3]    =   "4|攻击精炼厂!" 
-	RadioCommandsCTRLALT[4]    =   "5|攻击发电站!"
+	RadioCommandsCTRLALT[4]    =   "5|攻击发电厂!"
 	RadioCommandsCTRLALT[5]    =   "6|保护基地!"
 	RadioCommandsCTRLALT[6]    =   "7|保护采矿车!"
 	RadioCommandsCTRLALT[7]    =   "8|保护那座建筑!"
 	RadioCommandsCTRLALT[8]    =   "9|保护精炼厂!"
-	RadioCommandsCTRLALT[9]    =   "0|保护发电站!"
+	RadioCommandsCTRLALT[9]    =   "0|保护发电厂!"
