@@ -157,12 +157,12 @@ ItemName="精确射手步枪"
 PickupMessage="精确射手步枪"
 
 [Rx_Weapon_Carbine]
-ItemName="自动步枪"
-PickupMessage="自动步枪"
+ItemName="卡宾枪"
+PickupMessage="卡宾枪"
 
 [Rx_Weapon_Carbine_Silencer]
-ItemName="消音自动步枪"
-PickupMessage="消音自动步枪"
+ItemName="消音卡宾枪"
+PickupMessage="消音卡宾枪"
 
 [Rx_Weapon_Airstrike]
 ItemName="空袭引导装置"
@@ -302,7 +302,7 @@ PT_Description="护甲类型: 凯夫拉\n移动速度: 105\n副武器: 手枪\n�
 [Rx_FamilyInfo_GDI_Gunner]
 CharacterName="炮手"
 PT_Title="炮手"
-PT_Description="护甲类型: 防弹衣\n移动速度: 95\n副武器: 自动步枪\n电磁脉冲手雷\n反坦克地雷\n+反装甲\n+反建筑"
+PT_Description="护甲类型: 防弹衣\n移动速度: 95\n副武器: 卡宾枪\n电磁脉冲手雷\n反坦克地雷\n+反装甲\n+反建筑"
 
 [Rx_FamilyInfo_GDI_Deadeye]
 CharacterName="神枪手"
@@ -317,7 +317,7 @@ PT_Description="护甲类型: 凯夫拉\n移动速度: 112.5\n副武器: 重型�
 [Rx_FamilyInfo_GDI_Havoc]
 CharacterName="哈洛克"
 PT_Title="哈洛克"
-PT_Description="护甲类型: 无\n移动速度: 90\n副武器: 自动步枪\n烟雾弹\n+反步兵"
+PT_Description="护甲类型: 无\n移动速度: 90\n副武器: 卡宾枪\n烟雾弹\n+反步兵"
 
 [Rx_FamilyInfo_GDI_Sydney]
 CharacterName="悉尼"
@@ -400,7 +400,7 @@ PT_Description="护甲类型: 防弹衣\n移动速度: 80\n电磁脉冲手雷\n�
 [Rx_FamilyInfo_Nod_Sakura]
 CharacterName="樱花"
 PT_Title="樱花"
-PT_Description="护甲类型: 无\n移动速度: 90\n副武器: S. 消音自动步枪\n烟雾弹\n+反步兵"
+PT_Description="护甲类型: 无\n移动速度: 90\n副武器: 消音自动步枪\n烟雾弹\n+反步兵"
 
 [Rx_FamilyInfo_Nod_Raveshaw]
 CharacterName="瑞夫索"
@@ -846,7 +846,7 @@ BuildingBroadcastMessages[3]="`PlayerName` 使 `BuildingName` 中立化"
 //=====================================
 [Rx_CratePickup]
 PickupMessages[0]="你偶然发现了一枚手榴弹, 嘣!"
-PickupMessages[1]="惊不惊喜?意不意外?离子炮正巧射你脸上了!"
+PickupMessages[1]="惊不惊喜? 意不意外? 离子炮正巧射你脸上了!"
 PickupMessages[2]="顺便说一下,我侦测到战术核弹已经发射了. 哈哈哈哈哈哈!"
 PickupMessages[3]="你在箱子中发现了 `credsum` 资金!"
 PickupMessages[4]="你找到了一件新制服!"
