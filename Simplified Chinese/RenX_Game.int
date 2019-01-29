@@ -353,8 +353,8 @@ PT_Title="霰弹兵"
 PT_Description="护甲类型: 凯夫拉\n移动速度: 100\n副武器: 手枪\n+反步兵"
 
 [Rx_FamilyInfo_Nod_FlameTrooper]
-CharacterName="喷火步兵"
-PT_Title="喷火步兵"
+CharacterName="喷火兵"
+PT_Title="喷火兵"
 PT_Description="护甲类型: 防弹衣\n移动速度: 105\n副武器: 手枪\n+多面手"
 
 [Rx_FamilyInfo_Nod_Marksman]
