@@ -478,7 +478,7 @@ VehicleNameString="气垫运输艇"
 [Rx_Vehicle_Humvee]
 VehiclePositionString="在悍马内"
 VehicleNameString="悍马"
-PT_Title="HUMVEE"
+PT_Title="悍马"
 PT_Description="<font size='10'>-.50机枪\n-轻型装甲\n-突击侦察\n-驾驶员 + 1位乘员</font>"
 
 [Rx_Vehicle_MRLS]
@@ -626,7 +626,7 @@ PickupMessage="A-10攻击机武器"
 
 [Rx_Vehicle_Apache_Weapon]
 ItemName="30毫米机炮"
-AltItemName="火蛇-70火箭弹"
+AltItemName="火蛇70火箭弹"
 PickupMessage="阿帕奇武装直升机武器"
 
 [Rx_Vehicle_Orca_Weapon]
@@ -771,7 +771,7 @@ AltItemName=".50机枪"
 PickupMessage="扁虱坦克武器"
 
 [TS_Vehicle_ReconBike_Weapon]
-ItemName="火蛇-70火箭弹"
+ItemName="火蛇70火箭弹"
 PickupMessage="侦察摩托车武器"
 
 [TS_Vehicle_Buggy_Weapon]
@@ -837,7 +837,7 @@ BuildingName = "维修平台"
 //=====================================
 [Rx_Message_Buildings]
 BuildingBroadcastMessages[0]="`PlayerName` 摧毁了 `BuildingName`"
-BuildingBroadcastMessages[1]="`BuildingName` 被 `PlayerName` 摧毁"
+BuildingBroadcastMessages[1]="`BuildingName` 被 `PlayerName` 摧毁了"
 BuildingBroadcastMessages[2]="`PlayerName` 占领 `BuildingName`"
 BuildingBroadcastMessages[3]="`PlayerName` 使 `BuildingName` 中立化"
 
