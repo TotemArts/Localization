@@ -1,0 +1,1095 @@
+//=====================================
+//	Game
+//=====================================
+[Rx_Game]
+Description="Uništi neprijateljsku bazu i obrani svoju."
+GameName="C&C Mode"
+EndOfMatchRulesTemplateStr_Scoring=Pobjeđuje tim koji uništi neprijatelja.
+EndOfMatchRulesTemplateStr_Time=Pobjeđuje tim sa najviše poena u `t minuta.
+
+
+//=====================================
+//	Weapons 
+//=====================================
+
+[Rx_Weapon]
+ItemName="Nepoznato Oružje"
+PickupMessage="Nepoznato Oružje"
+
+[Rx_Weapon_Reloadable]
+ItemName="Nepoznato Oružje s Ponovnim Punjenjem"
+PickupMessage="Nepoznato Oružje s Ponovnim Punjenjem"
+
+[Rx_Weapon_Spray]
+ItemName="Nepoznato Raspršujuće Oružje"
+PickupMessage="Nepoznato Raspršujuće Oružje"
+
+[Rx_Weapon_Scoped]
+ItemName="Nepoznato Zumirajuće Oružje"
+PickupMessage="Nepoznato Zumirajuće Oružje"
+
+[Rx_Weapon_AutoRifle]
+ItemName="Automatska Puška"
+PickupMessage="Automatska Puška"
+
+[Rx_Weapon_TacticalRifle]
+ItemName="Taktička Puška"
+PickupMessage="Taktička Puška"
+
+[Rx_Weapon_Shotgun]
+ItemName="Sačmarica"
+PickupMessage="Sačmarica"
+
+[Rx_Weapon_RocketLauncher]
+ItemName="Ručni Bacač Raketa"
+PickupMessage="Ručni Bacač Raketa"
+
+[Rx_Weapon_Flamethrower]
+ItemName="Bacač Plamena"
+PickupMessage="Bacač Plamena"
+
+[Rx_Weapon_GrenadeLauncher]
+ItemName="Ručni Bacač Granata"
+PickupMessage="Ručni Bacač Granata"
+
+[Rx_Weapon_Pistol]
+ItemName="Pištolj sa Prigušivačem"
+PickupMessage="Pištolj sa Prigušivačem"
+
+[Rx_Weapon_Pistol_UnSILENCED]
+ItemName="Pištolj"
+PickupMessage="Pištolj"
+
+[Rx_Weapon_ChainGun]
+ItemName="Teška Strojnica"
+PickupMessage="Teška Strojnica"
+
+[Rx_Weapon_SniperRifle]
+ItemName="Snajper Puška"
+PickupMessage="Snajper Puška"
+
+[Rx_Weapon_VoltAutoRifle]
+ItemName="Voltna Automastka Puška"
+PickupMessage="Voltna Automastka Puška"
+
+[Rx_Weapon_RamjetRifle]
+ItemName="Teška Snajperska Puška"
+PickupMessage="Teška Snajperska Puška"
+
+[Rx_Weapon_Railgun]
+ItemName="Elektromagnetska Puška"
+PickupMessage="Elektromagnetska Puška"
+
+[Rx_Weapon_PersonalIonCannon]
+ItemName="Ručni Ionski Top"
+PickupMessage="Ručni Ionski Top"
+
+[Rx_Weapon_LaserRifle]
+ItemName="Laserska Puška"
+PickupMessage="Laserska Puška"
+
+[Rx_Weapon_LaserChainGun]
+ItemName="Laserka Strojnica"
+PickupMessage="Laserka Strojnica"
+
+[Rx_Weapon_MissileLauncher]
+ItemName="Bacač Projektila"
+PickupMessage="Bacač Projektila"
+
+[Rx_Weapon_ChemicalThrower]
+ItemName="Kemijski Bacač"
+PickupMessage="Kemijski Bacač"
+
+[Rx_Weapon_FlakCannon]
+ItemName="Praga"
+PickupMessage="Praga"
+
+[Rx_Weapon_RepairGun]
+ItemName="Alat za Popravljanje"
+PickupMessage="Alat za Popravljanje"
+
+[Rx_Weapon_RepairGunAdvanced]
+ItemName="Napredni Alat za Popravljanje"
+PickupMessage="Napredni Alat za Popravljanje"
+
+[Rx_Weapon_TimedC4]
+ItemName="Tempirani C4"
+PickupMessage="Tempirani C4"
+
+[Rx_Weapon_RemoteC4]
+ItemName="C4 na Daljinsko Upravljanje"
+PickupMessage="C4 na Daljinsko Upravljanje"
+
+[Rx_Weapon_ProxyC4]
+ItemName="C4 sa Senzorom Blizine"
+PickupMessage="C4 sa Senzorom Blizine"
+
+[Rx_Weapon_NukeBeacon]
+ItemName="Odašiljač za Navođenje Nuklearnog Udara"
+PickupMessage="Odašiljač za Navođenje Nuklearnog Udara"
+
+[Rx_Weapon_IonCannonBeacon]
+ItemName="Odašiljač za Navođenje Ionskog Topa"
+PickupMessage="Odašiljač za Navođenje Ionskog Topa"
+
+[Rx_Weapon_Grenade]
+ItemName="Ručna Bomba"
+PickupMessage="Ručna Bomba"
+
+[Rx_Weapon_Grenade_Rechargeable]
+ItemName="Ručna Bomba"
+PickupMessage="Ručna Bomba"
+
+[Rx_Weapon_SMG]
+ItemName="Automat"
+PickupMessage="Automat"
+
+[Rx_Weapon_SMG_Silenced]
+ItemName="Automat sa Prigušivačem"
+PickupMessage="Automat sa Prigušivačem"
+
+[Rx_Weapon_HeavyPistol]
+ItemName="Teški Pištolj"
+PickupMessage="Teški Pištolj"
+
+[Rx_Weapon_MarksmanRifle]
+ItemName="Marksman Puška"
+PickupMessage="Marksman Puška"
+
+[Rx_Weapon_Carbine]
+ItemName="Karabin"
+PickupMessage="Karabin"
+
+[Rx_Weapon_Carbine_Silencer]
+ItemName="Karabin"
+PickupMessage="Karabin"
+
+[Rx_Weapon_Airstrike]
+ItemName="Označivač za Zračni Udar"
+PickupMessage="Označivač za Zračni Udar"
+
+[Rx_Weapon_Airstrike_GDI]
+ItemName="A-10 Zračni Udar"
+PickupMessage="A-10 Zračni Udar"
+
+[Rx_Weapon_Airstrike_Nod]
+ItemName="AC-130 Zračni Udar"
+PickupMessage="AC-130 Zračni Udar"
+
+[Rx_Weapon_TiberiumFlechetteRifle]
+ItemName="Tiberium Kavitacijska Puška"
+PickupMessage="Tiberium Kavitacijska Puška"
+
+[Rx_Weapon_TiberiumAutoRifle]
+ItemName="Tiberium Automatska Puška"
+PickupMessage="Tiberium Automatska Puška"
+
+[Rx_Weapon_TiberiumAutoRifle_Blue]
+ItemName="Tiberium Automatska Puška"
+PickupMessage="Tiberium Automatska Puška"
+
+[Rx_Weapon_ATMine]
+ItemName="Protutenkovska Mina"
+PickupMessage="Protutenkovska Mina"
+
+[Rx_Weapon_EMPGrenade]
+ItemName="EMP Granata"
+PickupMessage="EMP Granata"
+
+[Rx_Weapon_EMPGrenade_Rechargeable]
+ItemName="EMP Granata"
+PickupMessage="EMP Granata"
+
+[Rx_Weapon_RepairTool]
+ItemName="Alat za Popravljanje"
+PickupMessage="Alat za Popravljanje"
+
+[Rx_Weapon_SmokeGrenade]
+ItemName="Dimna Bomba"
+PickupMessage="Dimna Bomba"
+
+[Rx_Weapon_SmokeGrenade_Rechargeable]
+ItemName="Dimna Bomba"
+PickupMessage="Dimna Bomba"
+
+[Rx_Weapon_TiberiumGrenade_Rechargeable]
+ItemName="Tiberium Granata"
+PickupMessage="Tiberium Granata"
+
+[Rx_Weapon_SniperRifle_UnSilenced]
+ItemName="Snajper Puška"
+PickupMessage="Snajper Puška"
+
+//=====================================
+//Rx WeaponAbilities
+//=====================================
+
+[Rx_WeaponAbility]
+ItemName="Nepoznato Svojstvo"
+PickupMessage="Nepoznato Svojstvo"
+
+[Rx_WeaponAbility_TiberiumGrenade]
+ItemName="Tiberium Granata"
+PickupMessage="Tiberium Granata"
+
+[Rx_WeaponAbility_Grenade]
+ItemName="Ručna Bomba"
+PickupMessage="Ručna Bomba"
+
+[Rx_WeaponAbility_EMPGrenade]
+ItemName="EMP Granata"
+PickupMessage="EMP Granata"
+
+[Rx_WeaponAbility_SmokeGrenade]
+ItemName="Dimna Bomba"
+PickupMessage="Dimna Bomba"
+
+[Rx_WeaponAbility_TacRifleGrenade]
+ItemName="Taktička Puška [Granata]"
+PickupMessage="Donji Bacač Granata"
+
+
+
+//=====================================
+//	Characters
+//=====================================
+
+[Rx_FamilyInfo]
+CharacterName="Nepoznati Karakter"
+PT_Title="NEPOZNAT"
+
+// GDI Infantry
+[Rx_FamilyInfo_GDI_Soldier]
+CharacterName="Vojnik"
+PT_Title="VOJNIK"
+PT_Description="Oklop: Kevlar\nBrzina: 100\nDodatno: Pištolj sa Prigušivačem\n+Protiv Pješadije"
+
+[Rx_FamilyInfo_GDI_Shotgunner]
+CharacterName="Vojnik sa Sačmaricom"
+PT_Title="VOJNIK SA SAČMARICOM"
+PT_Description="Oklop: Kevlar\nBrzina: 95\nDodatno: Pištolj sa Prigušivačem\n+Protiv Pješadije"
+
+[Rx_FamilyInfo_GDI_Grenadier]
+CharacterName="Granadir"
+PT_Title="GRANADIR"
+PT_Description="Oklop: Flak\nBrzina: 100\nDodatno: Pištolj sa Prigušivačem\n+Protiv Oklopa\n+Anti-Zgrade"
+
+[Rx_FamilyInfo_GDI_Marksman]
+CharacterName="Strijelac"
+PT_Title="STRIJELAC"
+PT_Description="Oklop: Kevlar\nBrzina: 100\nDodatno: Pištolj sa Prigušivačem\n+Protiv Pješadije"
+
+[Rx_FamilyInfo_GDI_Engineer]
+CharacterName="Inženjer"
+PT_Title="INŽENJER"
+PT_Description="Oklop: Flak\nBrzina: 95\nDodatno: Pištolj sa Prigušivačem\nRemote C4\n+Anti-Building\n+Repair/Support"
+
+[Rx_FamilyInfo_GDI_Officer]
+CharacterName="Oficir"
+PT_Title="OFICIR"
+PT_Description="Oklop: Kevlar\nBrzina: 100\nDodatno: Pištolj sa Prigušivačem\nDimna Bomba\n+Protiv Pješadije"
+
+[Rx_FamilyInfo_GDI_RocketSoldier]
+CharacterName="Raketar"
+PT_Title="RAKETAR"
+PT_Description="Oklop: Flak\nBrzina: 95\nDodatno: Automat\nProtivtenkovske Mine\n+Protiv Oklopa\n+Protiv Letjelica"
+
+[Rx_FamilyInfo_GDI_McFarland]
+CharacterName="McFarland"
+PT_Title="MCFARLAND"
+PT_Description="Oklop: Kevlar\nBrzina: 105\nDodatno: Pištolj sa Prigušivačem\nRučne Bombe\n+Protiv Pješadije"
+
+[Rx_FamilyInfo_GDI_Gunner]
+CharacterName="Topovnik"
+PT_Title="TOPOVNIK"
+PT_Description="Oklop: Flak\nBrzina: 95\nDodatno: Karabin\nEMP Granata\nAT Mines\n+Protiv Oklopa\n+Protiv Građevina"
+
+[Rx_FamilyInfo_GDI_Deadeye]
+CharacterName="Deadeye"
+PT_Title="DEADEYE"
+PT_Description="Oklop: None\nBrzina: 90\nDodatno: Teški Pištolj\nDimna Bomba\n+Protiv Pješadije"
+
+[Rx_FamilyInfo_GDI_Patch]
+CharacterName="Patch"
+PT_Title="PATCH"
+PT_Description="Oklop: Kevlar\nBrzina: 112.5\nDodatno: Teški Pištolj\nRučne Bombe\n+Protiv Pješadije"
+
+[Rx_FamilyInfo_GDI_Havoc]
+CharacterName="Havoc"
+PT_Title="HAVOC"
+PT_Description="Oklop: None\nBrzina: 90\nDodatno: Karabin\nDimna Bomba\n+Protiv Pješadije"
+
+[Rx_FamilyInfo_GDI_Sydney]
+CharacterName="Sydney"
+PT_Title="SYDNEY"
+PT_Description="Oklop: Flak\nBrzina: 100\nDodatno: Teški Pištolj\nEMP Granata\nProtivtenkovske Mine\n+Protiv Oklopa"
+
+[Rx_FamilyInfo_GDI_Mobius]
+CharacterName="Mobius"
+PT_Title="MOBIUS"
+PT_Description="Oklop: Kevlar\nBrzina: 100\nDodatno: Teški Pištolj\n+Protiv Svega"
+
+[Rx_FamilyInfo_GDI_Hotwire]
+CharacterName="Hotwire"
+PT_Title="HOTWIRE"
+PT_Description="Oklop: Flak\nBrzina: 100\nDodatno: Pištolj sa Prigušivačem\nC4 na Daljinsko Upravljanje\nMine sa Senzorom Blizine\n+Protiv Zgrada\n+Popravljanje/Podrška"
+
+//GDI Hero Units
+[Rx_FamilyInfo_GDI_Sydney_Suit]
+CharacterName="Oklopljena Sydney"
+PT_Title="Oklopljena Sydney"
+PT_Description="Oklop: Flak\nBrzina: 95\nDodatno: Tiberium Automatska Puška\n+Protiv Svega"
+
+
+// Nod Infantry
+[Rx_FamilyInfo_Nod_Soldier]
+CharacterName="Vojnik"
+PT_Title="VOJNIK"
+PT_Description="Oklop: Kevlar\nBrzina: 100\nDodatno: Pištolj sa Prigušivačem\n+Protiv Pješadije"
+
+[Rx_FamilyInfo_Nod_Shotgunner]
+CharacterName="Vojnik sa Sačmaricom"
+PT_Title="VOJNIK SA SAČMARICOM"
+PT_Description="Oklop: Kevlar\nBrzina: 100\nDodatno: Pištolj sa Prigušivačem\n+Protiv Pješadije"
+
+[Rx_FamilyInfo_Nod_FlameTrooper]
+CharacterName="Vatreni"
+PT_Title="VATRENI"
+PT_Description="Oklop: Flak\nBrzina: 105\nDodatno: Pištolj sa Prigušivačem\n+Protiv Svega"
+
+[Rx_FamilyInfo_Nod_Marksman]
+CharacterName="Strijelac"
+PT_Title="STRIJELAC"
+PT_Description="Oklop: Kevlar\nBrzina: 100\nDodatno: Pištolj sa Prigušivačem\n+Protiv Pješadije"
+
+[Rx_FamilyInfo_Nod_Engineer]
+CharacterName="Inženjer"
+PT_Title="INŽENJER"
+PT_Description="Oklop: Flak\nBrzina: 95\nDodatno: Pištolj sa Prigušivačem\nRemote C4\n+Protiv Zgrada\n+Popravljanje/Podrška"
+
+[Rx_FamilyInfo_Nod_Officer]
+CharacterName="Oficir"
+PT_Title="OFICIR"
+PT_Description="Oklop: Kevlar\nBrzina: 110\nDodatno: Pištolj sa Prigušivačem\nDimna Bomba\n+Protiv Pješadije"
+
+[Rx_FamilyInfo_Nod_RocketSoldier]
+CharacterName="Raketar"
+PT_Title="RAKETAR"
+PT_Description="Oklop: Flak\nBrzina: 105\nDodatno: Automat\nProtivtenkovske Mine\n+Protiv Oklopa\n+Protiv Letjelica"
+
+[Rx_FamilyInfo_Nod_ChemicalTrooper]
+CharacterName="Kemo"
+PT_Title="KEMO"
+PT_Description="Oklop: Flak\nBrzina: 100\nDodatno: Pištolj sa Prigušivačem\nRučne Bombe\n+Protiv Svega"
+
+[Rx_FamilyInfo_Nod_StealthBlackHand]
+CharacterName="Nevidljivi Black Hand"
+PT_Title="NEVIDLJIVI BLACK HAND"
+PT_Description="Oklop: Lazarus\nBrzina: 110\nDodatno: S. M. Pištolj\nAktivno Kamuflaža\n+Protiv Svega"
+
+[Rx_FamilyInfo_Nod_BlackHandSniper]
+CharacterName="Black Hand Snajper"
+PT_Title="BLACK HAND SNAJPER"
+PT_Description="Oklop: None\nBrzina: 90\nDodatno: Teški Pištolj\nDimna Bomba\n+Protiv Pješadije"
+
+[Rx_FamilyInfo_Nod_LaserChainGunner]
+CharacterName="Laserski Strijelac"
+PT_Title="LASERSKI STRIJELAC"
+PT_Description="Oklop: Flak\nBrzina: 80\nEMP Granata\nProtivtenkovske Mine\n+Protiv Svega\n+Teška Pješadija"
+
+[Rx_FamilyInfo_Nod_Sakura]
+CharacterName="Sakura"
+PT_Title="SAKURA"
+PT_Description="Oklop: None\nBrzina: 90\nDodatno: S. Carbine\nDimna Bomba\n+Protiv Pješadije"
+
+[Rx_FamilyInfo_Nod_Raveshaw]
+CharacterName="Raveshaw"
+PT_Title="RAVESHAW"
+PT_Description="Oklop: Flak\nBrzina: 100\nDodatno: Teški Pištolj\nEMP Granata\nProtivtenkovske Mine\n+Protiv Oklopa"
+
+[Rx_FamilyInfo_Nod_Mendoza]
+CharacterName="Mendoza"
+PT_Title="MENDOZA"
+PT_Description="Oklop: Kevlar\nBrzina: 110\nDodatno: Teški Pištolj\n+Protiv Svega"
+
+[Rx_FamilyInfo_Nod_Technician]
+CharacterName="Tehničar"
+PT_Title="TEHNIČAR"
+PT_Description="Oklop: Flak\nBrzina: 100\nDodatno: Pištolj sa Prigušivačem\nC4 na Daljinsko Upravljanje\nMine sa Senzorom Blizine\n+Protiv Zgrada\n+Popravljanje/Podrška"
+
+//Nod Hero Units 
+[Rx_FamilyInfo_Nod_Raveshaw_Mutant]
+CharacterName="Mutant Raveshaw"
+PT_Title="Mutant Raveshaw"
+PT_Description="Oklop: Flak\nBrzina: 95\nDodatno: Tiberium Automastka Puška\n+Protiv Svega"
+
+
+//=====================================
+//	Vehicles
+//=====================================
+[Rx_Vehicle]
+VehiclePositionString="u Vozilo"
+VehicleNameString="Vozilo"
+
+[Rx_Vehicle_Treaded]
+VehiclePositionString="u Tenk"
+VehicleNameString="Tenk"
+
+[Rx_Vehicle_MammothTank]
+VehiclePositionString="u Mamut Tenk"
+VehicleNameString="Mamut Tenk"
+PT_Title="MAMUT TENK"
+PT_Description="<font size='10'>-2x 120mm Top\n-4x Tusk Projektili\n-Teški Oklop\n-Teški Borbeni Tenk\n-Vozač + Putnik</font>"
+
+[Rx_Vehicle_MediumTank]
+VehiclePositionString="u Medium Tenk"
+VehicleNameString="Medium Tenk"
+PT_Title="MEDIUM TENK"
+PT_Description="<font size='10'>-105mm Top\n+Teški Oklop\n-Glavni Borbeni Tenk\n-Vozač + Putnik</font>"
+
+[Rx_Vehicle_Chinook]
+VehiclePositionString="u Chinook"
+VehicleNameString="Chinook"
+PT_Title="TRANSPORTNI HELIKOPTER"
+PT_Description="<font size='10'>\n-2x Teške Strojnice\n-Laki Oklop\n-Prijevoz Pješadije\n-Pilot + 4 Putnika</font>"
+
+[Rx_Vehicle_APC_Nod]
+VehiclePositionString="u APC"
+VehicleNameString="APC"
+PT_Title="OKLOPLJENO TRANSPORTNO VOZILO"
+PT_Description="<font size='10'>-M134 Lake Strojnice\n+Teški Oklop\n-Prijevoz Pješadije\n-Vozač + 4 Putnika</font>"
+
+[Rx_Vehicle_APC_GDI]
+VehiclePositionString="u APC"
+VehicleNameString="APC"
+PT_Title="OKLOPLJENO TRANSPORTNO VOZILO"
+PT_Description="<font size='10'>-M134 Lake Strojnice\n+Teški Oklop\n-Prijevoz Pješadije\n-Vozač + 4 Putnika</font>"
+
+[Rx_Vehicle_Buggy]
+VehiclePositionString="u Buggy"
+VehicleNameString="Buggy"
+PT_Title="BUGGY"
+PT_Description="<font size='10'>-.50 Kalibra Automatske Strojnice\n-Laki Oklop\n-Brzi Napad i Izvidnica\n-Vozač + Putnik</font>"
+
+[Rx_Vehicle_HoverCraft]
+VehiclePositionString="u HoverCraft"
+VehicleNameString="Hover Craft"
+
+[Rx_Vehicle_Humvee]
+VehiclePositionString="u Humvee"
+VehicleNameString="Humvee"
+PT_Title="HUMVEE"
+PT_Description="<font size='10'>-.50 Kalibra Automatske Strojnice\n-Laki Oklop\n-Brzi Napad i Izvidnica\n-Vozač + Putnik</font>"
+
+[Rx_Vehicle_MRLS]
+VehiclePositionString="u VBR"
+VehicleNameString="VBR"
+PT_Title="VIŠECIJEVNI BACAČ RAKETA"
+PT_Description="<font size='10'>-M269 Rakete\n-Laki Oklop\n-Dalekometna Balistika\n-Vozač + Putnik</font>"
+
+[Rx_Vehicle_LightTank]
+VehiclePositionString="u Laki Tenk"
+VehicleNameString="Laki Tenk"
+PT_Title="LAKI TENK"
+PT_Description="<font size='10'>\n-75mm Top\n+Teški Oklop\n-Glavni Borbeni Tenk\n-Vozač + Putnik</font>"
+
+[Rx_Vehicle_Artillery]
+VehiclePositionString="u Haubicu"
+VehicleNameString="Haubica"
+PT_Title="SAMOHODNA HAUBICA"
+PT_Description="<font size='10'>\n-155mm Haubica\n-Laki Oklop\n-Dalekometna Balistika\n-Vozač + Putnik</font>"
+
+[Rx_Vehicle_FlameTank]
+VehiclePositionString="u Vatreni Tenk"
+VehicleNameString="Vatreni Tenk"
+PT_Title="VATRENI TENK"
+PT_Description="<font size='10'>\n-2x Bacač Plamena\n+Teški Oklop\n-Potiskivač Kratkog Dometa\n-Vozač + Putnik</font>"
+
+[Rx_Vehicle_StealthTank]
+VehiclePositionString="u Nevidljivi Tenk"
+VehicleNameString="Nevidljivi Tenk"
+PT_Title="NEVIDLJIVI TENK"
+PT_Description="<font size='10'>-2x TOW Rakete\n+Teški Oklop\n-Gerilsko Vozilo\n-Aktivna Kamuflaža\n-Samo Vozač</font>"
+
+[Rx_Defence_GunEmplacement]
+VehiclePositionString="u Topovski Položaj"
+VehicleNameString="Topovski Položaj"
+
+[Rx_Defence_RocketEmplacement]
+VehiclePositionString="u Raketni Položaj"
+VehicleNameString="Raketni Položaj"
+
+[Rx_Vehicle_A10]
+VehiclePositionString="u A-10"
+VehicleNameString="A-10"
+
+[Rx_Vehicle_Apache]
+VehiclePositionString="u Apač"
+VehicleNameString="Apač"
+PT_Title="APAČ"
+PT_Description="<font size='10'>-30mm Automatski Top\n-Hydra-70 Rakete\n-Laki Oklop\n-Borbeni Helikopter\n-Samo Pilot</font>"
+
+[Rx_Vehicle_Orca]
+VehiclePositionString="u Orku"
+VehicleNameString="Orka"
+PT_Title="ORKA LOVAC"
+PT_Description="<font size='10'>-Hellfire Rakete\n-.50 Kalibra Automatske Strojnice\n-Laki Oklop\n-Napad VTOL\n-Pilot i Putnik</font>"
+
+[Rx_Vehicle_Harvester]
+VehiclePositionString="u Harvester"
+VehicleNameString="Harvester"
+
+[Rx_Vehicle_HoverCraft_GDI]
+VehiclePositionString="u Hovercraft"
+VehicleNameString="Hovercraft"
+
+[Rx_Vehicle_HoverCraft_Nod]
+VehiclePositionString="u Hovercraft"
+VehicleNameString="Hovercraft"
+
+[Rx_Vehicle_Bus]
+VehiclePositionString="u Bus"
+VehicleNameString="Bus"
+
+[Rx_Defence_GuardTower]
+VehiclePositionString="u Zaštitni Toranj"
+VehicleNameString="Zaštitni Toranj"
+
+[Rx_Defence_Turret]
+VehiclePositionString="u Oklopnu Kulu"
+VehicleNameString="Oklopna Kula"
+
+[Rx_Defence_AATower]
+VehiclePositionString="u Protivavionski Toranj"
+VehicleNameString="Protivavionski Toranj"
+
+[Rx_Defence_SAMSite]
+VehiclePositionString="u SAM Site"
+VehicleNameString="SAM Site"
+
+[Rx_Vehicle_MG_GDI]
+VehiclePositionString="u .50 Cal"
+VehicleNameString=".50 Cal"
+
+[APB_Vehicle_TeslaTank]
+VehiclePositionString="u Tesla Tank"
+VehicleNameString="Tesla Tenk"
+
+[TS_Vehicle_HoverMRLS]
+VehiclePositionString="u Lebdeći VBR"
+VehicleNameString="Lebdeći VBR"
+PT_Title="LEBDEĆI VBR"
+
+[TS_Vehicle_Titan]
+VehiclePositionString="u Titan"
+VehicleNameString="Titan"
+PT_Title="TITAN"
+
+[TS_Vehicle_Wolverine]
+VehiclePositionString="u Wolverine"
+VehicleNameString="Wolverine"
+PT_Title="WOLVERINE"
+
+[TS_Vehicle_TickTank]
+VehiclePositionString="u Samoukapajući Tenk"
+VehicleNameString="Samoukapajući Tenk"
+PT_Title="SAMOUKAPAJUĆI TENK"
+
+[TS_Vehicle_ReconBike]
+VehiclePositionString="u Recon Motocikl"
+VehicleNameString="Recon Motocikl"
+PT_Title="RECON MOTOCIKL"
+
+[TS_Vehicle_Buggy]
+VehiclePositionString="u Buggy"
+VehicleNameString="Buggy"
+PT_Title="BUGGY"
+
+[Rx_Vehicle_M2Bradley]
+VehiclePositionString="u Laki Tenk"
+VehicleNameString="Laki Tenk"
+PT_Title="LAKI TENK"
+PT_Description="<font size='10'>\n-75mm Top\n+Teški Oklop\n-Glavni Borbeni Tenk\n-Vozač + Putnik</font>"
+
+//=====================================
+//	Vehicle Weapons
+//=====================================
+
+[Rx_Vehicle_Weapon]
+ItemName="Primarno Oružje"
+PickupMessage="Primarno Oružje"
+
+[Rx_Vehicle_A10_Weapon]
+ItemName="GAU-8/A Top"
+AltItemName="AGM-65 Projektil"
+PickupMessage="A-10 Oružje"
+
+[Rx_Vehicle_Apache_Weapon]
+ItemName="30mm Automatski Top"
+AltItemName="Hydra-70 Raketa"
+PickupMessage="Apache Oružje"
+
+[Rx_Vehicle_Orca_Weapon]
+ItemName="Pakleni Projektili"
+AltItemName=".50 Cal Automatski Top"
+PickupMessage="Orca Oružje"
+
+[Rx_Vehicle_APC_Nod_Weapon]
+ItemName="M134 Laka Strojnica"
+PickupMessage="APC Oružje"
+
+[Rx_Vehicle_APC_GDI_Weapon]
+ItemName="M134 Laka Strojnica"
+PickupMessage="APC Oružje"
+
+[Rx_Vehicle_Artillery_Weapon]
+ItemName="155MM Top"
+PickupMessage="Artillery Oružje"
+
+[Rx_Vehicle_Buggy_Weapon]
+ItemName=".50 Cal Automatski Top"
+PickupMessage="Buggy Oružje"
+
+[Rx_Vehicle_Chinook_Weapon]
+ItemName="Transport Helicopter"
+PickupMessage="Chinook Oružje"
+
+[Rx_Vehicle_Chinook_Weapon_GDI_Left]
+ItemName="Teška Strojnica"
+PickupMessage="Chinook Oružje"
+
+[Rx_Vehicle_Chinook_Weapon_GDI_Right]
+ItemName="Teška Strojnica"
+PickupMessage="Chinook Oružje"
+
+[Rx_Vehicle_Chinook_Weapon_Nod_Left]
+ItemName="Teška Strojnica"
+PickupMessage="Chinook Oružje"
+
+[Rx_Vehicle_Chinook_Weapon_Nod_Right]
+ItemName="Teška Strojnica"
+PickupMessage="Chinook Oružje"
+
+[Rx_Defence_GunEmplacement_Weapon]
+ItemName="Teška Strojnica"
+AltItemName="Automatski Top"
+PickupMessage="Topovski Položaj"
+
+[Rx_Defence_RocketEmplacement_Weapon]
+ItemName="SWARM Lanser"
+AltItemName="Pakleni Projektili"
+PickupMessage="Raketni Položaj"
+
+[Rx_Vehicle_Humvee_Weapon]
+ItemName=".50 Cal Automatski Top"
+PickupMessage="Humvee Oružje"
+
+[Rx_Vehicle_LightTank_Weapon]
+ItemName="75MM Top"
+PickupMessage="Laki Tenk Oružje"
+
+[Rx_Vehicle_MammothWeapon]
+ItemName="120MM Top"
+AltItemName="Tusk Projektili"
+PickupMessage="Mamut Tenk Oružje"
+
+[Rx_Vehicle_MediumTank_Weapon]
+ItemName="105MM Top"
+PickupMessage="Medium Tenk Oružje"
+
+[Rx_Vehicle_MediumTank_Weapon_MultiWeap]
+ItemName="105MM Top"
+AltItemName="Koaksijalni MG"
+PickupMessage="Medium Tenk Oružje"
+
+[Rx_Vehicle_MRLS_Weapon]
+ItemName="M269 Rakete"
+PickupMessage="VBR Oružje"
+
+[Rx_Vehicle_FlameTank_Weapon]
+ItemName="Bacači Plamena"
+PickupMessage="Vatreni Tenk Oružje"
+
+[Rx_Vehicle_StealthTank_Weapon]
+ItemName="TOW Rakete"
+PickupMessage="Stealth Tank Oružje"
+
+[Rx_Vehicle_Harvester_Weapon]
+ItemName="Tiberium Harvester"
+PickupMessage="Harvester Oružje"
+
+[Rx_Defence_GuardTower_Weapon]
+ItemName="Vulcan Top"
+PickupMessage="Zaštitni Toranj Oružje"
+
+[Rx_Defence_Turret_Weapon]
+ItemName="105MM Top"
+PickupMessage="Oklopna Kupola Oružje"
+
+[Rx_Defence_SAMSite_Weapon]
+ItemName="Surface-to-air Projektili"
+PickupMessage="SAM Oružje"
+
+[Rx_Defence_AATower_Weapon]
+ItemName="Protuzračni Projektili"
+PickupMessage="Protuzračno Oružje"
+
+[Rx_Vehicle_Hovercraft_GDI_Weapon]
+ItemName="Teški Topovi"
+AltItemName="SWARM Launcher"
+PickupMessage="Hovercraft Oružje"
+
+[Rx_Vehicle_Hovercraft_Nod_Weapon]
+ItemName="Teški Topovi"
+AltItemName="SWARM Launcher"
+PickupMessage="Hovercraft Oružje"
+
+[APB_Vehicle_TeslaTank_Weapon]
+ItemName="Tesla Coil"
+PickupMessage="Tesla Tenk Oružje"
+
+[TS_Vehicle_HoverMRLS_Weapon]
+ItemName="M269 Rakete"
+PickupMessage="Lebdeći VBR Oružje"
+
+[TS_Vehicle_Titan_Weapon]
+ItemName="120MM Top"
+PickupMessage="Titan Oružje"
+
+[TS_Vehicle_Wolverine_Weapon]
+ItemName="Vulcan Topovi"
+PickupMessage="Wolverine Oružje"
+
+[TS_Vehicle_MMKII_Weapon]
+ItemName="Elektromagnetski Top"
+AltItemName="Tusk Projektili"
+PickupMessage="Mamut Mark II Oružje"
+
+[TS_Vehicle_TickTank_Weapon]
+ItemName="90MM Topovi"
+AltItemName=".50 Cal Automatski Top"
+PickupMessage="Tick Tank Oružje"
+
+[TS_Vehicle_ReconBike_Weapon]
+ItemName="Hydra-70 Rakete"
+PickupMessage="Recon Bike Oružje"
+
+[TS_Vehicle_Buggy_Weapon]
+ItemName="30mm Automatski Top"
+PickupMessage="Buggy Oružje"
+
+[Rx_Vehicle_M2Bradley_Weapon]
+ItemName="22MM Top"
+AltItemName="TOW Rocket"
+PickupMessage="A-10 Oružje"
+
+
+//////////////////////
+//  Building Names  //
+//////////////////////
+[Rx_Building_AdvancedGuardTower_Internals]
+BuildingName = "Napredni Zaštitni Toranj"
+
+[Rx_Building_AirTower_Internals]
+BuildingName = "Zračni toranj"
+
+[Rx_Building_Barracks_Internals]
+BuildingName = "Kasarna"
+
+[Rx_Building_HandOfNod_Internals]
+BuildingName = "Hand of Nod"
+
+[Rx_Building_Obelisk_Internals]
+BuildingName = "Obelisk"
+
+[Rx_Building_PowerPlant_Internals]
+BuildingName = "Elektrana"
+
+[Rx_Building_Refinery_Internals]
+BuildingName = "Refinerija"
+
+[Rx_Building_Silo_Internals]
+BuildingName = "Silos"
+
+[Rx_Building_WeaponsFactory_Internals]
+BuildingName = "Tvornica Oružja"
+
+[Rx_CapturableMCT_Internals_Kismet]
+BuildingName = "Tech Zgrada"
+
+[Rx_Building_CommCentre_Internals]
+BuildingName = "Komunikacijski Centar"
+
+[Rx_CapturableMCT_MC_Internals]
+BuildingName = "Medicinski Centar"
+
+[Rx_CapturableMCT_Fort_Internals]
+BuildingName = "Tvrđava"
+
+[Rx_Building_MedicalCentre_Internals]
+BuildingName = "Medicinski Centar"
+
+[Rx_Building_RepairPad_Internals]
+BuildingName = "Platforma za Popravljanje"
+
+//=====================================
+//	Buildings
+//=====================================
+[Rx_Message_Buildings]
+BuildingBroadcastMessages[0]="`PlayerName` je uništio `BuildingName`"
+BuildingBroadcastMessages[1]="`BuildingName` uništena od `PlayerName`"
+BuildingBroadcastMessages[2]="`PlayerName` osvojio `BuildingName`"
+BuildingBroadcastMessages[3]="`PlayerName` neutralizirao `BuildingName`"
+
+//=====================================
+//	Crates
+//=====================================
+[Rx_CratePickup]
+PickupMessages[0]="Naišao si na granatu, BOOOM!"
+PickupMessages[1]="Iznenađenje! Nadolazeći Udar Ionskog Topa!"
+PickupMessages[2]="Usput, uočeno Lansiranje Nuklearnog Projetila. Bwahahaha!"
+PickupMessages[3]="Pronašao si `credsum` kredita!"
+PickupMessages[4]="Pronašao si novu uniformu!"
+PickupMessages[5]="Dobio si `vehname`!"
+PickupMessages[6]="Pronašao si neprijateljsku uniformu!"
+PickupMessages[7]="Tvoje zdravlje i municija su obnovljeni!"
+
+[Rx_Message_Crates]
+PickupBroadcastMessages[0]= "`PlayerName` je pronašao sanduk!"
+PickupBroadcastMessages[1]="`PlayerName` je pronašao sanduk smrti. Pušiona."
+PickupBroadcastMessages[2]="`PlayerName` dobio Ionski Top u facu. Ouch!"
+PickupBroadcastMessages[3]="`PlayerName` je zelen od radijacije"
+PickupBroadcastMessages[4]="`PlayerName` je našao novi sanduk s novcem!"
+PickupBroadcastMessages[5]="`PlayerName` je dobio novi karakter!"
+PickupBroadcastMessages[6]="`PlayerName` je dobio novo vozilo!"
+PickupBroadcastMessages[7]="Pazi, neprijetelj je pokupio špijunski sanduk!"
+PickupBroadcastMessages[8]="`PlayerName` je pokupio špijunski sanduk!"
+PickupBroadcastMessages[9]="`PlayerName` je pokupio sanduk za obnavljanje."
+PickupBroadcastMessages[10]="`PlayerName` je pokupio samoubilački sanduk."
+PickupBroadcastMessages[11]="`PlayerName` je pokupio sanduk za ubrzanje."
+PickupBroadcastMessages[12]="`PlayerName` su oteli vanzemaljci."
+PickupBroadcastMessages[13]="`PlayerName` neće živjeti dulje od 30 sekundi."
+PickupBroadcastMessages[14]="`PlayerName` otkrio oružje iz budućnosti!"
+PickupBroadcastMessages[15]="`PlayerName` otkrio oružje iz Kaneove prošlosti!"
+PickupBroadcastMessages[16]="`PlayerName` je pokupio sanduk veterana !"
+PickupBroadcastMessages[17]="`PlayerName` je pokupio sanduk za otpornost!" 
+PickupBroadcastMessages[18]="`PlayerName` je otkrio CLASSIC oružje!" 
+PickupBroadcastMessages[19]="`PlayerName` je našao sanduk sa EPIC Karakterom !" 
+
+[Rx_CrateType_Money]
+PickupMessage = "Pronašao si `credsum` kredita!"
+
+[Rx_CrateType_Refill]
+PickupMessage = "Tvoje zdravlje i municija su obnovljeni!"
+
+[Rx_CrateType_Spy]
+PickupMessage = "Pronašao si neprijateljsku uniformu!"
+
+[Rx_CrateType_Vehicle]
+PickupMessage = "Dobio si `vehname`!"
+
+[Rx_CrateType_Character]
+PickupMessage = "Pronašao si novu uniformu!"
+
+[Rx_CrateType_Suicide]
+PickupMessage = "Pronašao si odgovor na sve tajne svemira u tom sanduku i ne vidiš razlog da nastaviš sa životom."
+
+[Rx_CrateType_TimeBomb]
+PickupMessage = "Bomba ti je na glavi. Ostalo ti je još 30 sekundi života."
+
+[Rx_CrateType_Nuke]
+PickupMessage = "Usput, uočeno Lansiranje Nuklearnog Udara. MUAHAHAHAHA!"
+
+[Rx_CrateType_Speed]
+PickupMessage = "Brzina tvoje jedinice je povećana za `increasepct`%!"
+
+[Rx_CrateType_Abduction]
+PickupMessage = "Tebe je oteo Scrin!"
+
+[Rx_CrateType_TSVehicle]
+PickupMessage = "Otvorila se rupa u prostor-vremenu! Ti upravljaš budućnošću."
+
+[Rx_CrateType_RAVehicle]
+PickupMessage = "Došlo je do čudnih pomjeranja u vremenu! Ti upravljaš prošlošću."
+
+[Rx_CrateType_Veterancy]
+PickupMessage = "Upravo si naučio malo više o vještini ratovanja."
+
+[Rx_CrateType_DamageResistance]
+PickupMessage = "Pokupio si sanduk za otpornost"
+
+[Rx_CrateType_ClassicVehicle]
+PickupMessage = "Nikad zaboravljeni CLASSICS"
+
+[Rx_CrateType_EpicCharacter]
+PickupMessage = "Pronašao si EPIC Karaktera!"
+
+[Rx_Message_Vehicle]
+VehicleMessages[0]="`VehicleClass` zadužiti. Stisni [`LockKey`] da zaključaš vozačevo sjedalo. Drži [`LockKey`] da otključaš."
+VehicleMessages[1]="`VehicleClass` auto-zaduživanje. Stisni [`LockKey`] da zaključaš vozačevo sjedalo. Drži [`LockKey`] da otključaš."
+VehicleMessages[2]="`VehicleClass` razduži."
+
+VehicleMessages[3]="Ovo vozilo nije zaduženo, drži [`LockKey`] da ga zadužiš."
+VehicleMessages[4]="Ovo vozilo nije zaduženo, drži [`LockKey`] da zamijeniš postojeće `VehicleClass` zaduženje nad vozilom."
+VehicleMessages[5]="Prethodni vlasnik je razdužio ovo vozilo. Drži [`LockKey`] da ga zadužiš."
+VehicleMessages[6]="Ne možeš zadužiti ovo vozilo, već ga je zadužio `OwnerName`."
+
+VehicleMessages[7]="`VehicleClass` vozačevo sjedište zaključano."
+VehicleMessages[8]="`VehicleClass` vozačevo sjedište otključano."
+
+VehicleMessages[9]="Vozačevo sjedište je zaključao `OwnerName`."
+VehicleMessages[10]="Ne možeš ući u vozilo. Vlasnik '`OwnerName`' ima ekskluzivna prava narednih `IntegerValue` sekundi."
+VehicleMessages[11]="Ne možeš ući u vozilo. `OwnerTeam` ima ekskluzivna prava narednih `IntegerValue` sekundi."
+
+VehicleMessages[12]="`OwnerName`'s `VehicleClass` je ukrao neprijatelj!"
+VehicleMessages[13]="`OtherName` je sjeo na vozačevo sjedište tvog vozila `VehicleClass`."
+VehicleMessages[14]="Tvoj `VehicleClass` je uništen."
+
+VehicleMessages[15]="`OwnerName` je zaključao vozačevo sjedište."
+
+VehicleMessages[16]="`OtherName` je ukrao `VehicleClass`!"
+VehicleMessages[17]="`VehicleClass` je palo u neprijateljske ruke!"
+
+//=====================================
+// Context Menu Help
+//=====================================
+
+[Rx_CommandMenuChoice]
+MainHelpText=""
+SubHelpText[0]=""
+
+[Rx_CommandMenuChoice_SupportPowers]
+
+//Radar Scan [GDI]
+SubHelpText_GDI[0]="+Delivery:%Instant Radar Scan%%+Svrha:%-COMMAND SPOTS sve jedinice u dometu narednih 20s%%-Prikazuje jedinice na mapi punih 60s%%Napomena%%-Zanemaruje zaklone"
+
+//Spy Plane [Nod]
+SubHelpText_Nod[0]="+Delivery:%Špijunski Zrakoplov%%+Svrha:%-COMMAND SPOTS jedinice bez zaklona narednih 20s%%-Prikazuje jedinice na mapi punih 45s%%Napomena%%-Mora biti na vidnom%%-Može biti uništeno%"
+
+//Smoke
+SubHelpText_GDI[1]="+Delivery:%Bomber Aircraft%%+Svrha:%-Blokira vidno polje%-Zasljepljuje obranu baze%%Napomena%%-Može biti uništeno%"
+
+SubHelpText_Nod[1]="+Delivery:%Bomber Aircraft%%+Svrha:%-Blokira vidno polje%-Zasljepljuje obranu baze%%Napomena%%-Može biti uništeno%"
+
+//EMP Strike
+SubHelpText_GDI[2]="+Delivery:%Bomber Aircraft%%+Svrha:%-Onemogućuje kretanje vozila%-Uklanja neprijateljske mine%%Napomena%%-Može biti uništeno%"
+
+SubHelpText_Nod[2]="+Delivery:%Bomber Aircraft%%+Svrha:%-Onemogućuje kretanje vozila%-Uklanja neprijateljske mine%%Napomena%%-Može biti uništeno%"
+
+
+//Cruise Missile
+SubHelpText_GDI[3]="+Delivery:%Samonavođeni Projektil%%+Svrha:%-Velika razorna moć%-Large AoE%%-Airburst%Može biti uništeno%"
+
+SubHelpText_Nod[3]="+Delivery:%Samonavođeni Projektil%%+Svrha:%-Velika razorna moć%-Large AoE%%-Airburst%Može biti uništeno%"
+
+//Defensive Buff
+SubHelpText_GDI[4]="+Delivery:%Self Cast%%+Svrha:%POVEĆAVA OBRAMBENE SPOSOBNOSTI%%Utječe na sve prijateljske jedinice oko tebe.%%DURATION: 20s%"
+
+SubHelpText_Nod[4]="+Delivery:%Self Cast%%+Svrha:%POVEĆAVA OBRAMBENE SPOSOBNOSTI%%Utječe na sve prijateljske jedinice oko tebe.%%DURATION: 20s%"
+
+//Offensive Buff
+SubHelpText_GDI[5]="+Delivery:%Self Cast%%+Svrha:%+UVELIKO POVEĆAVA OFENSIVNE SPOSOBNOSTI%%Utječe na sve prijateljske jedinice oko tebe.%%DURATION: 15s%"
+
+SubHelpText_Nod[5]="+Delivery:%Self Cast%%+Svrha:%+UVELIKO POVEĆAVA OFENSIVNE SPOSOBNOSTI%%Utječe na sve prijateljske jedinice oko tebe.%%DURATION: 15s%"
+
+
+
+//Help Menu
+[Rx_CommandMenuChoice_Help]
+MainHelpText="Odaberi temu sa 'number' .%"
+
+//Commander Help: Chat
+SubHelpText[0]="+Commander's teamchat poruke su%prikazane u drugoj boji za lakše%prepoznavanje.%%+Prije teamchat poruke koristi %'/C' da pošelješ COMMANDER MESSAGE.%%+COMMANDER MESSAGES se prikazuju u %standardnom chatu i chatu na sredini ekrana%emphasis.%%+Prije poruke timu koristi '/R' %da pošelješ RUSH poruku.%%+RUSH poruke se prikazuju u chatu na sredini ekran%i traju 15 sekundi.%"
+
+//Commander Help: Targeting
+SubHelpText[1]="+Meta označene- Q-spotted od strane COMMANDER %vide SVE prijateljske jedinice.%%+COMMANDER označene jedinice zu numerirane radi%identifikacije.%%+COMMANDER označene jedinice gube oznake nakon određenog vremena .%Mete su vidljive 20 sekundi.%Polako se smanjuju prije nego oznake nestanu.%%COMMANDER spotted targets grant%10 COMMAND POINTS[CP] kad ih uništite.%"
+
+//Commander Help: Waypoints
+SubHelpText[2]="+WAYPOINTS vidi cijeli tim.%%+Nakon odabira waypointa 1-9,% Q će postaviti tamo gdje pokazuješ.%%+Džri Q da ukloniš waypoint.%" 
+
+//Commander Help: Remove Mines
+SubHelpText[3]="+Odaberi zgradu sa brojem% i drži -Q- da ukloniš SVE% C4 mine u toj zgradi.%"
+
+//Commander Help: Harvester Options
+SubHelpText[4]="+HARVESTER može biti zaustavljen.%%+Harvester WAYPOINT% je mjesto gdje će HARVESTER%otići i zaustaviti se.%%+HARVESTER možeš uništiti ako%zaglavi negdje.%%+Ponovna naredba HARVESTERu da se uništi%će prekinuti samouništenje.%"
+
+
+//Commander Help: Support Powers
+SubHelpText[5]="+Support Powers ALL COST COMMAND POINTS%%+Većinu support powers pozivaš %DRŽEĆI -Q- i pokazujući na područje.%%+Support powers imaju%vlastite tooltips kad ih odabereš%"
+
+//=====================================
+// Text Radio Commands
+//=====================================
+[Rx_Controller]
+	// CTRL + Number
+	RadioCommandsText[0]     =   "Zgradama potrebni popravci!"
+	RadioCommandsText[1]     =   "Ulazi u vozilo!"
+	RadioCommandsText[2]     =   "Izlazi iz vozila!"
+	RadioCommandsText[3]     =   "Uništi to vozilo!" 
+	RadioCommandsText[4]     =   "Pazi gdje ciljaš!"
+	RadioCommandsText[5]     =   "Makni mi se s puta!"
+	RadioCommandsText[6]     =   "Primljeno."
+	RadioCommandsText[7]     =   "Odbijeno."
+	RadioCommandsText[8]     =   "Ja sam na poziciji."
+	RadioCommandsText[9]     =   "Neprijatelj uočen!"
+
+	// ALT + Number
+	RadioCommandsText[10]    =   "Potrebni su mi popravci!"
+	RadioCommandsText[11]    =   "Zauzmi točku."
+	RadioCommandsText[12]    =   "Krenimo."
+	RadioCommandsText[13]    =   "Prati me."
+	RadioCommandsText[14]    =   "Drži poziciju."
+	RadioCommandsText[15]    =   "Pokrivaj me."
+	RadioCommandsText[16]    =   "U zaklon."
+	RadioCommandsText[17]    =   "Povlačenje."
+	RadioCommandsText[18]    =   "Nazad u bazu."
+	RadioCommandsText[19]    =   "Uništi odmah!"
+
+	// CTRL+ALT + Number
+	RadioCommandsText[20]    =   "Napadni obranu baze!"
+	RadioCommandsText[21]    =   "Napadni Harvester!"
+	RadioCommandsText[22]    =   "Napadni tu građevinu!"
+	RadioCommandsText[23]    =   "Napadni Rafineriju!" 
+	RadioCommandsText[24]    =   "Napadni Elektranu!"
+	RadioCommandsText[25]    =   "Brani bazu!"
+	RadioCommandsText[26]    =   "Brani Harvester!"
+	RadioCommandsText[27]    =   "Brani tu građevinu!"
+	RadioCommandsText[28]    =   "Brani Rafineriju!"
+	RadioCommandsText[29]    =   "Brani Elektranu!"
+
+[Rx_HUD]
+	// CTRL + Number
+	RadioCommandsCTRL[0]     =   "1|Zgradi poterni popravci!"
+	RadioCommandsCTRL[1]     =   "2|Ulazi u vozilo!"
+	RadioCommandsCTRL[2]     =   "3|Izlazi iz vozila!"
+	RadioCommandsCTRL[3]     =   "4|Uništi to vozilo!" 
+	RadioCommandsCTRL[4]     =   "5|Pazi gdje ciljaš!"
+	RadioCommandsCTRL[5]     =   "6|Makni mi se s puta!"
+	RadioCommandsCTRL[6]     =   "7|Primljeno."
+	RadioCommandsCTRL[7]     =   "8|Odbijeno."
+	RadioCommandsCTRL[8]     =   "9|Ja sam na poziciji."
+	RadioCommandsCTRL[9]     =   "0|Neprijatelj uočen!"
+
+	// ALT + Number
+	RadioCommandsALT[0]    =   "1|Potrebni su mi popravci!"
+	RadioCommandsALT[1]    =   "2|Zauzmi točku."
+	RadioCommandsALT[2]    =   "3|Krenimo."
+	RadioCommandsALT[3]    =   "4|Prati me."
+	RadioCommandsALT[4]    =   "5|Drži poziciju."
+	RadioCommandsALT[5]    =   "6|Pokrivaj me."
+	RadioCommandsALT[6]    =   "7|U zaklon."
+	RadioCommandsALT[7]    =   "8|Povlačenje."
+	RadioCommandsALT[8]    =   "9|Nazad u bazu."
+	RadioCommandsALT[9]    =   "0|Uništi odmah!"
+
+	// CTRL+ALT + Number
+	RadioCommandsCTRLALT[0]    =   "1|Uništi to odmah!"
+	RadioCommandsCTRLALT[1]    =   "2|Napadni Harvester!"
+	RadioCommandsCTRLALT[2]    =   "3|Napadni tu građevinu!"
+	RadioCommandsCTRLALT[3]    =   "4|Napadni Rafineriju!" 
+	RadioCommandsCTRLALT[4]    =   "5|Napadni Elektranu!"
+	RadioCommandsCTRLALT[5]    =   "6|Brani bazu!"
+	RadioCommandsCTRLALT[6]    =   "7|Brani Harvester!"
+	RadioCommandsCTRLALT[7]    =   "8|Brani tu građevinu!"
+	RadioCommandsCTRLALT[8]    =   "9|Brani Rafineriju!"
+	RadioCommandsCTRLALT[9]    =   "0|Brani Elektranu!"
