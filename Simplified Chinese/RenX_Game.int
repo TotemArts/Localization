@@ -457,13 +457,13 @@ PT_Description="<font size='10'>\n-2x 加特林机枪\n-轻型装甲\n-运输直
 VehiclePositionString="在装甲运兵车内"
 VehicleNameString="装甲运兵车"
 PT_Title="装甲运兵车"
-PT_Description="<font size='10'>-M134机枪\n-重型装甲\n-运输直升机\n-驾驶员 + 4位乘员</font>"
+PT_Description="<font size='10'>-M134机枪\n-重型装甲\n-运兵车\n-驾驶员 + 4位乘员</font>"
 
 [Rx_Vehicle_APC_GDI]
 VehiclePositionString="在装甲运兵车内"
 VehicleNameString="装甲运兵车"
 PT_Title="装甲运兵车"
-PT_Description="<font size='10'>-M134机枪\n-重型装甲\n-运输直升机\n-驾驶员 + 4位乘员</font>"
+PT_Description="<font size='10'>-M134机枪\n-重型装甲\n-运兵车\n-驾驶员 + 4位乘员</font>"
 
 [Rx_Vehicle_Buggy]
 VehiclePositionString="在四驱车内"
