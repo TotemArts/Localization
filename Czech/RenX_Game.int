@@ -1,0 +1,1096 @@
+//=====================================
+//	Game
+//=====================================
+[Rx_Game]
+Description="Znič základnu nepřítele, zatímco chráníš tu svoji."
+GameName="C&C Mode"
+EndOfMatchRulesTemplateStr_Scoring=První tým který zničí ten druhý vyhrává
+EndOfMatchRulesTemplateStr_Time=Tým s nejvíce body do `t minut vyhrává
+
+
+//=====================================
+//	Weapons 
+//=====================================
+
+[Rx_Weapon]
+ItemName="Bezejmenná Zbraň"
+PickupMessage="Bezejmenná Zbraň"
+
+[Rx_Weapon_Reloadable]
+ItemName="Bezejmenná Přebíjitelná Zbraň"
+PickupMessage="Bezejmenná Přebíjitelná Zbraň"
+
+[Rx_Weapon_Spray]
+ItemName="Bezejmenná Rozprašovací Zbraň"
+PickupMessage="Bezejmenná Rozprašovací Zbraň"
+
+[Rx_Weapon_Scoped]
+ItemName="Bezejmenná Zbraň s optikou"
+PickupMessage="Bezejmenná Zbraň s optikou"
+
+[Rx_Weapon_AutoRifle]
+ItemName="Automatická Puška"
+PickupMessage="Automatická Puška"
+
+[Rx_Weapon_TacticalRifle]
+ItemName="Taktická Puška"
+PickupMessage="Taktická Puška"
+
+[Rx_Weapon_Shotgun]
+ItemName="Brokovnice"
+PickupMessage="Brokovnice"
+
+[Rx_Weapon_RocketLauncher]
+ItemName="Raketomet"
+PickupMessage="Raketomet"
+
+[Rx_Weapon_Flamethrower]
+ItemName="Plamenomet"
+PickupMessage="Plamenomet"
+
+[Rx_Weapon_GrenadeLauncher]
+ItemName="Granátomet"
+PickupMessage="Granátomet"
+
+[Rx_Weapon_Pistol]
+ItemName="Tlumená Pistole"
+PickupMessage="Tlumená Pistole"
+
+[Rx_Weapon_Pistol_UnSILENCED]
+ItemName="Pistole"
+PickupMessage="Pistole"
+
+[Rx_Weapon_ChainGun]
+ItemName="Rotační Kulomet"
+PickupMessage="Rotační Kulomet"
+
+[Rx_Weapon_SniperRifle]
+ItemName="Odstřelovací Puška"
+PickupMessage="Odstřelovací Puška"
+
+[Rx_Weapon_VoltAutoRifle]
+ItemName="Voltová Automatická Puška"
+PickupMessage="Voltová Automatická Puška"
+
+[Rx_Weapon_RamjetRifle]
+ItemName="Ramjet Puška"
+PickupMessage="Ramjet Puška"
+
+[Rx_Weapon_Railgun]
+ItemName="Railgun"
+PickupMessage="Railgun"
+
+[Rx_Weapon_PersonalIonCannon]
+ItemName="Osobní Iontový Kanón"
+PickupMessage="Osobní Iontový Kanón"
+
+[Rx_Weapon_LaserRifle]
+ItemName="Laserová Puška"
+PickupMessage="Laserová Puška"
+
+[Rx_Weapon_LaserChainGun]
+ItemName="Laserový Rotační Kulomet"
+PickupMessage="Laserový Rotační Kulomet"
+
+[Rx_Weapon_MissileLauncher]
+ItemName="Raketomet"
+PickupMessage="Raketomet"
+
+[Rx_Weapon_ChemicalThrower]
+ItemName="Chemická Zbraň"
+PickupMessage="Chemická Zbraň"
+
+[Rx_Weapon_FlakCannon]
+ItemName="Flak Kanón"
+PickupMessage="Flak Kanón"
+
+[Rx_Weapon_RepairGun]
+ItemName="Opravovací Zbraň"
+PickupMessage="Opravovací Zbraň"
+
+[Rx_Weapon_RepairGunAdvanced]
+ItemName="Pokročilá Opravovací Zbraň"
+PickupMessage="Pokročilá Opravovací Zbraň"
+
+[Rx_Weapon_TimedC4]
+ItemName="Časovaná C4"
+PickupMessage="Časovaná C4"
+
+[Rx_Weapon_RemoteC4]
+ItemName="C4 na dálkové ovládání"
+PickupMessage="C4 na dálkové ovládání"
+
+[Rx_Weapon_ProxyC4]
+ItemName="Nástražná C4"
+PickupMessage="Nástražná C4"
+
+[Rx_Weapon_NukeBeacon]
+ItemName="Maják Nukleárního Útoku"
+PickupMessage="Maják Nukleárního Útoku"
+
+[Rx_Weapon_IonCannonBeacon]
+ItemName="Maják Iontového Děla"
+PickupMessage="Maják Iontového Děla"
+
+[Rx_Weapon_Grenade]
+ItemName="Tříštivý Granát"
+PickupMessage="Tříštivý Granát"
+
+[Rx_Weapon_Grenade_Rechargeable]
+ItemName="Tříštivý Granát"
+PickupMessage="Tříštivý Granát"
+
+[Rx_Weapon_SMG]
+ItemName="Samopal"
+PickupMessage="Samopal"
+
+[Rx_Weapon_SMG_Silenced]
+ItemName="Tlumený Samopal"
+PickupMessage="Tlumený Samopal"
+
+[Rx_Weapon_HeavyPistol]
+ItemName="Těžká Pistole"
+PickupMessage="Těžká Pistole"
+
+[Rx_Weapon_MarksmanRifle]
+ItemName="Puška"
+PickupMessage="Puška"
+
+[Rx_Weapon_Carbine]
+ItemName="Karabina"
+PickupMessage="Karabina"
+
+[Rx_Weapon_Carbine_Silencer]
+ItemName="Karabina"
+PickupMessage="Karabina"
+
+[Rx_Weapon_Airstrike]
+ItemName="Označovač Náletu"
+PickupMessage="Označovač Náletu"
+
+[Rx_Weapon_Airstrike_GDI]
+ItemName="Nálet A-10"
+PickupMessage="Nálet A-10"
+
+[Rx_Weapon_Airstrike_Nod]
+ItemName="Nálet AC-130"
+PickupMessage="Nálet AC-130"
+
+[Rx_Weapon_TiberiumFlechetteRifle]
+ItemName="Tibériová Šipková Puška"
+PickupMessage="Tibériová Šipková Puška"
+
+[Rx_Weapon_TiberiumAutoRifle]
+ItemName="Tibériová Auto-Puška"
+PickupMessage="Tibériová Auto-Puška"
+
+[Rx_Weapon_TiberiumAutoRifle_Blue]
+ItemName="Tibériová Auto-Puška"
+PickupMessage="Tibériová Auto-Puška"
+
+[Rx_Weapon_ATMine]
+ItemName="Protitanková Mina"
+PickupMessage="Protitanková Mina"
+
+[Rx_Weapon_EMPGrenade]
+ItemName="EMP Granát"
+PickupMessage="EMP Granát"
+
+[Rx_Weapon_EMPGrenade_Rechargeable]
+ItemName="EMP Granát"
+PickupMessage="EMP Granát"
+
+[Rx_Weapon_RepairTool]
+ItemName="Opravovací Zbraň"
+PickupMessage="Opravovací Zbraň"
+
+[Rx_Weapon_SmokeGrenade]
+ItemName="Kouřový Granát"
+PickupMessage="Kouřový Granát"
+
+[Rx_Weapon_SmokeGrenade_Rechargeable]
+ItemName="Kouřový Granát"
+PickupMessage="Kouřový Granát"
+
+[Rx_Weapon_TiberiumGrenade_Rechargeable]
+ItemName="Tibériový Granát"
+PickupMessage="Tibériový Granát"
+
+[Rx_Weapon_SniperRifle_UnSilenced]
+ItemName="Odstřelovací Puška"
+PickupMessage="Odstřelovací Puška"
+
+//=====================================
+//Rx WeaponAbilities
+//=====================================
+
+[Rx_WeaponAbility]
+ItemName="Bezejmenná Schopnost"
+PickupMessage="Bezejmenná Schopnost"
+
+[Rx_WeaponAbility_TiberiumGrenade]
+ItemName="Tibériový Granát"
+PickupMessage="Tibériové Granáty"
+
+[Rx_WeaponAbility_Grenade]
+ItemName="Tříštivý Granát"
+PickupMessage="Tříštivé Granáty"
+
+[Rx_WeaponAbility_EMPGrenade]
+ItemName="EMP Granát"
+PickupMessage="EMP Granáty"
+
+[Rx_WeaponAbility_SmokeGrenade]
+ItemName="Kouřový Granát"
+PickupMessage="Kouřové Granáty"
+
+[Rx_WeaponAbility_TacRifleGrenade]
+ItemName="Taktická Puška [Granát]"
+PickupMessage="Odpalovač Granátů"
+
+
+
+//=====================================
+//	Characters
+//=====================================
+
+[Rx_FamilyInfo]
+CharacterName="Bezejmenný Charakter"
+PT_Title="BEZEJMÉNA"
+
+// GDI Infantry
+[Rx_FamilyInfo_GDI_Soldier]
+CharacterName="Voják"
+PT_Title="VOJÁK"
+PT_Description="Zbroj: Kevlar\nRychlost: 100\nSekundární Vybavení: Tlumená Pistole\n+Proti pěchotě"
+
+[Rx_FamilyInfo_GDI_Shotgunner]
+CharacterName="Brokovničář"
+PT_Title="BROKOVNIČÁŘ"
+PT_Description="Zbroj: Kevlar\nRychlost: 95\nSekundární Vybavení: Tlumená Pistole\n+Proti pěchotě"
+
+[Rx_FamilyInfo_GDI_Grenadier]
+CharacterName="Granátník"
+PT_Title="GRANÁTNÍK"
+PT_Description="Zbroj: Flak\nRychlost: 100\nSekundární Vybavení: Tlumená Pistole\n+Proti obrněncům\n+Proti budovám"
+
+[Rx_FamilyInfo_GDI_Marksman]
+CharacterName="Odstřelovač"
+PT_Title="ODSTŘELOVAČ"
+PT_Description="Zbroj: Kevlar\nRychlost: 100\nSekundární Vybavení: Tlumená Pistole\n+Proti pěchotě"
+
+[Rx_FamilyInfo_GDI_Engineer]
+CharacterName="Inženýr"
+PT_Title="INŽENÝR"
+PT_Description="Zbroj: Flak\nRychlost: 95\nSekundární Vybavení: Tlumená Pistole\nC4 na dálkové ovládání\n+Proti budovám\n+Oprava/Podpora"
+
+[Rx_FamilyInfo_GDI_Officer]
+CharacterName="Důstojník"
+PT_Title="DŮSTOJNÍK"
+PT_Description="Zbroj: Kevlar\nRychlost: 100\nSekundární Vybavení: Tlumená Pistole\nKouřový Granát\n+Proti pěchotě"
+
+[Rx_FamilyInfo_GDI_RocketSoldier]
+CharacterName="Raketometčík"
+PT_Title="RAKETOMETČÍK"
+PT_Description="Zbroj: Flak\nRychlost: 95\nSekundární Vybavení: Samopal\nProti Tankové Miny\n+Proti obrněncům\n+Proti letadlům"
+
+[Rx_FamilyInfo_GDI_McFarland]
+CharacterName="McFarland"
+PT_Title="MCFARLAND"
+PT_Description="Zbroj: Kevlar\nRychlost: 105\nSekundární Vybavení: Tlumená Pistole\nTříštivé Granáty\n+Proti pěchotě"
+
+[Rx_FamilyInfo_GDI_Gunner]
+CharacterName="Střelec"
+PT_Title="STŘELEC"
+PT_Description="Zbroj: Flak\nRychlost: 95\nSekundární Vybavení: Karabina\nEMP Granát\nPrti.Tank. Miny\n+Proti obrněncům\n+Proti budovám"
+
+[Rx_FamilyInfo_GDI_Deadeye]
+CharacterName="Deadeye"
+PT_Title="DEADEYE"
+PT_Description="Zbroj: None\nRychlost: 90\nSekundární Vybavení: Samopal\nKouřový Granát\n+Proti pěchotě"
+
+[Rx_FamilyInfo_GDI_Patch]
+CharacterName="Patch"
+PT_Title="PATCH"
+PT_Description="Zbroj: Kevlar\nRychlost: 112.5\nSekundární Vybavení: Těžká Pistole\nTřístivý Granát\n+Proti pěchotě"
+
+[Rx_FamilyInfo_GDI_Havoc]
+CharacterName="Havoc"
+PT_Title="HAVOC"
+PT_Description="Zbroj: Žádná\nRychlost: 90\nSekundární Vybavení: Karabina\nKouřový Granát\n+Proti pěchotě"
+
+[Rx_FamilyInfo_GDI_Sydney]
+CharacterName="Sydney"
+PT_Title="SYDNEY"
+PT_Description="Zbroj: Flak\nRychlost: 100\nSekundární Vybavení: Těžká Pistole\nEMP Granát\nProti Tankové Miny\n+Proti obrněncům"
+
+[Rx_FamilyInfo_GDI_Mobius]
+CharacterName="Mobius"
+PT_Title="MOBIUS"
+PT_Description="Zbroj: Kevlar\nRychlost: 100\nSekundární Vybavení: Těžká Pistole\n+Proti všemu"
+
+[Rx_FamilyInfo_GDI_Hotwire]
+CharacterName="Hotwire"
+PT_Title="HOTWIRE"
+PT_Description="Zbroj: Flak\nRychlost: 100\nSekundární Vybavení: Tlumená Pistole\nC4 na dálkové ovládání\nNástražné Miny\n+Proti budovám\n+Oprava/Podpora"
+
+//GDI Hero Units
+[Rx_FamilyInfo_GDI_Sydney_Suit]
+CharacterName="Obrněná Sydney"
+PT_Title="Obrněná Sydney"
+PT_Description="Zbroj: Flak\nRychlost: 95\nSekundární Vybavení: Tibériová Auto-Puška\n+Proti všemu"
+
+
+// Nod Infantry
+[Rx_FamilyInfo_Nod_Soldier]
+CharacterName="Voják"
+PT_Title="VOJÁK"
+PT_Description="Zbroj: Kevlar\nRychlost: 100\nSekundární Vybavení: Tlumená Pistole\n+Proti pěchotě"
+
+[Rx_FamilyInfo_Nod_Shotgunner]
+CharacterName="Brokovničář"
+PT_Title="BROKOVNIČÁŘ"
+PT_Description="Zbroj: Kevlar\nRychlost: 100\nSekundární Vybavení: Tlumená Pistole\n+Proti pěchotě"
+
+[Rx_FamilyInfo_Nod_FlameTrooper]
+CharacterName="Plamenometný Voják"
+PT_Title="PLAMENOMETNÝ VOJÁK"
+PT_Description="Zbroj: Flak\nRychlost: 105\nSekundární Vybavení: Tlumená Pistole\n+Proti všemu"
+
+[Rx_FamilyInfo_Nod_Marksman]
+CharacterName="Odstřelovač"
+PT_Title="ODSTŘELOVAČ"
+PT_Description="Zbroj: Kevlar\nRychlost: 100\nSekundární Vybavení: Tlumená Pistole\n+Proti pěchotě"
+
+[Rx_FamilyInfo_Nod_Engineer]
+CharacterName="Inženýr"
+PT_Title="INŽENÝR"
+PT_Description="Zbroj: Flak\nRychlost: 95\nSekundární Vybavení: Tlumená Pistole\nC4 na dálkové ovládání\n+Proti budvám\n+Oprava/Podpora"
+
+[Rx_FamilyInfo_Nod_Officer]
+CharacterName="Důstojník"
+PT_Title="DŮSTOJNÍK"
+PT_Description="Zbroj: Kevlar\nRychlost: 110\nSekundární Vybavení: Tlumená Pistole\nKouřový Granát\n+Proti pěchotě"
+
+[Rx_FamilyInfo_Nod_RocketSoldier]
+CharacterName="Raketometčík"
+PT_Title="RAKETOMETČÍK"
+PT_Description="Zbroj: Flak\nRychlost: 105\nSekundární Vybavení: Samopal\nProti Tankové Miny\n+Proti obrněncům\n+Proti letadlům"
+
+[Rx_FamilyInfo_Nod_ChemicalTrooper]
+CharacterName="Chemický Voják"
+PT_Title="CHEMICKÝ VOJÁK"
+PT_Description="Zbroj: Flak\nRychlost: 100\nSekundární Vybavení: Tlumená Pistole\nTříštivé Granáty\n+Proti všemu"
+
+[Rx_FamilyInfo_Nod_StealthBlackHand]
+CharacterName="Stealth Black Hand"
+PT_Title="STEALH BLACK HAND"
+PT_Description="Zbroj: Lazarus\nRychlost: 110\nSekundární Vybavení: Tl. Samopal\nAktivní Kamufláž\n+Proti všemu"
+
+[Rx_FamilyInfo_Nod_BlackHandSniper]
+CharacterName="Black Hand Sniper"
+PT_Title="BLACK HAND SNIPER"
+PT_Description="Zbroj: Žádná\nRychlost: 90\nSekundární Vybavení: Samopal\nKouřový Granát\n+Proti pěchotě"
+
+[Rx_FamilyInfo_Nod_LaserChainGunner]
+CharacterName="Voják s Laserovým Rotačním Kulometem"
+PT_Title="VOJÁK S LSR. ROT. KULOMETEM"
+PT_Description="Zbroj: Flak\nRychlost: 80\nSekundární Vybavení: EMP Granát\nProti tankové Miny\n+Proti všemu\n+Těžká Pěchota"
+
+[Rx_FamilyInfo_Nod_Sakura]
+CharacterName="Sakura"
+PT_Title="SAKURA"
+PT_Description="Zbroj: Žádná\nRychlost: 90\nSekundární Vybavení: Tl. Karabina\nKouřový Granát\n+Proti pěchotě"
+
+[Rx_FamilyInfo_Nod_Raveshaw]
+CharacterName="Raveshaw"
+PT_Title="RAVESHAW"
+PT_Description="Zbroj: Flak\nRychlost: 100\nSekundární Vybavení: Těžká Pistole\nEMP Granát\nProti Tankové Miny\n+Proti obrněncům"
+
+[Rx_FamilyInfo_Nod_Mendoza]
+CharacterName="Mendoza"
+PT_Title="MENDOZA"
+PT_Description="Zbroj: Kevlar\nRychlost: 110\nSekundární Vybavení: Těžká Pistole\n+Proti všemu"
+
+[Rx_FamilyInfo_Nod_Technician]
+CharacterName="Technik"
+PT_Title="TECHNIK"
+PT_Description="Zbroj: Flak\nRychlost: 100\nSekundární Vybavení: Tlumená Pistole\nC4 na dálkové ovládnání\nNástražné Miny\n+Proti budovám\n+Oprava/Podpora"
+
+//Nod Hero Units 
+[Rx_FamilyInfo_Nod_Raveshaw_Mutant]
+CharacterName="Mutant Raveshaw"
+PT_Title="Mutant Raveshaw"
+PT_Description="Zbroj: Flak\nRychlost: 95\nSekundární Vybavení: Tibériová Auto-Puška\n+Proti všemu"
+
+
+//=====================================
+//	Vehicles
+//=====================================
+[Rx_Vehicle]
+VehiclePositionString="ve vozidle"
+VehicleNameString="Vozidlo"
+
+[Rx_Vehicle_Treaded]
+VehiclePositionString="v tanku"
+VehicleNameString="Tank"
+
+[Rx_Vehicle_MammothTank]
+VehiclePositionString="v Mammoth Tanku"
+VehicleNameString="Mammoth Tank"
+PT_Title="MAMMOTH TANK"
+PT_Description="<font size='10'>-2x 120mm Děla\n-4x Tusk Rakety\n-Těžký Pancíř\n-Těžký Bitevní tank\n-Řidič + Pasažéř</font>"
+
+[Rx_Vehicle_MediumTank]
+VehiclePositionString="v Středním Tanku"
+VehicleNameString="Střední Tank"
+PT_Title="STŘEDNÍ TANK"
+PT_Description="<font size='10'>-105mm Dělo\n-Těžký Pancíř\n-Hlavní Bitevní Tank\n-Řidič + Pasažéř</font>"
+
+[Rx_Vehicle_Chinook]
+VehiclePositionString="v Chinooku"
+VehicleNameString="Chinook"
+PT_Title="TRANSPORTNÍ HELIKOPTÉRA"
+PT_Description="<font size='10'>\n-2x Rotační Kulomety\n-Lehký Pancíř\n-Transport Jednotek\n-Pilot + 4 Pasažéři</font>"
+
+[Rx_Vehicle_APC_Nod]
+VehiclePositionString="v APC"
+VehicleNameString="APC"
+PT_Title="OBRNĚNÝ TRANSPORTÉR"
+PT_Description="<font size='10'>-M134 Minigun\n-Těžký Pancíř\n-Transport Jednotek\n-Řidič + 4 Pasažéři</font>"
+
+[Rx_Vehicle_APC_GDI]
+VehiclePositionString="v APC"
+VehicleNameString="APC"
+PT_Title="OBRNĚNÝ TRANSPORTÉR"
+PT_Description="<font size='10'>-M134 Minigun\n-Těžký Pancíř\n-Transport Jednotek\n-Řidič + 4 Pasažéři</font>"
+
+[Rx_Vehicle_Buggy]
+VehiclePositionString="v Buggyně"
+VehicleNameString="Buggyna"
+PT_Title="BUGGYNA"
+PT_Description="<font size='10'>-.50 Kulomet\n-Lehký Pancíř\n-Rychlý Útočný Průzkumník\n-Řidič + Pasažér</font>"
+
+[Rx_Vehicle_HoverCraft]
+VehiclePositionString="v Vznášedle"
+VehicleNameString="Vznášedlo"
+
+[Rx_Vehicle_Humvee]
+VehiclePositionString="v Humvee"
+VehicleNameString="Humvee"
+PT_Title="HUMVEE"
+PT_Description="<font size='10'>-.50 Kulomet\n-Lehký Pancíř\n-Rychlý Útočný Průzkumník\n-Řidič + Pasažér</font>"
+
+[Rx_Vehicle_MRLS]
+VehiclePositionString="v MRLS"
+VehicleNameString="MRLS"
+PT_Title="MOBILNÍ SYSTÉM ODPALOVÁNÍ RAKET"
+PT_Description="<font size='10'>-M269 Rakety\n-Lehký Pancíř\n-Na Dlouhé Vzdálenosti\n-Řidič + Pasažér</font>"
+
+[Rx_Vehicle_LightTank]
+VehiclePositionString="v Lehkém Tanku"
+VehicleNameString="Lehký Tank"
+PT_Title="LEHKÝ TANK"
+PT_Description="<font size='10'>\n-75mm Dělo\n-Těžký Pancíř\n-Hlavní Bitevní Tank\n-Řidič + Pasažér</font>"
+
+[Rx_Vehicle_Artillery]
+VehiclePositionString="v Artilerii"
+VehicleNameString="Artilerie"
+PT_Title="MOBILNÍ ARTILERIE"
+PT_Description="<font size='10'>\n-155mm Houfnice\n-Lehký Pancíř\n-Na Dlouhé Vzdálenosti\n-Řidič + Pasažér</font>"
+
+[Rx_Vehicle_FlameTank]
+VehiclePositionString="v Plamenometném Tanku"
+VehicleNameString="Plamenometný Tank"
+PT_Title="PLAMENOMETNÝ TANK"
+PT_Description="<font size='10'>\n-2x Plamenomety\n-Těžký Pancíř\n-Potlačování na blízké vzdálenosti\n-Řidič + Pasažér</font>"
+
+[Rx_Vehicle_StealthTank]
+VehiclePositionString="v Stealth Tanku"
+VehicleNameString="Stealth Tank"
+PT_Title="STEALTH TANK"
+PT_Description="<font size='10'>-2x TOW Rakety\n-Těžký Pancíř\n-Partyzánské Bojové Vozidlo\n-Aktivní Kamufláž\n-Řidič</font>"
+
+[Rx_Defence_GunEmplacement]
+VehiclePositionString="ve Fixované Zbrani"
+VehicleNameString="Fixovaná Zbraň"
+
+[Rx_Defence_RocketEmplacement]
+VehiclePositionString="v Fixovaném Raketometu"
+VehicleNameString="Fixovaný Raketomet"
+
+[Rx_Vehicle_A10]
+VehiclePositionString="v A-10"
+VehicleNameString="A-10"
+
+[Rx_Vehicle_Apache]
+VehiclePositionString="v Apachi"
+VehicleNameString="Apache"
+PT_Title="APACHE"
+PT_Description="<font size='10'>-30mm Auto-Kanóny\n-Hydra-70 Rakety\n-Lehký Pancíř\n-Útočná Helikoptéra\n-Pilot</font>"
+
+[Rx_Vehicle_Orca]
+VehiclePositionString="v Orce"
+VehicleNameString="Orca"
+PT_Title="STÍHAČKA ORCA"
+PT_Description="<font size='10'>-Hellfire Rakety\n-.50 Kulomet\n-Lehký Pancíř\n-Utočná VTOL\n-Pilot + Pasažér</font>"
+
+[Rx_Vehicle_Harvester]
+VehiclePositionString="v Sběrači"
+VehicleNameString="Sběrač"
+
+[Rx_Vehicle_HoverCraft_GDI]
+VehiclePositionString="ve Vznášedle"
+VehicleNameString="Vznášedlo"
+
+[Rx_Vehicle_HoverCraft_Nod]
+VehiclePositionString="ve Vznášedle"
+VehicleNameString="Vznášedlo"
+
+[Rx_Vehicle_Bus]
+VehiclePositionString="v Autobuse"
+VehicleNameString="Autobus"
+
+[Rx_Defence_GuardTower]
+VehiclePositionString="v Strážné Věži"
+VehicleNameString="Strážná Věž"
+
+[Rx_Defence_Turret]
+VehiclePositionString="ve Střílně"
+VehicleNameString="Střílna"
+
+[Rx_Defence_AATower]
+VehiclePositionString="v Protivzdušné Věži"
+VehicleNameString="Protivzdušná Věž"
+
+[Rx_Defence_SAMSite]
+VehiclePositionString="v SAM Stanovišti"
+VehicleNameString="SAM Stanoviště"
+
+[Rx_Vehicle_MG_GDI]
+VehiclePositionString="v .50 Cal"
+VehicleNameString=".50 Cal"
+
+[APB_Vehicle_TeslaTank]
+VehiclePositionString="v Tesla Tanku"
+VehicleNameString="Tesla Tank"
+
+[TS_Vehicle_HoverMRLS]
+VehiclePositionString="ve Vznášejícím se MRLS"
+VehicleNameString="Vznášející se MRLS"
+PT_Title="VZNÁŠEJÍCÍ SE MRLS"
+PT_Description="<font size='10'>-Systém Odpalu Mnoha Raket\n-Lehký pancíř\n-Podpora na Dlouhé Vzdálenosti\n-Řidič</font>"
+
+[TS_Vehicle_Titan]
+VehiclePositionString="v Titanu"
+VehicleNameString="Titan"
+PT_Title="TITAN"
+PT_Description="<font size='10'>-120mm Dělo\n-Těžký Pancíř\n-Hlavní Bitevní Mech\n-Řidič + Pasažér</font>"
+
+[TS_Vehicle_Wolverine]
+VehiclePositionString="ve Wolverinu"
+VehicleNameString="Wolverine"
+PT_Title="WOLVERINE"
+PT_Description="<font size='10'>-2x Rotační Kulomety\n-Lehký Pancíř\n-Rychlý Útočný Průzkumník\n-Řidič</font>"
+
+[TS_Vehicle_TickTank]
+VehiclePositionString="v Tick Tanku"
+VehicleNameString="Tick Tank"
+PT_Title="TICK TANK"
+PT_Description="<font size='10'>\n-75mm Dělo\n-Těžký Pancíř\n-Hlavní Bitevní Tank\n-Řidič + Pasažér</font>"
+
+[TS_Vehicle_ReconBike]
+VehiclePositionString="v Attack Cycle"
+VehicleNameString="Attack Cycle"
+PT_Title="ATTACK CYCLE"
+PT_Description="<font size='10'>-SWARM rakety\n-Hydra-70 Rakety\n-Velmi Lehký Pancíř\n-Rychlý Obtěžovač\n-Řidič</font>"
+
+[TS_Vehicle_Buggy]
+VehiclePositionString="v Útočné Buggyně"
+VehicleNameString="Útočná Buggyna"
+PT_Title="ÚTOČNÁ BUGGYNA"
+PT_Description="<font size='10'>-.Vulcan Kanón\n-Lehký Pancíř\n-Rychlý Útočná Průzkumník\n-Řidič + Pasažér</font>"
+
+[Rx_Vehicle_M2Bradley]
+VehiclePositionString="v Lehkém Tanku"
+VehicleNameString="Lehký Tank"
+PT_Title="LEHKÝ TANK"
+PT_Description="<font size='10'>\n-75mm Dělo\n-Těžký Pancíř\n-Hlavní Bitevní Tank\n-Řidič + Pasažér</font>"
+
+//=====================================
+//	Vehicle Weapons
+//=====================================
+
+[Rx_Vehicle_Weapon]
+ItemName="Primární Zbraň"
+PickupMessage="Primární Zbraň"
+
+[Rx_Vehicle_A10_Weapon]
+ItemName="GAU-8/A Kanón"
+AltItemName="AGM-65 raketa"
+PickupMessage="A-10 Zbraň"
+
+[Rx_Vehicle_Apache_Weapon]
+ItemName="30mm Automatický Kanón"
+AltItemName="Hydra-70 Raketa"
+PickupMessage="Apache Zbraň"
+
+[Rx_Vehicle_Orca_Weapon]
+ItemName="Hellfire Raketa"
+AltItemName=".50 Kulomet"
+PickupMessage="Orca Zbraň"
+
+[Rx_Vehicle_APC_Nod_Weapon]
+ItemName="M134 Minigun"
+PickupMessage="APC Zbraň"
+
+[Rx_Vehicle_APC_GDI_Weapon]
+ItemName="M134 Minigun"
+PickupMessage="APC Zbraň"
+
+[Rx_Vehicle_Artillery_Weapon]
+ItemName="155MM Dělo"
+PickupMessage="Artillery Zbraň"
+
+[Rx_Vehicle_Buggy_Weapon]
+ItemName=".50 Kulomet"
+PickupMessage="Buggy Zbraň"
+
+[Rx_Vehicle_Chinook_Weapon]
+ItemName="Transportní Helikoptéra"
+PickupMessage="Chinook Zbraň"
+
+[Rx_Vehicle_Chinook_Weapon_GDI_Left]
+ItemName="Rotační Kulomet"
+PickupMessage="Chinook Zbraň"
+
+[Rx_Vehicle_Chinook_Weapon_GDI_Right]
+ItemName="Rotační Kulomet"
+PickupMessage="Chinook Zbraň"
+
+[Rx_Vehicle_Chinook_Weapon_Nod_Left]
+ItemName="Rotační Kulomet"
+PickupMessage="Chinook Zbaň"
+
+[Rx_Vehicle_Chinook_Weapon_Nod_Right]
+ItemName="Rotační Kulomet"
+PickupMessage="Chinook Zbraň"
+
+[Rx_Defence_GunEmplacement_Weapon]
+ItemName="Rotační Kulomet"
+AltItemName="Auto kanón"
+PickupMessage="Fixovaná Zbraň"
+
+[Rx_Defence_RocketEmplacement_Weapon]
+ItemName="SWARM Odpalovač"
+AltItemName="Hellfire Raketa"
+PickupMessage="Fixovaný Raketomet"
+
+[Rx_Vehicle_Humvee_Weapon]
+ItemName=".50 Kulomet"
+PickupMessage="Humvee Zbraň"
+
+[Rx_Vehicle_LightTank_Weapon]
+ItemName="75MM Dělo"
+PickupMessage="Lehký Tank Zbraň"
+
+[Rx_Vehicle_MammothWeapon]
+ItemName="120MM Dělo"
+AltItemName="Tusk Rakety"
+PickupMessage="Mammoth Tank Zbraň"
+
+[Rx_Vehicle_MediumTank_Weapon]
+ItemName="105MM Dělo"
+PickupMessage="Medium Tank Zbraň"
+
+[Rx_Vehicle_MediumTank_Weapon_MultiWeap]
+ItemName="105MM Dělo"
+AltItemName="Koaxiální Kulomet"
+PickupMessage="Střední Tank Zbraň"
+
+[Rx_Vehicle_MRLS_Weapon]
+ItemName="M269 Raketa"
+PickupMessage="MRLS Tank Zbraň"
+
+[Rx_Vehicle_FlameTank_Weapon]
+ItemName="Plamenomety"
+PickupMessage="Plamenometný Tank Zbraň"
+
+[Rx_Vehicle_StealthTank_Weapon]
+ItemName="TOW Rakety"
+PickupMessage="Stealth Tank Zbraň"
+
+[Rx_Vehicle_Harvester_Weapon]
+ItemName="Tibériový Sběrač"
+PickupMessage="Harvester Zbraň"
+
+[Rx_Defence_GuardTower_Weapon]
+ItemName="Vulcan Kanón"
+PickupMessage="Strážní Věž Zbraň"
+
+[Rx_Defence_Turret_Weapon]
+ItemName="105MM Dělo"
+PickupMessage="Střílna Zbraň"
+
+[Rx_Defence_SAMSite_Weapon]
+ItemName="Země-Vzduch Raketa"
+PickupMessage="SAM Zbraň"
+
+[Rx_Defence_AATower_Weapon]
+ItemName="Protivzušná Raketa"
+PickupMessage="Anti-Air Zbraň"
+
+[Rx_Vehicle_Hovercraft_GDI_Weapon]
+ItemName="Těžké Kanóny"
+AltItemName="SWARM Odpalovač"
+PickupMessage="Hovercraft Zbraň"
+
+[Rx_Vehicle_Hovercraft_Nod_Weapon]
+ItemName="Těžké Kanóny"
+AltItemName="SWARM Odpalovač"
+PickupMessage="Hovercraft Zbraň"
+
+[APB_Vehicle_TeslaTank_Weapon]
+ItemName="Teslova Cívka"
+PickupMessage="Tesla Tank Zbraň"
+
+[TS_Vehicle_HoverMRLS_Weapon]
+ItemName="M269 Raketa"
+PickupMessage="Hover MRLS Zbraň"
+
+[TS_Vehicle_Titan_Weapon]
+ItemName="120MM Dělo"
+PickupMessage="Titan Zbraň"
+
+[TS_Vehicle_Wolverine_Weapon]
+ItemName="Vulcan Kanóny"
+PickupMessage="Wolverine Zbraň"
+
+[TS_Vehicle_TickTank_Weapon]
+ItemName="90MM Děla"
+AltItemName=".50 Kulomet"
+PickupMessage="Tick Tank Zbraň"
+
+[TS_Vehicle_ReconBike_Weapon]
+ItemName="Hydra-70 Raketa"
+PickupMessage="Recon Bike Zbraň"
+
+[TS_Vehicle_Buggy_Weapon]
+ItemName="30mm Automatické Kanóny"
+PickupMessage="Buggy Zbraň"
+
+[Rx_Vehicle_M2Bradley_Weapon]
+ItemName="22MM Dělo"
+AltItemName="TOW Raketa"
+PickupMessage="Light Tank Zbraň"
+
+
+//////////////////////
+//  Building Names  //
+//////////////////////
+[Rx_Building_AdvancedGuardTower_Internals]
+BuildingName = "Pokročilá Strážní Věž"
+
+[Rx_Building_AirTower_Internals]
+BuildingName = "Přistávací Dráha"
+
+[Rx_Building_Barracks_Internals]
+BuildingName = "Kasárny"
+
+[Rx_Building_HandOfNod_Internals]
+BuildingName = "Ruka Nod"
+
+[Rx_Building_Obelisk_Internals]
+BuildingName = "Obelisk Světla"
+
+[Rx_Building_PowerPlant_Internals]
+BuildingName = "Elektrárna"
+
+[Rx_Building_Refinery_Internals]
+BuildingName = "Rafinérie"
+
+[Rx_Building_Silo_Internals]
+BuildingName = "Silo"
+
+[Rx_Building_WeaponsFactory_Internals]
+BuildingName = "Továrna"
+
+[Rx_CapturableMCT_Internals_Kismet]
+BuildingName = "Tech Budova"
+
+[Rx_Building_CommCentre_Internals]
+BuildingName = "Komunikační Centrum"
+
+[Rx_CapturableMCT_MC_Internals]
+BuildingName = "Lékařské Centrum"
+
+[Rx_CapturableMCT_Fort_Internals]
+BuildingName = "Pevnost"
+
+[Rx_Building_MedicalCentre_Internals]
+BuildingName = "Lékařské Centrum"
+
+[Rx_Building_RepairFacility_Internals]
+BuildingName = "Opravárensk= Zařízení"
+
+//=====================================
+//	Buildings
+//=====================================
+[Rx_Message_Buildings]
+BuildingBroadcastMessages[0]="`PlayerName` zničil `BuildingName`"
+BuildingBroadcastMessages[1]="Budova`BuildingName` byla zničena `PlayerName`"
+BuildingBroadcastMessages[2]="`PlayerName` zabral `BuildingName`"
+BuildingBroadcastMessages[3]="`PlayerName` neutralizoval `BuildingName`"
+
+//=====================================
+//	Crates
+//=====================================
+[Rx_CratePickup]
+PickupMessages[0]="Narazil jsi na granát, BOOOM!"
+PickupMessages[1]="Překvapení! Útok iontového Děla se blíží!"
+PickupMessages[2]="Mimochodem Vzlet Nukléární Rakety detekovánd. Muhahaha!"
+PickupMessages[3]="Našel jsi `credsum` kreditů!"
+PickupMessages[4]="Našel jsi novou uniformu!"
+PickupMessages[5]="Získal jsi `vehname`!"
+PickupMessages[6]="Našel jsi uniformu nepřítele!"
+PickupMessages[7]="Tvoje životy a munice byly doplěny!"
+
+[Rx_Message_Crates]
+PickupBroadcastMessages[0]= "`PlayerName` našel bednu!"
+PickupBroadcastMessages[1]="`PlayerName` našel smrtící bednu. Nechtěl bych být ve tvé kůži."
+PickupBroadcastMessages[2]="`PlayerName` Dostal Iontovým Kanónem do obličeje. Au!"
+PickupBroadcastMessages[3]="`PlayerName` svítí zeleně radiací"
+PickupBroadcastMessages[4]="`PlayerName` našel bednu s pěnezi!"
+PickupBroadcastMessages[5]="`PlayerName` získal nový charakter!"
+PickupBroadcastMessages[6]="`PlayerName` získal nové vozidlo!"
+PickupBroadcastMessages[7]="Bacha, nepřátelksý hráč sebral špionážní bednu!"
+PickupBroadcastMessages[8]="`PlayerName` sebral špionážní bednu!"
+PickupBroadcastMessages[9]="`PlayerName` sebral bednu se zásobami."
+PickupBroadcastMessages[10]="`PlayerName` sebral smrtící bednu."
+PickupBroadcastMessages[11]="`PlayerName` sebral bednu s upgradem rychlosti."
+PickupBroadcastMessages[12]="`PlayerName` byl unesen mimozemšťany."
+PickupBroadcastMessages[13]="`PlayerName` nepřežije déle než 30 sekund."
+PickupBroadcastMessages[14]="`PlayerName` objevil zbraň z budoucnosti!"
+PickupBroadcastMessages[15]="`PlayerName` objevil zbraň z Kaneovi minulosti!"
+PickupBroadcastMessages[16]="`PlayerName` sebral veteránskou bednu!"
+PickupBroadcastMessages[17]="`PlayerName` sebral bednu s obraným bonusem!" 
+PickupBroadcastMessages[18]="`PlayerName` objevil KLASICKOU zbraň!" 
+PickupBroadcastMessages[19]="`PlayerName` Našel EPICKOU bednu s charakterem!" 
+
+[Rx_CrateType_Money]
+PickupMessage = "Našel jsi `credsum` krediů!"
+
+[Rx_CrateType_Refill]
+PickupMessage = "Tvoje životy a munice byly doplěny!"
+
+[Rx_CrateType_Spy]
+PickupMessage = "Našel jsi uniformu nepřítele!"
+
+[Rx_CrateType_Vehicle]
+PickupMessage = "Získal jsi `vehname`!"
+
+[Rx_CrateType_Character]
+PickupMessage = "Našel jsi novou uniformu"
+
+[Rx_CrateType_Suicide]
+PickupMessage = "Našel jsi odpověď na ůčel vesmíru a už se ti nechtělo dál žít."
+
+[Rx_CrateType_TimeBomb]
+PickupMessage = "Máš na hlavě bombu. Zbývá ti 30 sekund života."
+
+[Rx_CrateType_Nuke]
+PickupMessage = "Mimochodem Vzlet Nukléární Rakety detekovánd. Muhahaha!"
+
+[Rx_CrateType_Speed]
+PickupMessage = "Rychlost tvé postavy byla zrychlena o `increasepct`%!"
+
+[Rx_CrateType_Abduction]
+PickupMessage = "Byl jsi unesen rasou Scrin!"
+
+[Rx_CrateType_TSVehicle]
+PickupMessage = "Díra v časoprostoru se otevřela! Vládneš budoucnosti."
+
+[Rx_CrateType_RAVehicle]
+PickupMessage = "Děje se darebný chrono-posun! Ovládáš minulost."
+
+[Rx_CrateType_Veterancy]
+PickupMessage = "Právě ses naučil něco víc o umění války."
+
+[Rx_CrateType_DamageResistance]
+PickupMessage = "Sebral jsi bednu s bonusem obrany"
+
+[Rx_CrateType_ClassicVehicle]
+PickupMessage = "Nikdy nezapoměň na KLASIKY"
+
+[Rx_CrateType_EpicCharacter]
+PickupMessage = "Našel jsi EPICký Charakter!"
+
+[Rx_Message_Vehicle]
+VehicleMessages[0]="`VehicleClass` přivlastněno. Stiskni [`LockKey`] pro přepnutí zámku u místa řidiče. Podrž [`LockKey`] pro odvlastnění."
+VehicleMessages[1]="`VehicleClass` auto-přivlastněno. Stiskni [`LockKey`] pro přepnutí zámku u místa řidiče. Podrž [`LockKey`] pro odvlastnění."
+VehicleMessages[2]="`VehicleClass` odvlastněno."
+
+VehicleMessages[3]="Toto vozidlo není vlastněno, podrž [`LockKey`] pro přivlastnění."
+VehicleMessages[4]="Toto vozidlo není vlastněno, podrž [`LockKey`] pro výměnu tvého aktuálního vlastnictví `VehicleClass`  s témto vozidlem."
+VehicleMessages[5]="Minulý vlastník odvlastnil toto vozidlo. Podrž [`LockKey`] pro přivlastnění."
+VehicleMessages[6]="Nelze přivlastnit, toto je již vlastněno `OwnerName`."
+
+VehicleMessages[7]="`VehicleClass` místo řidiče Zamčeno."
+VehicleMessages[8]="`VehicleClass` místo řidiče Odemčeno."
+
+VehicleMessages[9]="Místo řidiče je zamčeno `OwnerName`."
+VehicleMessages[10]="Nemůže vstoupit do vozidla. Kupec '`OwnerName`' má exkluzivní přístup ještě `IntegerValue`sekund."
+VehicleMessages[11]="Nemůžete vstoupit do vozidla. `OwnerTeam` má exkluzivní přístup ještě  `IntegerValue` sekund."
+
+VehicleMessages[12]="`VehicleClass` hráče  `OwnerName` bylo ukradeno nepřítelem!"
+VehicleMessages[13]="`OtherName` nastoupil na místo řidiče tvého `VehicleClass`."
+VehicleMessages[14]="Tvůj `VehicleClass` byl zničen."
+
+VehicleMessages[15]="`OwnerName` zamkl místo řidiče."
+
+VehicleMessages[16]="`OtherName` ukradl `VehicleClass`!"
+VehicleMessages[17]="`VehicleClass` se dostalo do rukou nepřátel!"
+
+//=====================================
+// Context Menu Help
+//=====================================
+
+[Rx_CommandMenuChoice]
+MainHelpText=""
+SubHelpText[0]=""
+
+[Rx_CommandMenuChoice_SupportPowers]
+
+//Radar Scan [GDI]
+SubHelpText_GDI[0]="+Delivery:%Instant Radar Scan%%+Purpose:%-COMMAND SPOTS all units in an area for 20s%%-Spots units on map for a full 60s%%Notes%%-Ignores cover"
+
+//Spy Plane [Nod]
+SubHelpText_Nod[0]="+Delivery:%Spy Aircraft%%+Purpose:%-COMMAND SPOTS units not in cover for 20s%%-Spots units on map for a full 45s%%Notes%%-Plane requires line of sight%%-Can be shot down%"
+
+//Smoke
+SubHelpText_GDI[1]="+Delivery:%Bomber Aircraft%%+Purpose:%-Blocks line of sight%-Blinds base defenses%%Notes%%-Can be shot down%"
+
+SubHelpText_Nod[1]="+Delivery:%Bomber Aircraft%%+Purpose:%-Blocks line of sight%-Blinds base defenses%%Notes%%-Can be shot down%"
+
+//EMP Strike
+SubHelpText_GDI[2]="+Delivery:%Bomber Aircraft%%+Purpose:%-Disables vehicle movement%-Disarms enemy mines%%Notes%%-Can be shot down%"
+
+SubHelpText_Nod[2]="+Delivery:%Bomber Aircraft%%+Purpose:%-Disables vehicle movement%-Disarms enemy mines%%Notes%%-Can be shot down%"
+
+
+//Cruise Missile
+SubHelpText_GDI[3]="+Delivery:%Self-Guided Missile%%+Purpose:%-Heavy damage%-Large AoE%%-Airburst%Can be shot down%"
+
+SubHelpText_Nod[3]="+Delivery:%Self-Guided Missile%%+Purpose:%-Heavy damage%-Large AoE%%-Airburst%Can be shot down%"
+
+//Defensive Buff
+SubHelpText_GDI[4]="+Delivery:%Self Cast%%+Purpose:%INCREASE DEFENSIVE ABILITY%%Affects all FRIENDLY units around you.%%DURATION: 20s%"
+
+SubHelpText_Nod[4]="+Delivery:%Self Cast%%+Purpose:%INCREASE DEFENSIVE ABILITY%%Affects all FRIENDLY units around you.%%DURATION: 20s%"
+
+//Offensive Buff
+SubHelpText_GDI[5]="+Delivery:%Self Cast%%+Purpose:%+GREATLY INCREASE OFFENSIVE ABILITY%%Affects all FRIENDLY units around you.%%DURATION: 15s%"
+
+SubHelpText_Nod[5]="+Delivery:%Self Cast%%+Purpose:%+GREATLY INCREASE OFFENSIVE ABILITY%%Affects all FRIENDLY units around you.%%DURATION: 15s%"
+
+
+
+//Help Menu
+[Rx_CommandMenuChoice_Help]
+MainHelpText="Vyberte téma s 'number' tlačítkem.%"
+
+//Commander Help: Chat
+SubHelpText[0]="+Týmové zprávy Velitele jsou %jinak zbarveny pro jednoduchou%identifikaci.%%+Začněte týmovou zprávu s %'/C' pro poslání jako ZPRÁVU VELITELE.%%+ZPRÁVY VELITELE se objeví i v%normálním chatu A uprostřed obrazovky pro%zdůraznění.%%+Začněte týmovou zprávu s '/R' %pro poslání RUSH zprávy.%%+RUSH zprávy se objeví uprostřed obrazovky%a trvají 15 sekund.%"
+
+//Commander Help: Targeting
+SubHelpText[1]="+Targets Q-spotted by the COMMANDER are%visible to ALL friendly units.%%+COMMANDER spotted units are numbered for%identification.%%+COMMANDER spotted units decay over time.%Targets last for 20 seconds.%They begin to SHRINK when they are about to decay.%%COMMANDER spotted targets grant%10 COMMAND POINTS[CP] when destroyed.%"
+
+//Commander Help: Waypoints
+SubHelpText[2]="+WAYPOINTS are visible to the entire team.%%+After selecting a waypoint with 1-9,% Q will place it wherever you are pointing.%%+Holding Q will remove the corresponding waypoint.%" 
+
+//Commander Help: Remove Mines
+SubHelpText[3]="+Vyberte budovu číslem% ptom držte -Q- pro odstranění VŠECH% nástražných C4 v této budově.%"
+
+//Commander Help: Harvester Options
+SubHelpText[4]="+The HARVESTER can be told to STOP.%%+The Harvester WAYPOINT% is where the HARVESTER%will go when STOPPED.%%+The HARVESTER can be told to detonate if%it appears to be stuck.%%+Telling the HARVESTER to detonate again will%cancel the detonation.%"
+
+
+//Commander Help: Support Powers
+SubHelpText[5]="+Support Powers ALL COST COMMAND POINTS%%+Most support powers are cast by%HOLDING -Q- and pointing at an area.%%+Support powers have their%own tooltips when selected%"
+
+//=====================================
+// Text Radio Commands
+//=====================================
+[Rx_Controller]
+	// CTRL + Number
+	RadioCommandsText[0]     =   "Buodva potřebuje opravit!"
+	RadioCommandsText[1]     =   "Nastup si!"
+	RadioCommandsText[2]     =   "Vystup!"
+	RadioCommandsText[3]     =   "Znič to vozidlo!" 
+	RadioCommandsText[4]     =   "Dávej si pozor kam s tím míříš!"
+	RadioCommandsText[5]     =   "Nelez mi do cesty!"
+	RadioCommandsText[6]     =   "Pozitivní."
+	RadioCommandsText[7]     =   "Negativní."
+	RadioCommandsText[8]     =   "Jsem na pozici."
+	RadioCommandsText[9]     =   "Nepřítel spatřen!"
+
+	// ALT + Number
+	RadioCommandsText[10]    =   "Potřebuju opravit!"
+	RadioCommandsText[11]    =   "Vemte to."
+	RadioCommandsText[12]    =   "Jdeme."
+	RadioCommandsText[13]    =   "Následujte mě."
+	RadioCommandsText[14]    =   "Držte pozici."
+	RadioCommandsText[15]    =   "Kryjte mě."
+	RadioCommandsText[16]    =   "Kryjte se."
+	RadioCommandsText[17]    =   "Ústup."
+	RadioCommandsText[18]    =   "Vraťte se do základny."
+	RadioCommandsText[19]    =   "Hned to zničte!"
+
+	// CTRL+ALT + Number
+	RadioCommandsText[20]    =   "Zaútočte na obrany základny!"
+	RadioCommandsText[21]    =   "Zaútočte na Sběrač!"
+	RadioCommandsText[22]    =   "Zaútočte na ten barák!"
+	RadioCommandsText[23]    =   "Zaútočte na Rafinérii!" 
+	RadioCommandsText[24]    =   "Zaútočte na Elektrárnu!"
+	RadioCommandsText[25]    =   "Braňte základnu!"
+	RadioCommandsText[26]    =   "Braňte Sběrač!"
+	RadioCommandsText[27]    =   "Braňte ten barák!"
+	RadioCommandsText[28]    =   "Braňte Rafinérii!"
+	RadioCommandsText[29]    =   "Brańte Elektrárnu!"
+
+[Rx_HUD]
+	// CTRL + Number
+	RadioCommandsCTRL[0]     =   "1|Budova potřebuje opravit!"
+	RadioCommandsCTRL[1]     =   "2|Nastup si!"
+	RadioCommandsCTRL[2]     =   "3|Vystup!"
+	RadioCommandsCTRL[3]     =   "4|Zničte to vozidlo!" 
+	RadioCommandsCTRL[4]     =   "5|Dávej pozor kam s tím míříš!"
+	RadioCommandsCTRL[5]     =   "6|Nelez mi do cesty!"
+	RadioCommandsCTRL[6]     =   "7|Pozitivní."
+	RadioCommandsCTRL[7]     =   "8|Negativní."
+	RadioCommandsCTRL[8]     =   "9|Jsem na pozici."
+	RadioCommandsCTRL[9]     =   "0|Nepřítel spatřen!"
+
+	// ALT + Number
+	RadioCommandsALT[0]    =   "1|Potřebuju opravit!"
+	RadioCommandsALT[1]    =   "2|Vemte to."
+	RadioCommandsALT[2]    =   "3|Jdeme."
+	RadioCommandsALT[3]    =   "4|Násleujte mě."
+	RadioCommandsALT[4]    =   "5|Držte pozici."
+	RadioCommandsALT[5]    =   "6|Kryjte mě."
+	RadioCommandsALT[6]    =   "7|Kryjte se."
+	RadioCommandsALT[7]    =   "8|Ústup."
+	RadioCommandsALT[8]    =   "9|Vraťte se do základny."
+	RadioCommandsALT[9]    =   "0|Hned to zničte!"
+
+	// CTRL+ALT + Number
+	RadioCommandsCTRLALT[0]    =   "1|Zaútočte na obrany základny!"
+	RadioCommandsCTRLALT[1]    =   "2|Zaůtočte na Sběrač!"
+	RadioCommandsCTRLALT[2]    =   "3|Zaútočte na ten barák!"
+	RadioCommandsCTRLALT[3]    =   "4|Zaútočte na Rafinérii!" 
+	RadioCommandsCTRLALT[4]    =   "5|Zaútočte na Elektrárnu!"
+	RadioCommandsCTRLALT[5]    =   "6|Braťe základnu!"
+	RadioCommandsCTRLALT[6]    =   "7|Braňte Sběrač!"
+	RadioCommandsCTRLALT[7]    =   "8|Braňte ten barák!"
+	RadioCommandsCTRLALT[8]    =   "9|Braňte Refinérii!"
+	RadioCommandsCTRLALT[9]    =   "0|Braňte Elektrárnu!"
