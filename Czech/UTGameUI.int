@@ -1,13 +1,13 @@
 [MessageBox]
-ExitGame_Title=Exit
-ExitGame_Message=Are you sure you want to exit the game?
-LogOut_Title=Logout
-LogOut_Message=Are you sure you want to logout?
-StartGame_Title=Start Match?
-StartGame_Message=Start the match using the current settings?
+ExitGame_Title=Odejít
+ExitGame_Message=Doopravdy chcete odejít?
+LogOut_Title=Odhlásit se
+LogOut_Message=Doopravy se chcete odhlásit?
+StartGame_Title=Začít zápas?
+StartGame_Message=Začít zápas s aktuálním nastavením?
 StartDedicated_Title=Start Dedicated Server?
 StartDedicated_Message=Start a dedicated server using the current settings?
-FirstTimeCharacter_Title=Create Character
+FirstTimeCharacter_Title=Vytvořit Charakter
 FirstTimeCharacter_Message=It looks like you have not yet customized your online character.  Would you like to do that now?  If not, a character will be randomly generated for you.
 MustLogoutToLogin_Title=Must Logout
 MustLogoutToLogin_Message=In order to login to a new profile, you must logout of your currently logged-in profile.  Would you like to logout now?
