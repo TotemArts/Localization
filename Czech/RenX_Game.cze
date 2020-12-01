@@ -744,8 +744,8 @@ PT_Title="VOJÁK"
 PT_Description="Zbroj: Kevlar\nRychlost: 100\nDalší Vybavení: Pistole\n+Proti pěchotě"
 
 [Rx_FamilyInfo_GDI_Shotgunner]
-CharacterName="Brokovničář"
-PT_Title="BROKOVNIČÁŘ"
+CharacterName="Útočník"
+PT_Title="ÚTOČNÍK"
 PT_Description="Zbroj: Kevlar\nRychlost: 95\nDalší Vybavení: Pistole\n+Proti pěchotě"
 
 [Rx_FamilyInfo_GDI_Grenadier]
@@ -872,8 +872,8 @@ PT_Title="BLACK HAND SNIPER"
 PT_Description="Zbroj: Žádná\nRychlost: 90\nDalší Vybavení: Samopal\nKouřový Granát\n+Proti pěchotě"
 
 [Rx_FamilyInfo_Nod_LaserChainGunner]
-CharacterName="Voják s Laserovým Rotačním Kulometem"
-PT_Title="VOJÁK S LSR. ROT. KULOMETEM"
+CharacterName="Laser. Kulometčík"
+PT_Title="LASER. KULOMETČÍK"
 PT_Description="Zbroj: Flak\nRychlost: 80\nDalší Vybavení: EMP Granát\nProti tankové Miny\n+Proti všemu\n+Těžká Pěchota"
 
 [Rx_FamilyInfo_Nod_Sakura]
