@@ -39,6 +39,10 @@ PickupMessage="Taktická Puška"
 [Rx_Weapon_Shotgun]
 ItemName="Brokovnice"
 PickupMessage="Brokovnice"
+			
+[Rx_Weapon_Shotgun_Crate]
+ItemName="Kinetická Brokovnice"	
+PickupMessage="Kinetická Brokovnice"
 
 [Rx_Weapon_RocketLauncher]
 ItemName="Raketomet"
@@ -88,6 +92,10 @@ PickupMessage="Osobní Iontový Kanón"
 ItemName="Laserová Puška"
 PickupMessage="Laserová Puška"
 
+[Rx_Weapon_LaserRifle_Crate]	
+ItemName="Laserová Puška"	
+PickupMessage="Laserová Puška"
+
 [Rx_Weapon_LaserChainGun]
 ItemName="Laserový Rotační Kulomet"
 PickupMessage="Laserový Rotační Kulomet"
@@ -95,6 +103,10 @@ PickupMessage="Laserový Rotační Kulomet"
 [Rx_Weapon_MissileLauncher]
 ItemName="Raketomet"
 PickupMessage="Raketomet"
+
+[Rx_Weapon_MissileLauncher_Crate]	
+ItemName="Dvojitý Odplaovač"
+PickupMessage="Dvojitý Odpalovač"
 
 [Rx_Weapon_ChemicalThrower]
 ItemName="Chemická Zbraň"
@@ -124,6 +136,9 @@ PickupMessage="C4 na dálkové ovládání"
 ItemName="Nástražná C4"
 PickupMessage="Nástražná C4"
 
+[Rx_Weapon_Beacon]
+PurchaseDesc="<font size='8'>Plusy:\n-Instantní Zničení budovy\nMinusy:\n-60 sekund do výbuchu\n-POUŽIJE SLOT VYBAVENÍ</font>"
+
 [Rx_Weapon_NukeBeacon]
 ItemName="Maják Nukleárního Útoku"
 PickupMessage="Maják Nukleárního Útoku"
@@ -131,6 +146,35 @@ PickupMessage="Maják Nukleárního Útoku"
 [Rx_Weapon_IonCannonBeacon]
 ItemName="Maják Iontového Děla"
 PickupMessage="Maják Iontového Děla"
+
+[Rx_Weapon_Blueprint]
+ItemName="Plán"	
+PickupMessage="Plán"	
+	
+[Rx_Weapon_Blueprint_Defense_GT_GDI]	
+ItemName="Plán Strážné Věže"	
+PickupMessage="Plán Strážné Věže"	
+PurchaseDesc="<font size='8'>Plusy:\n-Automatická obrana\n-Účinné proti pěchotě\n\nMinusy:\n-Neučínné proti vozidlům\n-Získáváte méně veteránství\n-Zničení dá hodně veteránství\n-POUŽIJE SLOT VYBAVENÍ  </font>"	
+	
+[Rx_Weapon_Blueprint_Defense_Turret_GDI]
+ItemName="Plán Střílny"	
+PickupMessage="Plán Střílny"	
+PurchaseDesc="<font size='8'>Plusy:\n-Automatická Obrana\n-Účinné proti vozidlům\n\nMinusy:\n-Neúčinné proti pěchotě\n-Získáváte méně veteránství\n-Zničení dá hodně veteránství\n-POUŽIJE SLOT VYBAVENÍ  </font>"
+		
+[Rx_Weapon_Blueprint_Defense_GT_Nod]	
+ItemName="Plán Strážné Věže"	
+PickupMessage="Plán Strážné Věže"	
+PurchaseDesc="<font size='8'>Plusy:\n-Automatická obrana\n-Účinné proti pěchotě\n\nMinusy:\n-Neučínné proti vozidlům\n-Získáváte méně veteránství\n-Zničení dá hodně veteránství\n-POUŽIJE SLOT VYBAVENÍ  </font>"
+		
+[Rx_Weapon_Blueprint_Defense_Turret_Nod]	
+ItemName="Plán Střílny"	
+PickupMessage="Plán Střílny"	
+PurchaseDesc="<font size='8'>Plusy:\n-Automatická Obrana\n-Účinné proti vozidlům\n\nMinusy:\n-Neúčinné proti pěchotě\n-Získáváte méně veteránství\n-Zničení dá hodně veteránství\n-POUŽIJE SLOT VYBAVENÍ  </font>"
+	
+[Rx_Weapon_Blueprint_Defense_CeilingTurret]	
+ItemName="Plán Stropní Střílny"	
+PickupMessage="Plán Stropní Střílny"
+PurchaseDesc="<font size='8'>Plusy:\n-Automatická Obrana\n-Účinné proti pěchotě\n\nMinusy:\n-Křehké\n-Získáváte méně veteránství\n-Může být použito pouze na budovách\n-POUŽIJE SLOT VYBAVENÍ  </font>"
 
 [Rx_Weapon_Grenade]
 ItemName="Tříštivý Granát"
@@ -151,6 +195,10 @@ PickupMessage="Tlumený Samopal"
 [Rx_Weapon_HeavyPistol]
 ItemName="Těžká Pistole"
 PickupMessage="Těžká Pistole"
+	
+[Rx_Weapon_HeavyPistol_Crate]
+ItemName="Těžká Pistole [B]"	
+PickupMessage="Těžká Pistole"
 
 [Rx_Weapon_MarksmanRifle]
 ItemName="Odstřelovací Puška"
@@ -161,12 +209,13 @@ ItemName="Karabina"
 PickupMessage="Karabina"
 
 [Rx_Weapon_Carbine_Silencer]
-ItemName="Karabina"
-PickupMessage="Karabina"
+ItemName="Tlumená Karabina"
+PickupMessage="Tlumená Karabina"
 
 [Rx_Weapon_Airstrike]
 ItemName="Označovač Náletu"
 PickupMessage="Označovač Náletu"
+PurchaseDesc="<font size='8'>Plusy:\n-5 sekund do výbuchu\n-Rychlé bombardování\n-Účinné proti pěchotě/vozidlům\nMinusy:\n-Neúčinné Vs. Budovám\n-POUŽIJE SLOT VYBAVENÍ</font>"
 
 [Rx_Weapon_Airstrike_GDI]
 ItemName="Nálet A-10"
@@ -203,6 +252,11 @@ PickupMessage="EMP Granát"
 [Rx_Weapon_RepairTool]
 ItemName="Opravovací Zbraň"
 PickupMessage="Opravovací Zbraň"
+PurchaseDesc="<font size='8'>Plusy:\n-Opraví jednotky/budovy\n-Zneškodní miny\n\nMinusy:\n-Musí se znovu nabít\n-POUŽIJE SLOT VYBAVENÍ  </font>"
+			
+[Rx_Weapon_RepairTool_Crate]	
+ItemName="Pokročilá Opravovací Zbraň"	
+PickupMessage="Pok. Opravovací Zbraň"
 
 [Rx_Weapon_SmokeGrenade]
 ItemName="Kouřový Granát"
@@ -248,7 +302,432 @@ PickupMessage="Kouřové Granáty"
 ItemName="Taktická Puška [Granát]"
 PickupMessage="Odpalovač Granátů"
 
+//=====================================
+//	Damage Types
+//=====================================
 
+
+[Rx_DmgType]
+DeathString="`k zabil `o"
+FemaleSuicide="`o spáchala sebevraždu"
+MaleSuicide="`o spáchal sebevraždu"
+
+[Rx_DmgType_A10_Missile]
+DeathString="`o byl zasažen střelou z náletu hráče `k"
+MaleSuicide="`o nedokázal utéct z oblasti náletu"
+WeaponName="A10 Airstrike"
+
+[Rx_DmgType_AATower]
+DeathString="`o se dostal do vzdušného prostoru hráče `k"
+
+[Rx_DmgType_Abduction]
+DeathString="`o se ztratil ve vesmíru"
+MaleSuicide="`o se ztratil ve vesmíru"
+WeaponName="Abducted"
+
+[Rx_DmgType_AGT_MG]
+DeathString="`o was caught inside `k perimeter and was terminated immediately"
+WeaponName="Minigun"
+
+[Rx_DmgType_AGT_Rocket]
+DeathString="`o was caught inside `k perimeter and was terminated immediately"
+WeaponName="Rocket"
+
+[Rx_DmgType_Apache_Gun]
+DeathString="`k has gunned `o down with their Apache"
+MaleSuicide="`o was gunned down by their own Apache"
+WeaponName="Apache"
+
+[Rx_DmgType_Apache_Rocket]
+DeathString="`k struck `o down with their Apache's rocket barrage"
+MaleSuicide="`o struck themself down with their own Apache"
+WeaponName="Apache"
+
+[Rx_DmgType_Apache_Passenger]
+DeathString="`o couldn't avoid `k's missile"
+WeaponName="Apache"
+
+[Rx_DmgType_Artillery]
+DeathString="`k has rained on `o's parade with their Artillery"
+WeaponName="Artillery"
+
+[Rx_DmgType_APC]
+WeaponName="APC"
+
+[Rx_DmgType_ATMine]
+DeathString="`o has trespassed into `k's territory"
+MaleSuicide="`o carelessly walked into their own mine"
+WeaponName="AT Mine"
+
+[Rx_DmgType_AutoRifle]
+DeathString="`k shot `o down with their Auto Rifle"
+WeaponName="Auto Rifle"
+
+[Rx_DmgType_BarbedWire]
+MaleSuicide="`o got tangled to their death"
+
+[Rx_DmgType_Buggy]
+WeaponName="Buggy"
+
+[Rx_DmgType_Bullet]
+MaleSuicide="`o shot themself down"
+WeaponName="Generic Bullet"
+
+[Rx_DmgType_Burn]
+DeathString="`k has burned `o to death"
+MaleSuicide="`o has burned to death"
+WeaponName="Burned"
+
+[Rx_DmgType_BurnC4]
+DeathString="`o succumbed to `k's C4 explosion aftermath"
+WeaponName="C4"
+
+[Rx_DmgType_Carbine]
+DeathString="`k shot `o down with their Carbine
+WeaponName="Carbine"
+
+[Rx_DmgType_ChainGun]
+DeathString="`k's bulletstorm has left `o's corpse full of holes"
+WeaponName="Chain Gun"
+
+[Rx_DmgType_ChemicalThrower]
+DeathString="`o is high on `k's tiberium gas"
+WeaponName="Chemical Thrower"
+
+[Rx_DmgType_Chinook]
+DeathString="`k gunned `o down with their chinook side gun"
+WeaponName="Chinook"
+
+[Rx_DmgType_CruiseMissile]
+DeathString="`k's Cruise Missile has crashed down upon `o's head"
+MaleSuicide="`o learned the term Danger Close the hard way"
+WeaponName="Cruise Missile"
+
+[Rx_DmgType_Drowned]
+MaleSuicide="`o thought they could breath underwater"
+WeaponName="Drowned"
+
+[Rx_DmgType_Electric]
+DeathString="`o succumbed to `k's electric residues"
+MaleSuicide="`o was electrocuted to death"
+WeaponName="Electrocuted"
+
+[Rx_DmgType_Explosive]
+DeathString="`o was blown up by `k"
+MaleSuicide="`o blew themself up"
+
+[Rx_DmgType_EMP]
+WeaponName="EMP"
+
+[Rx_DmgType_Explosive]
+WeaponName="Explosion"
+
+[Rx_DmgType_Fell]
+MaleSuicide="`o forgot to activate their parachute in time"
+WeaponName="Fell"
+
+[Rx_DmgType_FlakCannon]
+DeathString="`o was shredded to bits by `k's Flak Cannon"
+MaleSuicide="`o's shrapnels bounced back and hit their owner"
+WeaponName="Flak Cannon"
+
+[Rx_DmgType_FlakCannon_Alt]
+DeathString="`k struck a hole-in-one on `o with their flak shell"
+MaleSuicide="`o lobbed their shell too close to their face"
+WeaponName="Flak Cannon"
+
+[Rx_DmgType_FlameTank]
+DeathString="`k bathed `o with everburning cleansing flame"
+WeaponName="Flame Tank"
+
+[Rx_DmgType_FlameThrower]
+DeathString="`o was purged by `k's Flame Thrower"
+WeaponName="Flame Thrower"
+
+[Rx_DmgType_Grenade]
+DeathString="`o couldn't avoid `k's grenade throw"
+MaleString="`o tries to play boomerang with their grenade"
+WeaponName="Grenade"
+
+[Rx_DmgType_GrenadeLauncher]
+DeathString="`o earned `k's grenade on the face"
+MaleString="`o launched their grenade a little too close"
+WeaponName="Grenade Launcher"
+
+[Rx_DmgType_GuardTower]
+DeathString="`k has tracked down and eliminated `o"
+WeaponName="Minigun"
+
+[Rx_DmgType_GunEmpl]
+DeathString="`k gunned down `o with their turret"
+WeaponName="Gun Emplacement"
+
+[Rx_DmgType_GunEmpl_Alt]
+DeathString="`k blasted `o with their turret"
+WeaponName="Gun Emplacement"
+
+[Rx_DmgType_Headshot]
+DeathString="`k launched `o's head from its' place"
+WeaponName="Headshot"
+
+[Rx_DmgType_HeavyPistol]
+DeathString="`o got punched by `k's heavy pistol"
+WeaponName="Heavy Pistol"
+
+[Rx_DmgType_Hovercraft_Cannon]
+WeaponName="Hovercraft"
+
+[Rx_DmgType_Hovercraft_Rockets]
+WeaponName="Hovercraft"
+
+[Rx_DmgType_Humvee]
+WeaponName="Humvee"
+
+[Rx_DmgType_IonCannon]
+DeathString="`k's Ion Cannon strike has erased `o's traces of existence"
+MaleSuicide="`o was vaporized by an Ion Cannon strike"
+WeaponName="Ion Cannon Strike"
+
+[Rx_DmgType_Kamikaze]
+DeathString="`o was engulfed by `k's kamikaze explosion"
+MaleSuicide="`o met an honorable death"
+WeaponName="Kamikaze"
+
+[Rx_DmgType_LaserChainGun]
+DeathString="`k gave `o a laser show of a lifetime"
+WeaponName="Laser Chaingun"
+
+[Rx_DmgType_LaserRifle]
+DeathString="`o was caught by `k's quick laser burst"
+WeaponName="Laser Rifle"
+
+[Rx_DmgType_LightningStrike]
+DeathString="`o invoked the wrath of `k"
+MaleSuicide="`o invoked the wrath of the Mother Nature"
+WeaponName="Lightning"
+
+[Rx_DmgType_LightTank]
+DeathString="`k blew `o into flaming bits with their Light Tank"
+WeaponName="Light Tank"
+
+[Rx_DmgType_M2Bradley]
+DeathString="`k blew `o into flaming bits with their Light Tank"
+WeaponName="M2 Bradley"
+
+[Rx_DmgType_M2Bradley_Rocket]
+DeathString="`k showered `o with their Light Tank's auxilliary missile"
+WeaponName="M2 Bradley"
+
+[Rx_DmgType_MammothTank_Cannon]
+DeathString="`o thought he stood a chance against `k's Mammoth Tank"
+WeaponName="Mammoth Tank"
+
+[Rx_DmgType_MammothTank_Missile]
+DeathString="`o thought he stood a chance against `k's Mammoth Tank"
+WeaponName="Mammoth Tank"
+
+[Rx_DmgType_MarksmanRifle]
+DeathString="`o was picked off by `k's Marksman Rifle"
+WeaponName="Marksman Rifle"
+
+[Rx_DmgType_MediumTank]
+DeathString="`k blew `o into flaming bits with their Medium Tank"
+WeaponName="Medium Tank"
+
+[Rx_DmgType_MissileLauncher]
+DeathString="`o was locked on `k's launcher's sight"
+MaleSuicide="`o fired their missile too close for comfort"
+WeaponName="Missile Launcher"
+
+[Rx_DmgType_MRLS]
+DeathString="`k taught `o the basic of rocket science with their MRLS"
+MaleSuicide="`o's missile flew back to them"
+WeaponName="MRLS"
+
+[Rx_DmgType_Nuke]
+DeathString="`k considered `o a nuclear threat"
+MaleSuicide="`o was green with radiating envy"
+WeaponName="Nuclear Strike"
+
+[Rx_DmgType_Obelisk]
+DeathString="`k showed `o the true Path of Enlightenment"
+WeaponName="Death Ray"
+
+[Rx_DmgType_Orca_Gun]
+DeathString="`k has gunned `o down with their Orca"
+MaleSuicide="`o was gunned down by their own Orca"
+WeaponName="Orca"
+
+[Rx_DmgType_Orca_Rocket]
+DeathString="`k struck `o down with their Orca's rocket barrage"
+MaleSuicide="`o struck themself down with their own Orca"
+WeaponName="Orca"
+
+[Rx_DmgType_Orca_Passenger]
+DeathString="`o couldn't avoid `k's missile"
+WeaponName="Orca"
+
+[Rx_DmgType_Pancake]
+DeathString="`k crushed `o into a pancake"
+WeaponName="Squished"
+
+[Rx_DmgType_PersonalIonCannon]
+DeathString="`k's Personal Ion Cannon flashed `o to death"
+MaleSuicide="`o used the wrong tool for a selfie"
+WeaponName="Personal Ion Cannon"
+
+[Rx_DmgType_Pistol]
+DeathString="`o lost to `k in high noon`"
+WeaponName="Pistol"
+
+[Rx_DmgType_ProxyC4]
+DeathString="`o has trespassed into `k's territory"
+MaleSuicide="`o carelessly walked into their own mine"
+WeaponName="Proxy C4"
+
+[Rx_DmgType_Railgun]
+DeathString="`o was fatally pierced through by `k's railgun"
+WeaponName="Railgun"
+
+[Rx_DmgType_RamjetRifle]
+DeathString="`o was punctured by `k's hyperspeed Ramjet bullet"
+WeaponName="Ramjet Rifle"
+
+[Rx_DmgType_RanOver]
+DeathString="`k 'accidentally' drove towards `o"
+MaleSuicide="`o had a car accident"
+WeaponName="Hit and Run"
+
+[Rx_DmgType_RanOverbyThomas]
+DeathString="`o's soul has been claimed by Thomas the Dark Engine"
+WeaponName="Hit and Run"
+
+[Rx_DmgType_RemoteC4]
+DeathString="`k punched the button on `o's lifeline"
+MaleSuicide="`o punched their trigger a tad too close"
+WeaponName="Remote C4"
+
+[Rx_DmgType_Rocket]
+DeathString="`k's rocket blew `o away"
+MaleSuicide="`o blew themself up"
+WeaponName="Rocket"
+
+[Rx_DmgType_RocketEmpl_Missile]
+DeathString="`o was struck by `k's meteorite rocket"
+WeaponName="Rocket Emplacement"
+
+[Rx_DmgType_Rocket]
+DeathString="`k swarmed `o with a little too many missiles"
+WeaponName="Rocket Emplacement"
+
+[Rx_DmgType_RocketLauncher]
+DeathString="`k's rocket blew `o away"
+MaleSuicide="`o blew themself up"
+WeaponName="Rocket Launcher"
+
+[Rx_DmgType_SAMSite]
+DeathString="`o trespassed into `k's airspace"
+WeaponName="AA Rocket"
+
+[Rx_DmgType_Shotgun]
+DeathString="`k filled `o's body with pellets"
+WeaponName="Shotgun"
+
+[Rx_DmgType_SMG]
+DeathString="`k greeted `o with a bunch of lead"
+WeaponName="SMG"
+
+[Rx_DmgType_SniperRifle]
+DeathString="`o stumbled into `k's scope"
+WeaponName="Sniper Rifle"
+
+[Rx_DmgType_StealthTank]
+DeathString="`o was taken by surprise by `k's Stealth Tank"
+WeaponName="Stealth Tank"
+
+[Rx_DmgType_TacticalRifle]
+DeathString="`k stormed against `o with a bunch of HE bullets"
+MaleSuicide="`o did not realize their rifle is a tad explosive"
+WeaponName="Tactical Rifle"
+
+[Rx_DmgType_TacticalRifleGrenade]
+DeathString="`o took `k's grenade right on the face"
+MaleSuicide="`o was a little too careless with their grenade"
+WeaponName="Tactical Rifle"
+
+[Rx_DmgType_Tiberium]
+DeathString="`o's body could no longer hold `k's tiberium infection"
+MaleSuicide="`o was too eager to embrace the Tiberian life"
+WeaponName="Tiberium"
+
+[Rx_DmgType_Tiberium_Blue]
+DeathString="`o's body could no longer hold `k's tiberium infection"
+MaleSuicide="`o was too eager to embrace the Tiberian life"
+WeaponName="Tiberium"
+
+[Rx_DmgType_TiberiumAutoRifle]
+DeathString="`o's was caught in `k's tiberium explosion"
+MaleSuicide="`o was caught in their own tiberium fumes"
+WeaponName="Tiberium Auto Rifle"
+
+[Rx_DmgType_TiberiumAutoRifle_Blue]
+DeathString="`o's was caught in `k's tiberium explosion"
+MaleSuicide="`o was caught in their own tiberium fumes"
+WeaponName="Tiberium Auto Rifle"
+
+[Rx_DmgType_TiberiumAutoRifle_Blue]
+DeathString="`o was punctured by `k's tiberium darts"
+WeaponName="Tiberium Auto Rifle"
+
+[Rx_DmgType_TiberiumFlechetteRifle]
+DeathString="`o was punctured by `k's tiberium darts"
+WeaponName="Tiberium Flechette"
+
+[Rx_DmgType_TiberiumGrenade]
+DeathString="`o inhaled too much tiberium from `k's grenade"
+MaleSuicide="`o smoked themself in tiberium with their grenade"
+WeaponName="Tiberium Grenade"
+
+[Rx_DmgType_TimedC4]
+DeathString="`o failed to disarm `k's C4 fast enough"
+MaleSuicide="`o failed to get off their own C4's safe range"
+WeaponName="Timed C4"
+
+[Rx_DmgType_Turret]
+DeathString="`k blew `o up for trespassing"
+WeaponNama="Shell"
+
+[Rx_DmgType_VehicleMG]
+DeathString="`o was gunned down by `k's machine gun"
+
+[Rx_DmgType_VoltAutoRifle]
+DeathString="`k filled `o with a shocking revelation"
+WeaponName="Volt Autorifle"
+
+[Rx_DmgType_VoltRifle_Alt]
+DeathString="`o was caught in `k's electric blast"
+MaleSuicide="`o needed to learn to be careful with electronics"
+WeaponName="Volt Autorifle"
+
+[TS_Vehicle_HoverMRLS_DmgType]
+DeathString="`o was struck by `k's missile barrage"
+WeaponName="Hover MRLS"
+
+[TS_Vehicle_ReconBike_DmgType]
+DeathString="`o couldn't avoid `k's bike hit-and-run tactics"
+WeaponName="Recon Bike"
+
+[TS_Vehicle_TickTank_DmgType]
+DeathString="`o was decimated by `k's Tick Tank"
+WeaponName="Tick Tank"
+
+[TS_Vehicle_Titan_DmgType]
+DeathString="`k's Titan loomed over `o's scorched corpse"
+WeaponName="Titan"
+
+[TS_Vehicle_Wolverine_DmgType]
+DeathString="`o was shredded by `k's merciless barrage"
+WeaponName="Wolverine"
 
 //=====================================
 //	Characters
