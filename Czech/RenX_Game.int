@@ -962,36 +962,36 @@ SubHelpText[0]=""
 [Rx_CommandMenuChoice_SupportPowers]
 
 //Radar Scan [GDI]
-SubHelpText_GDI[0]="+Delivery:%Instantní Radarový Sken%%+Purpose:%-COMMAND SPOTS all units in an area for 20s%%-Spots units on map for a full 60s%%Notes%%-Ignores cover"
+SubHelpText_GDI[0]="+Dodání:%Instantní Radarový Sken%%+Účel:%-Označí všechny jednotky v oblasti po dobu 20s%%-Označí jednotky na mapě po dobu 60s%%Pozn.%%-Ignoruje krytí"
 
 //Spy Plane [Nod]
-SubHelpText_Nod[0]="+Delivery:%Spy Aircraft%%+Purpose:%-COMMAND SPOTS units not in cover for 20s%%-Spots units on map for a full 45s%%Notes%%-Plane requires line of sight%%-Can be shot down%"
+SubHelpText_Nod[0]="+Dodání:%Špionážní Letoun%%+Účel:%-Označí jednotky mimo kryt po dobu 20s%%-Označí jednotky na mapě po dobu 45s%%Pozn.%%-Letoun musí jednotky vidět přímo%%-Může být sestřelen%"
 
 //Smoke
-SubHelpText_GDI[1]="+Delivery:%Bomber Aircraft%%+Purpose:%-Blocks line of sight%-Blinds base defenses%%Notes%%-Can be shot down%"
+SubHelpText_GDI[1]="+Dodání:Bombardér%%+Účel:%-Blokuje dohled%-Oslepuje obrany základny%%Pozn.%%-Může být sestřelen%"
 
-SubHelpText_Nod[1]="+Delivery:%Bomber Aircraft%%+Purpose:%-Blocks line of sight%-Blinds base defenses%%Notes%%-Can be shot down%"
+SubHelpText_Nod[1]="+Dodání:Bombardér%%+Účel:%-Blokuje dohled%-Oslepuje obrany základny%%Pozn.%%-Může být sestřelen%"
 
 //EMP Strike
-SubHelpText_GDI[2]="+Delivery:%Bomber Aircraft%%+Purpose:%-Disables vehicle movement%-Disarms enemy mines%%Notes%%-Can be shot down%"
+SubHelpText_GDI[2]="+Dodání:%Bombardér%%+Účel:%-Deaktivuje pohyb vozidel%-Zneškodní nepřátelské miny%%Pozn.%%-Může být sestřelen%"
 
-SubHelpText_Nod[2]="+Delivery:%Bomber Aircraft%%+Purpose:%-Disables vehicle movement%-Disarms enemy mines%%Notes%%-Can be shot down%"
+SubHelpText_Nod[2]="+Dodání:%Bombardér%%+Účel:%-Deaktivuje pohyb vozidel%-Zneškodní nepřátelské miny%%Pozn.%%-Může být sestřelen%"
 
 
 //Cruise Missile
-SubHelpText_GDI[3]="+Delivery:%Self-Guided Missile%%+Purpose:%-Heavy damage%-Large AoE%%-Airburst%Can be shot down%"
+SubHelpText_GDI[3]="+Dodání:%Samořízená střela%%+Účel:%-Těžké poškození%-Velká účinná oblast%%-Expldouje ve vzduchu%Může být sestřelena%"
 
-SubHelpText_Nod[3]="+Delivery:%Self-Guided Missile%%+Purpose:%-Heavy damage%-Large AoE%%-Airburst%Can be shot down%"
+SubHelpText_Nod[3]="+Dodání:%Samořízená střela%%+Účel:%-Těžké poškození%-Velká účinná oblast%%-Exploduje ve vzduchu%Může být sestřelena%"
 
 //Defensive Buff
-SubHelpText_GDI[4]="+Delivery:%Self Cast%%+Purpose:%INCREASE DEFENSIVE ABILITY%%Affects all FRIENDLY units around you.%%DURATION: 20s%"
+SubHelpText_GDI[4]="+Dodání:%Do okolí sebe%%+Účel:%ZVÝŠIT OBRANNYSCHOPNOST%%Působí na všechny PŘÁTELSKÉ jednotky kolem tebe.%%TRVÁNÍ: 20s%"
 
-SubHelpText_Nod[4]="+Delivery:%Self Cast%%+Purpose:%INCREASE DEFENSIVE ABILITY%%Affects all FRIENDLY units around you.%%DURATION: 20s%"
+SubHelpText_Nod[4]="+Dodání:%Do okolí sebe%%+Účel:%ZVÝŠIT OBRANYSCHOPNOST%%Působí na všechny PŘÁTELSKÉ jednotky kolem tebe.%%TRVÁNÍ: 20s%"
 
 //Offensive Buff
-SubHelpText_GDI[5]="+Delivery:%Self Cast%%+Purpose:%+GREATLY INCREASE OFFENSIVE ABILITY%%Affects all FRIENDLY units around you.%%DURATION: 15s%"
+SubHelpText_GDI[5]="+Dodání:%Do okolí sebe%%+Účel:%+VÝRAZNĚ ZVÝŠIT ÚTOČNÉ SCHOPNOSTI%%Působí na všechny PŘÁTELSKÉ jednotky kolem tebe.%%TRVÁNÍ: 15s%"
 
-SubHelpText_Nod[5]="+Delivery:%Self Cast%%+Purpose:%+GREATLY INCREASE OFFENSIVE ABILITY%%Affects all FRIENDLY units around you.%%DURATION: 15s%"
+SubHelpText_Nod[5]="+Dodání:%Do okolí sebe%%+Účel:%+GREATLY INCREASE OFFENSIVE ABILITY%%Působí na všechny PŘÁTELSKÉ jednotky kolem tebe.%%TRVÁNÍ: 15s%"
 
 
 
@@ -1000,30 +1000,30 @@ SubHelpText_Nod[5]="+Delivery:%Self Cast%%+Purpose:%+GREATLY INCREASE OFFENSIVE 
 MainHelpText="Vyberte téma s 'number' tlačítkem.%"
 
 //Commander Help: Chat
-SubHelpText[0]="+Týmové zprávy Velitele jsou %jinak zbarveny pro jednoduchou%identifikaci.%%+Začněte týmovou zprávu s %'/C' pro poslání jako ZPRÁVU VELITELE.%%+ZPRÁVY VELITELE se objeví i v%normálním chatu A uprostřed obrazovky pro%zdůraznění.%%+Začněte týmovou zprávu s '/R' %pro poslání RUSH zprávy.%%+RUSH zprávy se objeví uprostřed obrazovky%a trvají 15 sekund.%"
+SubHelpText[0]="+Týmové zprávy Velitele jsou%jinak zbarveny pro jednoduchou%identifikaci.%%+Začněte týmovou zprávu s %'/C' pro poslání jako ZPRÁVY VELITELE.%%+ZPRÁVY VELITELE se objeví i v%normálním chatu A uprostřed obrazovky pro%zdůraznění.%%+Začněte týmovou zprávu s '/R' %pro poslání RUSH zprávy.%%+RUSH zprávy se objeví uprostřed obrazovky%a trvají 15 sekund.%"
 
 //Commander Help: Targeting
-SubHelpText[1]="+Targets Q-spotted by the COMMANDER are%visible to ALL friendly units.%%+COMMANDER spotted units are numbered for%identification.%%+COMMANDER spotted units decay over time.%Targets last for 20 seconds.%They begin to SHRINK when they are about to decay.%%COMMANDER spotted targets grant%10 COMMAND POINTS[CP] when destroyed.%"
+SubHelpText[1]="+Cíle označené VELITELEM jsou%viditelné VŠEM přátelským jednotkám.%%+Jednotky označené VELITELEM jsou číslováný pro%identifikaci.%%+Jednotky označené VELITELEM zmizí za určitý čas.%Cíle trvají 20 sekund.%Nejdříve se ZMENŠÍ a az potom zmití.%%Cíle označené VELITELEM dávájí %10 VELITELSKÝCH BODŮ[CP], pokud jsou zničeny.%"
 
 //Commander Help: Waypoints
-SubHelpText[2]="+WAYPOINTS are visible to the entire team.%%+After selecting a waypoint with 1-9,% Q will place it wherever you are pointing.%%+Holding Q will remove the corresponding waypoint.%" 
+SubHelpText[2]="+WAYPOINTY jsou viditelné celému týmu.%%+Po vybrání waypointu klávesami 1-9,% ho Q umístí kamkoliv se právě díváš.%%+Podržením Q se vybraný waypoint odstraní.%" 
 
 //Commander Help: Remove Mines
-SubHelpText[3]="+Vyberte budovu číslem% ptom držte -Q- pro odstranění VŠECH% nástražných C4 v této budově.%"
+SubHelpText[3]="+Vyberte budovu číslem% potom držte -Q- pro odstranění VŠECH% nástražných C4 v té budově.%"
 
 //Commander Help: Harvester Options
-SubHelpText[4]="+The HARVESTER can be told to STOP.%%+The Harvester WAYPOINT% is where the HARVESTER%will go when STOPPED.%%+The HARVESTER can be told to detonate if%it appears to be stuck.%%+Telling the HARVESTER to detonate again will%cancel the detonation.%"
+SubHelpText[4]="+HARVESTERU můžete poručit, aby ZASTAVIL.%%+WAYPOINT% harvesteru je, kam se HARVESTER%vydá, pokud byl ZASTAVEN.%%+HARVESTERU můžete poručit, aby se detonoval, pokud%se zdá, že se zasekl.%%+Znovuporučením HARVESTERU aby se detonoval, se %detonace zruší .%"
 
 
 //Commander Help: Support Powers
-SubHelpText[5]="+Support Powers ALL COST COMMAND POINTS%%+Most support powers are cast by%HOLDING -Q- and pointing at an area.%%+Support powers have their%own tooltips when selected%"
+SubHelpText[5]="+Podpůrné schopnosti STOJÍ VELITEKSÉ BODY%%+Většina podpůrných schopností se použije %PODRŽENÍM -Q- a zamířením na cílovou oblast.%%+Podpůrné schopnosti mají vlastní% popisek při výběru%"
 
 //=====================================
 // Text Radio Commands
 //=====================================
 [Rx_Controller]
 	// CTRL + Number
-	RadioCommandsText[0]     =   "Buodva potřebuje opravit!"
+	RadioCommandsText[0]     =   "Budova potřebuje opravit!"
 	RadioCommandsText[1]     =   "Nastup si!"
 	RadioCommandsText[2]     =   "Vystup!"
 	RadioCommandsText[3]     =   "Znič to vozidlo!" 
@@ -1036,7 +1036,7 @@ SubHelpText[5]="+Support Powers ALL COST COMMAND POINTS%%+Most support powers ar
 
 	// ALT + Number
 	RadioCommandsText[10]    =   "Potřebuju opravit!"
-	RadioCommandsText[11]    =   "Vemte to."
+	RadioCommandsText[11]    =   "Zaberte to."
 	RadioCommandsText[12]    =   "Jdeme."
 	RadioCommandsText[13]    =   "Následujte mě."
 	RadioCommandsText[14]    =   "Držte pozici."
@@ -1048,12 +1048,12 @@ SubHelpText[5]="+Support Powers ALL COST COMMAND POINTS%%+Most support powers ar
 
 	// CTRL+ALT + Number
 	RadioCommandsText[20]    =   "Zaútočte na obrany základny!"
-	RadioCommandsText[21]    =   "Zaútočte na Sběrač!"
+	RadioCommandsText[21]    =   "Zaútočte na Harvester!"
 	RadioCommandsText[22]    =   "Zaútočte na ten barák!"
 	RadioCommandsText[23]    =   "Zaútočte na Rafinérii!" 
 	RadioCommandsText[24]    =   "Zaútočte na Elektrárnu!"
 	RadioCommandsText[25]    =   "Braňte základnu!"
-	RadioCommandsText[26]    =   "Braňte Sběrač!"
+	RadioCommandsText[26]    =   "Braňte Harvester!"
 	RadioCommandsText[27]    =   "Braňte ten barák!"
 	RadioCommandsText[28]    =   "Braňte Rafinérii!"
 	RadioCommandsText[29]    =   "Brańte Elektrárnu!"
@@ -1073,7 +1073,7 @@ SubHelpText[5]="+Support Powers ALL COST COMMAND POINTS%%+Most support powers ar
 
 	// ALT + Number
 	RadioCommandsALT[0]    =   "1|Potřebuju opravit!"
-	RadioCommandsALT[1]    =   "2|Vemte to."
+	RadioCommandsALT[1]    =   "2|Zaberte to."
 	RadioCommandsALT[2]    =   "3|Jdeme."
 	RadioCommandsALT[3]    =   "4|Násleujte mě."
 	RadioCommandsALT[4]    =   "5|Držte pozici."
@@ -1085,12 +1085,12 @@ SubHelpText[5]="+Support Powers ALL COST COMMAND POINTS%%+Most support powers ar
 
 	// CTRL+ALT + Number
 	RadioCommandsCTRLALT[0]    =   "1|Zaútočte na obrany základny!"
-	RadioCommandsCTRLALT[1]    =   "2|Zaůtočte na Sběrač!"
+	RadioCommandsCTRLALT[1]    =   "2|Zaůtočte na Harvester!"
 	RadioCommandsCTRLALT[2]    =   "3|Zaútočte na ten barák!"
 	RadioCommandsCTRLALT[3]    =   "4|Zaútočte na Rafinérii!" 
 	RadioCommandsCTRLALT[4]    =   "5|Zaútočte na Elektrárnu!"
-	RadioCommandsCTRLALT[5]    =   "6|Braťe základnu!"
-	RadioCommandsCTRLALT[6]    =   "7|Braňte Sběrač!"
+	RadioCommandsCTRLALT[5]    =   "6|Braňte základnu!"
+	RadioCommandsCTRLALT[6]    =   "7|Braňte Harvester!"
 	RadioCommandsCTRLALT[7]    =   "8|Braňte ten barák!"
 	RadioCommandsCTRLALT[8]    =   "9|Braňte Refinérii!"
 	RadioCommandsCTRLALT[9]    =   "0|Braňte Elektrárnu!"
