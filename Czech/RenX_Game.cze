@@ -827,8 +827,8 @@ PT_Title="VOJÁK"
 PT_Description="Zbroj: Kevlar\nRychlost: 100\nDalší Vybavení: Pistole\n+Proti pěchotě"
 
 [Rx_FamilyInfo_Nod_Shotgunner]
-CharacterName="Brokovničář"
-PT_Title="BROKOVNIČÁŘ"
+CharacterName="Útočník"
+PT_Title="ÚTOČNÍK"
 PT_Description="Zbroj: Kevlar\nRychlost: 100\nDalší Vybavení: Pistole\n+Proti pěchotě"
 
 [Rx_FamilyInfo_Nod_FlameTrooper]
